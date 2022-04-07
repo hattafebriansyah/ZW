@@ -100,6 +100,7 @@
 		9F63434127FECF9000DDC4B3 /* InvoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433727FECF9000DDC4B3 /* InvoiceApi.swift */; };
 		9F63434327FED3AB00DDC4B3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F63434227FED3AB00DDC4B3 /* HomeViewController.xib */; };
 		9F63434527FED49E00DDC4B3 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F63434427FED49E00DDC4B3 /* HeaderCell.xib */; };
+		9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63434627FEDB9500DDC4B3 /* xx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +215,7 @@
 		9F63433727FECF9000DDC4B3 /* InvoiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceApi.swift; sourceTree = "<group>"; };
 		9F63434227FED3AB00DDC4B3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		9F63434427FED49E00DDC4B3 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		9F63434627FEDB9500DDC4B3 /* xx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6101CA27FEC63F00BB9AD6 /* Image */,
+				9F63434627FEDB9500DDC4B3 /* xx.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -946,6 +949,7 @@
 				9F61023D27FEC69E00BB9AD6 /* LoginRouterImpl.swift in Sources */,
 				9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */,
 				9F6342FF27FECF1000DDC4B3 /* HomePresenter.swift in Sources */,
+				9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */,
 				9F63430927FECF1000DDC4B3 /* HomeRouterImpl.swift in Sources */,
 				9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */,
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,
