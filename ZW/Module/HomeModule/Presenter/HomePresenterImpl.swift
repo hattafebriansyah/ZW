@@ -18,7 +18,9 @@ class HomePresenterImpl: HomePresenter {
         self.interactor = interactor
         self.router = router
     }
-    
+    func showTranfer(viewController: UIViewController) {
+        self.router.navigateToTransfer(viewController: viewController)
+    }
     func loadProfile() {
         self.interactor.getUserProfile()
     }

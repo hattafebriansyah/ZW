@@ -14,7 +14,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="ZWallet" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="ZW" customModuleProvider="target">
             <connections>
                 <outlet property="errorMessage" destination="OmL-2e-XOj" id="uiS-5x-7fZ"/>
                 <outlet property="iconEmail" destination="mCi-BC-97n" id="1ct-E1-DfP"/>

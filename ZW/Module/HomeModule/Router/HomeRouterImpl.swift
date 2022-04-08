@@ -29,6 +29,11 @@ public class HomeRouterImpl {
 
 
 extension HomeRouterImpl: HomeRouter {
+    func navigateToTransfer(viewController : UIViewController) {
+        TransferRouterImpl.navigateToModule(viewController : viewController)
+        
+    }
+    
 
     func navigateToHistory(viewController: UIViewController) {
         HistoryRouterImpl.navigateToModule(viewController: viewController)

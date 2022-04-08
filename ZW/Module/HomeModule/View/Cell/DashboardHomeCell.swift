@@ -43,4 +43,11 @@ class DashboardHomeCell: UITableViewCell {
     @IBAction func logoutAction(_ sender: Any) {
         self.delegate?.logout()
     }
+    
+    
+    @IBAction func TransferAction(_ sender: Any) {
+        self.delegate?.showTransfer()
+    
+    }
+    
 }

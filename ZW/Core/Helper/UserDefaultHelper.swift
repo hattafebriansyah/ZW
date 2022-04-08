@@ -30,6 +30,10 @@ public extension UserDefaultHelper {
     enum Key: String {
         case userToken
         case userEmail
+        case balance
+        case notes
+        case userName
+        case userPhone
     }
 }
 
