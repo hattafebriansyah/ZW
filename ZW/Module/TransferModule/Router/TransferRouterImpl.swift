@@ -24,7 +24,6 @@ public class TransferRouterImpl{
         interactor.interactorOutput = presenter
         vc.presenter = presenter
         
-        //viewController.present(vc,animated: true,completion: nil)
 
         UIApplication.shared.windows.first?.rootViewController = vc
         UIApplication.shared.windows.first?.makeKeyAndVisible()

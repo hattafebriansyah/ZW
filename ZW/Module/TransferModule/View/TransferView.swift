@@ -10,4 +10,5 @@ import Foundation
 protocol TransferView{
     func getUser(userProfileEntity : UserProfileEntity)
     func showAllert()
+    func navigatetoHome()
 }

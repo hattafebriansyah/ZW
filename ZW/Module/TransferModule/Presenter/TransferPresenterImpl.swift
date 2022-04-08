@@ -9,6 +9,10 @@ import Foundation
 import UIKit
 
 class TransferPresenterImpl : TransferPresenterProtocol {
+    func navigatetoHome() {
+        self.router.navigatetoHome()
+    }
+    
     func dismissPage(vc: UIViewController) {
         self.router.navigatetoHome()
     }
@@ -17,6 +21,7 @@ class TransferPresenterImpl : TransferPresenterProtocol {
     let view: TransferView
     let interactor: TransferInteractorProtocol
     let router: TransferRouterProtocol
+
 
     init(view : TransferView, interactor : TransferInteractorProtocol, router : TransferRouterProtocol){
         self.view = view
@@ -33,14 +38,15 @@ class TransferPresenterImpl : TransferPresenterProtocol {
     }
     
     
-}
+    }
 
 extension TransferPresenterImpl : TransferInteractorOutputProtocol{
     func transactionSuccess(isSuccess: Bool) {
         if isSuccess {
-            //self.view.showAllert()
+           // self.view.showAllert()
             print("sukses")
         }else{
+            self.view.showAllert()
             print("gagal")
         }
     }
@@ -49,5 +55,8 @@ extension TransferPresenterImpl : TransferInteractorOutputProtocol{
         self.view.getUser(userProfileEntity: userProfile)
     }
     
+   
     
 }
+
+

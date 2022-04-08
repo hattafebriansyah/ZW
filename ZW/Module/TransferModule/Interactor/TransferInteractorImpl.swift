@@ -20,6 +20,7 @@ class TransferInteractorImpl : TransferInteractorProtocol {
     
     func postTransferData(receiver : String, amount: String, note: String) {
         self.transferNetworkManager.transfer(receiver: receiver, amount: amount, notes: note) { data, error in
+            print("\(data)")
             if data != nil{
                 //menyimpan token
                 //trigger presenter jika proses berhasil

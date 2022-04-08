@@ -8,6 +8,7 @@
 import UIKit
 
 class TransferViewController: UIViewController {
+    
     //MARK: LABEL
     @IBOutlet weak var userPhoneNumber: UILabel!
     @IBOutlet weak var userName: UILabel!
@@ -19,15 +20,12 @@ class TransferViewController: UIViewController {
     //MARK: DECLARE
     var profile : UserProfileEntity?
     var presenter : TransferPresenterProtocol?
-        //var popUpViewController : PopUpViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
         userName.text = "Aftabuddin Arsyad"
         userPhoneNumber.text = "+08123456789"
     }
-    
-    
 
     @IBAction func TransferAction(_ sender: Any) {
         let receiver = "1043"
@@ -39,21 +37,23 @@ class TransferViewController: UIViewController {
 
 
 extension TransferViewController : TransferView{
-    func showAllert() {
-        print("error")
+    func navigatetoHome() {
+        self.presenter?.navigatetoHome()
     }
     
-  
-//    func showAllert(parentVC : UIViewController) {
-//        self.popUpViewController =  PopUpViewController(nibName: "PopUpViewController", bundle: nil)
-//        popUpViewController.modalPresentationStyle = .custom
-//           popUpViewController.modalTransitionStyle = .crossDissolve
-//           setting the delegate of the dialog box to the parent viewController
-//           popUpViewController.delegate = parentVC as? PopUpDelegate
-//           presenting the pop up viewController from the parent viewController
-//           parentVC.present(popupViewController, animated: true)
-//        print("Error")
-//    }
+
+   func showAllert() {
+       let alert = UIAlertController(title: "Transfer Success", message: "you have successfully transferred to Afta",         preferredStyle: UIAlertController.Style.alert)
+       
+       alert.addAction(UIAlertAction(
+            title: "Back to Home",
+            style: UIAlertAction.Style.default,
+            handler: {(_: UIAlertAction!) in
+                
+                self.navigatetoHome()
+            }))
+        self.present(alert, animated: true, completion: nil)
+    }
     
     
     func getUser(userProfileEntity: UserProfileEntity) {
