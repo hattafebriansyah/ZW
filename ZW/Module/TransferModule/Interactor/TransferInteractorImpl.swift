@@ -33,20 +33,12 @@ class TransferInteractorImpl : TransferInteractorProtocol {
         }
     }
     
-//    func postTransferData(balance: String, note: String) {
-//        UserDefaultHelper.shared.set(key: .balance, value: balance)
-//        UserDefaultHelper.shared.set(key: .notes, value: note)
-//
-//
-//    }
-    
-    
     
     func getUserProfile(){
-    let name: String = UserDefaultHelper.shared.get(key: .userName) ?? ""
-    let phone : String = UserDefaultHelper.shared.get(key: .userPhone) ?? ""
-    var user = UserProfileEntity(name: name, balance: 0, phoneNumber: phone, imageUrl: "")
-    self.interactorOutput?.getUserProfile(userProfile: user)
+        let name: String = UserDefaultHelper.shared.get(key: .userName) ?? ""
+        let phone : String = UserDefaultHelper.shared.get(key: .userPhone) ?? ""
+        var user = UserProfileEntity(name: name, balance: 0, phoneNumber: phone, imageUrl: "")
+        self.interactorOutput?.getUserProfile(userProfile: user)
     }
     
    

@@ -22,8 +22,6 @@
 		3668D72A27FFD79200C20205 /* TransferNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72727FFD79200C20205 /* TransferNetworkManager.swift */; };
 		3668D72B27FFD79200C20205 /* TransferNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72827FFD79200C20205 /* TransferNetworkManagerImpl.swift */; };
 		3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72C27FFE4DB00C20205 /* TransferResponse.swift */; };
-		3668D73527FFFC3D00C20205 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D73327FFFC3D00C20205 /* PopUpViewController.swift */; };
-		3668D73627FFFC3D00C20205 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3668D73427FFFC3D00C20205 /* PopUpViewController.xib */; };
 		9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */; };
 		9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */; };
 		9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019427FEC2D900BB9AD6 /* ViewController.swift */; };
@@ -153,8 +151,6 @@
 		3668D72727FFD79200C20205 /* TransferNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferNetworkManager.swift; sourceTree = "<group>"; };
 		3668D72827FFD79200C20205 /* TransferNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferNetworkManagerImpl.swift; sourceTree = "<group>"; };
 		3668D72C27FFE4DB00C20205 /* TransferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferResponse.swift; sourceTree = "<group>"; };
-		3668D73327FFFC3D00C20205 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
-		3668D73427FFFC3D00C20205 /* PopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
 		9F61018D27FEC2D900BB9AD6 /* ZW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -312,7 +308,6 @@
 		3668D71027FFD77300C20205 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3668D72E27FFFBD600C20205 /* PopUpdialog */,
 				3668D71127FFD77300C20205 /* TransferViewController.swift */,
 				3668D71227FFD77300C20205 /* TransferView.swift */,
 				3668D71327FFD77300C20205 /* TransferViewController.xib */,
@@ -347,15 +342,6 @@
 				3668D72827FFD79200C20205 /* TransferNetworkManagerImpl.swift */,
 			);
 			path = Transfer;
-			sourceTree = "<group>";
-		};
-		3668D72E27FFFBD600C20205 /* PopUpdialog */ = {
-			isa = PBXGroup;
-			children = (
-				3668D73327FFFC3D00C20205 /* PopUpViewController.swift */,
-				3668D73427FFFC3D00C20205 /* PopUpViewController.xib */,
-			);
-			path = PopUpdialog;
 			sourceTree = "<group>";
 		};
 		9F61018427FEC2D900BB9AD6 = {
@@ -962,7 +948,6 @@
 			files = (
 				9F61026027FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf in Resources */,
 				9F61023627FEC69E00BB9AD6 /* LoginViewController.xib in Resources */,
-				3668D73627FFFC3D00C20205 /* PopUpViewController.xib in Resources */,
 				9F6101CC27FEC63F00BB9AD6 /* hatta.jpeg in Resources */,
 				9F61026127FEC6AC00BB9AD6 /* NunitoSans-Bold.ttf in Resources */,
 				9F61019D27FEC2DA00BB9AD6 /* LaunchScreen.storyboard in Resources */,
@@ -1026,7 +1011,6 @@
 				9F63433A27FECF9000DDC4B3 /* BalanceAPI.swift in Sources */,
 				9F63432727FECF2100DDC4B3 /* HistoryInteractorOutput.swift in Sources */,
 				9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */,
-				3668D73527FFFC3D00C20205 /* PopUpViewController.swift in Sources */,
 				3668D72127FFD77300C20205 /* TransferInteractorProtocol.swift in Sources */,
 				9F61023227FEC69E00BB9AD6 /* LoginDataResponse.swift in Sources */,
 				9F61024D27FEC69E00BB9AD6 /* RegisterPresenterImpl.swift in Sources */,
