@@ -69,6 +69,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.38823529411764707" green="0.47450980392156861" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -78,6 +83,11 @@
                             <constraint firstAttribute="bottom" secondItem="nTG-ob-Idg" secondAttribute="bottom" constant="25" id="hEw-Vy-fL2"/>
                             <constraint firstItem="nTG-ob-Idg" firstAttribute="leading" secondItem="qlf-l2-TgJ" secondAttribute="leading" constant="25" id="lvw-Y5-xFy"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CiJ-NE-ZLd" userLabel="Stack View Button">
                         <rect key="frame" x="16" y="257" width="503" height="57"/>

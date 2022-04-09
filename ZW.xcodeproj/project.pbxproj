@@ -344,6 +344,53 @@
 			path = Transfer;
 			sourceTree = "<group>";
 		};
+		5637AA692801EC84006CB449 /* TopUpModule */ = {
+			isa = PBXGroup;
+			children = (
+				5637AA6E2801EC9E006CB449 /* Router */,
+				5637AA6D2801EC99006CB449 /* Interactor */,
+				5637AA6C2801EC95006CB449 /* View */,
+				5637AA6B2801EC91006CB449 /* Presenter */,
+				5637AA6A2801EC8C006CB449 /* Entity */,
+			);
+			path = TopUpModule;
+			sourceTree = "<group>";
+		};
+		5637AA6A2801EC8C006CB449 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5637AA6B2801EC91006CB449 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5637AA6C2801EC95006CB449 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5637AA6D2801EC99006CB449 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5637AA6E2801EC9E006CB449 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		9F61018427FEC2D900BB9AD6 = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +519,7 @@
 		9F6101FA27FEC69E00BB9AD6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				5637AA692801EC84006CB449 /* TopUpModule */,
 				3668D70B27FFD77300C20205 /* TransferModule */,
 				9F63430B27FECF2100DDC4B3 /* HistoryModule */,
 				9F6342E527FECF1000DDC4B3 /* HomeModule */,

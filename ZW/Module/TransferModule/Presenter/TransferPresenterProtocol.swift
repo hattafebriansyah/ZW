@@ -10,5 +10,5 @@ import UIKit
 protocol TransferPresenterProtocol {
     func getUser(userProfileEntity :UserProfileEntity)
     func transfer(receiver : String, amount : String , notes : String)
-    //func dismissPage(vc: UIViewController)
+    func navigatetoHome()
 }
