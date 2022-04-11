@@ -310,46 +310,6 @@ we provide you at the top.</string>
             </constraints>
             <point key="canvasLocation" x="336.80000000000001" y="78.710644677661179"/>
         </view>
-        <view contentMode="scaleToFill" id="Kyg-Qa-c2d">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdE-YO-24o">
-                    <rect key="frame" x="8" y="17" width="44" height="38"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="38" id="h4i-Xg-wbR"/>
-                        <constraint firstAttribute="width" constant="44" id="rb1-KL-H39"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="NunitoSans-Bold" family="Nunito Sans" pointSize="24"/>
-                    <color key="textColor" systemColor="tintColor"/>
-                    <color key="highlightedColor" systemColor="systemBlueColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvH-gL-xJ5">
-                    <rect key="frame" x="60" y="17" width="267" height="38"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="267" id="Nw8-ze-40z"/>
-                        <constraint firstAttribute="height" constant="38" id="OzL-DH-cMr"/>
-                    </constraints>
-                    <string key="text">Type the virtual account number that
-we provide you at the top.</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-            </subviews>
-            <viewLayoutGuide key="safeArea" id="WqV-2e-0fa"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <constraints>
-                <constraint firstAttribute="bottom" secondItem="cdE-YO-24o" secondAttribute="bottom" constant="17" id="4Um-3g-m60"/>
-                <constraint firstItem="qvH-gL-xJ5" firstAttribute="leading" secondItem="cdE-YO-24o" secondAttribute="trailing" constant="8" symbolic="YES" id="D80-Ma-uQ4"/>
-                <constraint firstAttribute="bottom" secondItem="qvH-gL-xJ5" secondAttribute="bottom" constant="17" id="LLb-AK-U5m"/>
-                <constraint firstItem="cdE-YO-24o" firstAttribute="top" secondItem="Kyg-Qa-c2d" secondAttribute="top" constant="17" id="bWL-v1-urO"/>
-                <constraint firstItem="cdE-YO-24o" firstAttribute="leading" secondItem="Kyg-Qa-c2d" secondAttribute="leading" constant="8" id="h04-r7-A9C"/>
-                <constraint firstAttribute="trailing" secondItem="qvH-gL-xJ5" secondAttribute="trailing" constant="16" id="l85-Ud-PB0"/>
-                <constraint firstItem="qvH-gL-xJ5" firstAttribute="top" secondItem="Kyg-Qa-c2d" secondAttribute="top" constant="17" id="zDz-Yd-VbH"/>
-            </constraints>
-            <point key="canvasLocation" x="329" y="244"/>
-        </view>
     </objects>
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
