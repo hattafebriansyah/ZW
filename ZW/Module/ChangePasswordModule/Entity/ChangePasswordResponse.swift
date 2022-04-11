@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+public struct ChangePasswordResponse: Codable {
+    public var status: Int
+    public var message: String
+}
+
+

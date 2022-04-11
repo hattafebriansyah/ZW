@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 public class HomeRouterImpl {
+    
     public static func navigateToModule() {
         let vc = HomeViewController(nibName: "HomeViewController", bundle: nil)
         

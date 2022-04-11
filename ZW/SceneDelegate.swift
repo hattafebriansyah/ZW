@@ -66,6 +66,8 @@ extension SceneDelegate {
         }
         AppRouter.shared.homeScene = {
             HomeRouterImpl.navigateToModule()
+//            ChangePasswordRouterImpl.navigateToModule()
+            
         }
     }
 }

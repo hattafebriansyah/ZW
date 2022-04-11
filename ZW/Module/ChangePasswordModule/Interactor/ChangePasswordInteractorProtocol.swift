@@ -8,5 +8,4 @@
 import Foundation
 
 protocol ChangePasswordInteractorProtocol {
-    
-}
+    func postChangePasswordData(old_passsword : String, new_password : String )}

@@ -10,12 +10,12 @@ import UIKit
 
 public class ChangePasswordRouterImpl{
    
-    
-    public static func navigateToModule(viewController : UIViewController) {
+    public static func navigateToModule() {
         let vc = ChangePasswordViewController(nibName: "ChangePasswordViewController", bundle: nil)
-
+        
+        let changePasswordNetworkManager = ChangePasswordNetworkManagerImpl()
         let router = ChangePasswordRouterImpl()
-        let interactor = ChangePasswordInteractorImpl()
+        let interactor = ChangePasswordInteractorImpl(changePasswordNetworkManager: changePasswordNetworkManager)
         let presenter = ChangePasswordPresenterImpl(view: vc, interactor: interactor, router: router)
         
         interactor.interactorOutput = presenter

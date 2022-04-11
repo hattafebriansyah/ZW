@@ -10,9 +10,6 @@ import UIKit
 
 class ChangePasswordPresenterImpl : ChangePasswordPresenterProtocol {
     
-    
-    
-    
     let view: ChangePasswordViewController
     let interactor: ChangePasswordInteractorProtocol
     let router: ChangePasswordRouterProtocol
@@ -28,10 +25,21 @@ class ChangePasswordPresenterImpl : ChangePasswordPresenterProtocol {
         self.router.navigatetoHome()
     }
     
+    func changePassword(old_password: String, new_password: String) {
+        self.interactor.postChangePasswordData(old_passsword: old_password, new_password: new_password)
+    }
+    
 }
 
 extension ChangePasswordPresenterImpl : ChangePasswordInteractorOutputProtocol{
-    
+    func transactionSuccess(isSuccess: Bool) {
+        if isSuccess {
+            print("sukses")
+        }else{
+            self.view.showAllertFailed()
+            print("gagal")
+        }
+    }
 }
 
 

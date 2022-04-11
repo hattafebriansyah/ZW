@@ -24,6 +24,9 @@
 		3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72C27FFE4DB00C20205 /* TransferResponse.swift */; };
 		5637AA712801EE7A006CB449 /* TopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637AA6F2801EE7A006CB449 /* TopUpViewController.swift */; };
 		5637AA722801EE7A006CB449 /* TopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637AA702801EE7A006CB449 /* TopUpViewController.xib */; };
+		5695526D2804781600F17423 /* ChangePasswordAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695526C2804781600F17423 /* ChangePasswordAPI.swift */; };
+		5695526F2804782800F17423 /* ChangePasswordNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695526E2804782800F17423 /* ChangePasswordNetworkManager.swift */; };
+		569552712804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569552702804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift */; };
 		56BD7F492803D10A003A60A1 /* TopUpRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F482803D10A003A60A1 /* TopUpRouterImpl.swift */; };
 		56BD7F4B2803D115003A60A1 /* TopUpRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F4A2803D115003A60A1 /* TopUpRouterProtocol.swift */; };
 		56BD7F4D2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F4C2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift */; };
@@ -173,6 +176,9 @@
 		3668D72C27FFE4DB00C20205 /* TransferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferResponse.swift; sourceTree = "<group>"; };
 		5637AA6F2801EE7A006CB449 /* TopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewController.swift; sourceTree = "<group>"; };
 		5637AA702801EE7A006CB449 /* TopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopUpViewController.xib; sourceTree = "<group>"; };
+		5695526C2804781600F17423 /* ChangePasswordAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordAPI.swift; sourceTree = "<group>"; };
+		5695526E2804782800F17423 /* ChangePasswordNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordNetworkManager.swift; sourceTree = "<group>"; };
+		569552702804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordNetworkManagerImpl.swift; sourceTree = "<group>"; };
 		56BD7F482803D10A003A60A1 /* TopUpRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpRouterImpl.swift; sourceTree = "<group>"; };
 		56BD7F4A2803D115003A60A1 /* TopUpRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpRouterProtocol.swift; sourceTree = "<group>"; };
 		56BD7F4C2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpInteractorOutputProtocol.swift; sourceTree = "<group>"; };
@@ -440,6 +446,16 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		5695526B2804780400F17423 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				5695526C2804781600F17423 /* ChangePasswordAPI.swift */,
+				5695526E2804782800F17423 /* ChangePasswordNetworkManager.swift */,
+				569552702804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
 		56BD7F562803E60E003A60A1 /* ChangePasswordModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +591,7 @@
 		9F6101CD27FEC65D00BB9AD6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				5695526B2804780400F17423 /* ChangePassword */,
 				3668D72527FFD79200C20205 /* Transfer */,
 				9F63432A27FECF9000DDC4B3 /* Balance */,
 				9F63433127FECF9000DDC4B3 /* Invoice */,
@@ -1187,11 +1204,13 @@
 				9F6101F827FEC68A00BB9AD6 /* AppRouter.swift in Sources */,
 				9F6101F927FEC68A00BB9AD6 /* AppConstant.swift in Sources */,
 				56BD7F612803EA78003A60A1 /* ChangePasswordPresenterImpl.swift in Sources */,
+				5695526F2804782800F17423 /* ChangePasswordNetworkManager.swift in Sources */,
 				56BD7F6F2803F2DD003A60A1 /* ChangePasswordResponse.swift in Sources */,
 				56BD7F6D2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift in Sources */,
 				9F61024E27FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift in Sources */,
 				9F63430427FECF1000DDC4B3 /* HomeViewController.swift in Sources */,
 				56BD7F492803D10A003A60A1 /* TopUpRouterImpl.swift in Sources */,
+				569552712804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift in Sources */,
 				9F6342E027FECE9200DDC4B3 /* TransactionCell.swift in Sources */,
 				9F61023827FEC69E00BB9AD6 /* LoginViewProtocol.swift in Sources */,
 				9F63431F27FECF2100DDC4B3 /* HistoryPresenter.swift in Sources */,
@@ -1223,6 +1242,7 @@
 				9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */,
 				56BD7F692803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift in Sources */,
 				9F61025327FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift in Sources */,
+				5695526D2804781600F17423 /* ChangePasswordAPI.swift in Sources */,
 				9F63433F27FECF9000DDC4B3 /* InvoiceNetworkManager.swift in Sources */,
 				9F61024C27FEC69E00BB9AD6 /* RegisterDataResponse.swift in Sources */,
 				9F6342FE27FECF1000DDC4B3 /* HomePresenterImpl.swift in Sources */,

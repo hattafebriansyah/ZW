@@ -9,4 +9,6 @@ import Foundation
 
 protocol ChangePasswordViewProtocol{
     func navigatetoHome()
+    func showAllert()
+    func showAllertFailed()
 }

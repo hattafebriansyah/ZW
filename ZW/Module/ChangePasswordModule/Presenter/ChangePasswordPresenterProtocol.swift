@@ -10,4 +10,5 @@ import UIKit
 
 protocol ChangePasswordPresenterProtocol {
     func navigatetoHome()
+    func changePassword(old_password: String, new_password: String)
 }
