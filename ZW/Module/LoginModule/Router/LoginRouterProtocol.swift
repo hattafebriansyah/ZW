@@ -12,3 +12,4 @@ protocol LoginRouterProtocol {
     func navigateToHome()
     func navigateToRegister(viewController : UIViewController)
 }
+

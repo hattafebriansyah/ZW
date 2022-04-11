@@ -42,4 +42,8 @@ extension HomeRouterImpl: HomeRouter {
     func navigateToLogin() {
         NotificationCenter.default.post(name: Notification.Name("reloadRootView"), object: nil)
     }
+    
+    func navigateToTopUp(viewController: UIViewController) {
+        TopUpRouterImpl.navigateToModule(viewController: viewController)
+    }
 }

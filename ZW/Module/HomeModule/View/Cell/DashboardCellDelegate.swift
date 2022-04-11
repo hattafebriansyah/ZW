@@ -11,4 +11,5 @@ protocol DashboardCellDelegate {
     func showAllTransaction()
     func logout()
     func showTransfer()
+    func topUp()
 }

@@ -122,6 +122,9 @@
                                         <real key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="TopUpAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sPo-EW-AZf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>

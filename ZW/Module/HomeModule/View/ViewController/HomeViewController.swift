@@ -46,6 +46,10 @@ extension HomeViewController: DashboardCellDelegate {
     func logout() {
         self.presenter?.logout()
     }
+    
+    func topUp() {
+        self.presenter?.topUp(viewController: self)
+    }
 }
 
 

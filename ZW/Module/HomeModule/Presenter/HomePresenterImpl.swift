@@ -37,6 +37,9 @@ class HomePresenterImpl: HomePresenter {
         UserDefaultHelper.shared.remove(key: .userToken)
         self.router.navigateToLogin()
     }
+    func topUp(viewController: UIViewController) {
+        self.router.navigateToTopUp(viewController: viewController)
+    }
 }
 
 extension HomePresenterImpl: HomeInteractorOutput {
