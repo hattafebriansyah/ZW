@@ -18,6 +18,8 @@
 		29DA9B9C2803C822002F3495 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9B9B2803C822002F3495 /* ProfileInteractor.swift */; };
 		29DA9B9E2803C84A002F3495 /* ProfileInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9B9D2803C84A002F3495 /* ProfileInteractorImpl.swift */; };
 		29DA9BA02803C859002F3495 /* ProfileInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9B9F2803C859002F3495 /* ProfileInteractorOutput.swift */; };
+		29DA9BA82803FBC4002F3495 /* EditPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9BA62803FBC4002F3495 /* EditPhoneViewController.swift */; };
+		29DA9BA92803FBC4002F3495 /* EditPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9BA72803FBC4002F3495 /* EditPhoneViewController.xib */; };
 		9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */; };
 		9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */; };
 		9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019427FEC2D900BB9AD6 /* ViewController.swift */; };
@@ -143,6 +145,8 @@
 		29DA9B9B2803C822002F3495 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		29DA9B9D2803C84A002F3495 /* ProfileInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractorImpl.swift; sourceTree = "<group>"; };
 		29DA9B9F2803C859002F3495 /* ProfileInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractorOutput.swift; sourceTree = "<group>"; };
+		29DA9BA62803FBC4002F3495 /* EditPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewController.swift; sourceTree = "<group>"; };
+		29DA9BA72803FBC4002F3495 /* EditPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPhoneViewController.xib; sourceTree = "<group>"; };
 		9F61018D27FEC2D900BB9AD6 /* ZW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -317,6 +321,47 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		29DA9BA12803FB05002F3495 /* EditPhoneModule */ = {
+			isa = PBXGroup;
+			children = (
+				29DA9BA52803FB84002F3495 /* View */,
+				29DA9BA42803FB7B002F3495 /* Presenter */,
+				29DA9BA32803FB25002F3495 /* Interactor */,
+				29DA9BA22803FB1C002F3495 /* Router */,
+			);
+			path = EditPhoneModule;
+			sourceTree = "<group>";
+		};
+		29DA9BA22803FB1C002F3495 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		29DA9BA32803FB25002F3495 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		29DA9BA42803FB7B002F3495 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		29DA9BA52803FB84002F3495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29DA9BA62803FBC4002F3495 /* EditPhoneViewController.swift */,
+				29DA9BA72803FBC4002F3495 /* EditPhoneViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9F61018427FEC2D900BB9AD6 = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +489,7 @@
 		9F6101FA27FEC69E00BB9AD6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				29DA9BA12803FB05002F3495 /* EditPhoneModule */,
 				29DA9B882803B660002F3495 /* ProfileModule */,
 				9F63430B27FECF2100DDC4B3 /* HistoryModule */,
 				9F6342E527FECF1000DDC4B3 /* HomeModule */,
@@ -920,6 +966,7 @@
 			files = (
 				29DA9B942803B87B002F3495 /* ProfileViewController.xib in Resources */,
 				9F61026027FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf in Resources */,
+				29DA9BA92803FBC4002F3495 /* EditPhoneViewController.xib in Resources */,
 				9F61023627FEC69E00BB9AD6 /* LoginViewController.xib in Resources */,
 				9F6101CC27FEC63F00BB9AD6 /* hatta.jpeg in Resources */,
 				9F61026127FEC6AC00BB9AD6 /* NunitoSans-Bold.ttf in Resources */,
@@ -977,6 +1024,7 @@
 				2925815C27FEDF9300E24AD3 /* yy.swift in Sources */,
 				9F6101E527FEC65D00BB9AD6 /* AuthApi.swift in Sources */,
 				9F6101F727FEC68A00BB9AD6 /* UserDefaultHelper.swift in Sources */,
+				29DA9BA82803FBC4002F3495 /* EditPhoneViewController.swift in Sources */,
 				29DA9B9A2803C65B002F3495 /* ProfilePresenterImpl.swift in Sources */,
 				29DA9B962803C5A0002F3495 /* ProfileView.swift in Sources */,
 				9F63432527FECF2100DDC4B3 /* HistoryInteractorImpl.swift in Sources */,
