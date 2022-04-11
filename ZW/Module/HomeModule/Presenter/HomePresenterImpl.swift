@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 class HomePresenterImpl: HomePresenter {
+    
+    
     let view: HomeView
     let interactor: HomeInteractor
     let router: HomeRouter
@@ -34,6 +36,10 @@ class HomePresenterImpl: HomePresenter {
     func logout() {
         UserDefaultHelper.shared.remove(key: .userToken)
         self.router.navigateToLogin()
+    }
+    
+    func showProfile(viewController: UIViewController) {
+        self.router.navigateToProfile(viewController: viewController)
     }
 }
 

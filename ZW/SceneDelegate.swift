@@ -67,5 +67,8 @@ extension SceneDelegate {
         AppRouter.shared.homeScene = {
             HomeRouterImpl.navigateToModule()
         }
+        AppRouter.shared.profileScene = { (viewController) in
+            ProfileRouterImpl.navigateToModule(viewController: viewController)
+        }
     }
 }

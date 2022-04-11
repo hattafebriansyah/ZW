@@ -29,6 +29,10 @@ public class HomeRouterImpl {
 
 
 extension HomeRouterImpl: HomeRouter {
+    func navigateToProfile(viewController: UIViewController) {
+        AppRouter.shared.navigateToProfile(viewController)
+    }
+    
 
     func navigateToHistory(viewController: UIViewController) {
         HistoryRouterImpl.navigateToModule(viewController: viewController)

@@ -116,6 +116,9 @@ extension RegisterViewController : RegisterViewProtocol{
             linePassword.backgroundColor = .red
             errorMessage.text = "Register gagal"
             errorMessage.textColor = .red
+        let alert = UIAlertController(title: "Peringatan", message: "Terjadi kesalahan saat registrasi, coba lagi", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+                self.present(alert, animated: true, completion: nil)
         
     }
     

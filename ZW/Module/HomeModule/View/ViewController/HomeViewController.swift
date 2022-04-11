@@ -35,6 +35,10 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: DashboardCellDelegate {
+    func showToProfile() {
+        self.presenter?.showProfile(viewController: self)
+    }
+    
     func showAllTransaction() {
         self.presenter?.showHistory(viewController: self)
     }

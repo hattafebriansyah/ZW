@@ -19,6 +19,9 @@ class DashboardHomeCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        profileImage.isUserInteractionEnabled = true
+        profileImage.addGestureRecognizer(tapGestureRecognizer)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -42,5 +45,9 @@ class DashboardHomeCell: UITableViewCell {
     
     @IBAction func logoutAction(_ sender: Any) {
         self.delegate?.logout()
+    }
+    
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer) {
+        self.delegate?.showToProfile()
     }
 }

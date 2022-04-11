@@ -29,4 +29,10 @@ public class AppRouter {
     public func navigateToHistory(_ viewController: UIViewController) {
         self.historyScene?(viewController)
     }
+    
+    public var profileScene: ((_ viewController: UIViewController) -> ())?
+    
+    public func navigateToProfile(_ viewController: UIViewController) {
+        self.profileScene?(viewController)
+    }
 }
