@@ -31,8 +31,5 @@ class RegisterInteractorImpl: RegisterInteractorProtocol {
             }
         }
     }
-
-    
-    
 }
 
