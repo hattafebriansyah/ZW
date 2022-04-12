@@ -32,6 +32,7 @@ class RegisterPresenterImpl: RegisterPresenterProtocol {
 extension RegisterPresenterImpl: RegisterInteractorOutputProtocol {
     func authenticationResult(isSuccess: Bool) {
         if isSuccess {
+            print("Navigasi Sukses")
             self.router.navigateToHome()
         }
         else {
