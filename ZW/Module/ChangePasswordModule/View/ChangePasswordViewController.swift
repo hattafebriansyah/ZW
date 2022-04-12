@@ -30,7 +30,14 @@ class ChangePasswordViewController: UIViewController {
         let old_password = currentPassword.text ?? ""
         let new_password = newPassword.text ?? ""
         let confirm_password = repeatPassword.text ?? ""
-        self.presenter?.changePassword(old_password: old_password, new_password: new_password)
+        
+        if (newPassword.text != repeatPassword.text) {
+            self.presenter?.navigatetoHome()
+        }
+        else {
+            self.presenter?.changePassword(old_password: old_password, new_password: new_password)
+        }
+        
     }
     
 }
@@ -39,7 +46,7 @@ extension ChangePasswordViewController : ChangePasswordViewProtocol{
     func navigatetoHome() {
         self.presenter?.navigatetoHome()
     }
-    
+    //
 
    func showAllert() {
        let alert = UIAlertController(

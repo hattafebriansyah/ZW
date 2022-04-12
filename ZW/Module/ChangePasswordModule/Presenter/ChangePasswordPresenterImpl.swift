@@ -34,6 +34,7 @@ class ChangePasswordPresenterImpl : ChangePasswordPresenterProtocol {
 extension ChangePasswordPresenterImpl : ChangePasswordInteractorOutputProtocol{
     func transactionSuccess(isSuccess: Bool) {
         if isSuccess {
+            self.view.showAllert()
             print("sukses")
         }else{
             self.view.showAllertFailed()

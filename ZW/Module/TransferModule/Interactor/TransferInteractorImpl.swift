@@ -19,15 +19,15 @@ class TransferInteractorImpl : TransferInteractorProtocol {
     }
     
     func postTransferData(receiver : String, amount: String, note: String) {
-        self.transferNetworkManager.transfer(receiver: receiver, amount: amount, notes: note) { data, error in
-            print("\(data)")
-            if data != nil{
-                //menyimpan token
+        
+        self.transferNetworkManager.transfer(receiver: receiver, amount: amount, notes: note) { details, error in
+            if details != nil {
+                print("data ada")
                 //trigger presenter jika proses berhasil
                 self.interactorOutput?.transactionSuccess(isSuccess: true)
             }
             else {
-                print("ini error\(String(describing: error))")
+                print("data tidak ada")
                 //memberitahukan ke presenter jika proses gagal
                 self.interactorOutput?.transactionSuccess(isSuccess: false)
             }
@@ -38,7 +38,7 @@ class TransferInteractorImpl : TransferInteractorProtocol {
     func getUserProfile(){
         let name: String = UserDefaultHelper.shared.get(key: .userName) ?? ""
         let phone : String = UserDefaultHelper.shared.get(key: .userPhone) ?? ""
-        var user = UserProfileEntity(name: name, balance: 0, phoneNumber: phone, imageUrl: "")
+        let user = UserProfileEntity(name: name, balance: 0, phoneNumber: phone, imageUrl: "")
         self.interactorOutput?.getUserProfile(userProfile: user)
     }
     

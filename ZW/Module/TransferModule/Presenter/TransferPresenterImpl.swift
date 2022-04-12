@@ -36,33 +36,14 @@ class TransferPresenterImpl : TransferPresenterProtocol {
     func transfer(receiver : String, amount: String, notes: String) {
         self.interactor.postTransferData(receiver: receiver, amount: amount, note: notes)
     }
-    
-    func showPopUp() {
-        let alertController = UIAlertController(title: "Add new tag", message: nil, preferredStyle: .alert)
-                let confirmAction = UIAlertAction(title: "Add", style: .default) { (_) in
-                    if let txtField = alertController.textFields?.first, let text = txtField.text {
-                        // operations
-                        print("Text==>" + text)
-                    }
-                }
-                let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
-                alertController.addTextField { (textField) in
-                    textField.placeholder = "Tag"
-                }
-                alertController.addAction(confirmAction)
-                alertController.addAction(cancelAction)
-        alertController.present(alertController, animated: true, completion: nil)
-    }
-    
-    
-    }
+}
 
 extension TransferPresenterImpl : TransferInteractorOutputProtocol{
     func transactionSuccess(isSuccess: Bool) {
-        if isSuccess {
-            showPopUp()
+        if isSuccess != false {
+            self.view.showAllert()
             print("sukses")
-        }else{
+        } else {
             self.view.showAllertFailed()
             print("gagal")
         }

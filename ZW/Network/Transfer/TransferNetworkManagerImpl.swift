@@ -16,8 +16,8 @@ public class TransferNetworkManagerImpl: TransferNetworkManager {
             case .success(let result):
                 let decoder = JSONDecoder()
                 do {
-                    let transferResponse = try decoder.decode(TransferDataResponse.self, from: result.data)
-                    completion(transferResponse, nil)
+                    let transferResponse = try decoder.decode(TransferResponse.self, from: result.data)
+                    completion(transferResponse.details, nil)
                 } catch let error {
                     completion(nil, error)
                 }
