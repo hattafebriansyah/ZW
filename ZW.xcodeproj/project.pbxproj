@@ -42,6 +42,55 @@
 		3668D72A27FFD79200C20205 /* TransferNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72727FFD79200C20205 /* TransferNetworkManager.swift */; };
 		3668D72B27FFD79200C20205 /* TransferNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72827FFD79200C20205 /* TransferNetworkManagerImpl.swift */; };
 		3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D72C27FFE4DB00C20205 /* TransferResponse.swift */; };
+		56320EDE2805C92A00654F66 /* OTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ECF2805C92A00654F66 /* OTPResponse.swift */; };
+		56320EDF2805C92A00654F66 /* OTPPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ED12805C92A00654F66 /* OTPPresenterProtocol.swift */; };
+		56320EE02805C92A00654F66 /* OTPPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ED22805C92A00654F66 /* OTPPresenterImpl.swift */; };
+		56320EE12805C92A00654F66 /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56320ED42805C92A00654F66 /* OTPViewController.xib */; };
+		56320EE22805C92A00654F66 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ED52805C92A00654F66 /* OTPViewController.swift */; };
+		56320EE32805C92A00654F66 /* OTPViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ED62805C92A00654F66 /* OTPViewProtocol.swift */; };
+		56320EE42805C92A00654F66 /* OTPInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ED82805C92A00654F66 /* OTPInteractorOutput.swift */; };
+		56320EE52805C92A00654F66 /* OTPInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320ED92805C92A00654F66 /* OTPInteractorProtocol.swift */; };
+		56320EE62805C92A00654F66 /* OTPInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EDA2805C92A00654F66 /* OTPInteractorImpl.swift */; };
+		56320EE72805C92A00654F66 /* OTPRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EDC2805C92A00654F66 /* OTPRouterImpl.swift */; };
+		56320EE82805C92A00654F66 /* OTPRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EDD2805C92A00654F66 /* OTPRouterProtocol.swift */; };
+		56320EED2805C96700654F66 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EEA2805C96700654F66 /* AuthApi.swift */; };
+		56320EEE2805C96700654F66 /* AuthNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EEB2805C96700654F66 /* AuthNetworkManager.swift */; };
+		56320EEF2805C96700654F66 /* AuthNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EEC2805C96700654F66 /* AuthNetworkManagerImpl.swift */; };
+		56320F022805CA1C00654F66 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EF22805CA1C00654F66 /* RegisterResponse.swift */; };
+		56320F032805CA1C00654F66 /* RegisterDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EF32805CA1C00654F66 /* RegisterDataResponse.swift */; };
+		56320F042805CA1C00654F66 /* RegisterPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EF52805CA1C00654F66 /* RegisterPresenterImpl.swift */; };
+		56320F052805CA1C00654F66 /* RegisterPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EF62805CA1C00654F66 /* RegisterPresenterProtocol.swift */; };
+		56320F062805CA1C00654F66 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56320EF82805CA1C00654F66 /* RegisterViewController.xib */; };
+		56320F072805CA1C00654F66 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EF92805CA1C00654F66 /* RegisterViewController.swift */; };
+		56320F082805CA1C00654F66 /* RegisterViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EFA2805CA1C00654F66 /* RegisterViewProtocol.swift */; };
+		56320F092805CA1C00654F66 /* RegisterInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EFC2805CA1C00654F66 /* RegisterInteractorImpl.swift */; };
+		56320F0A2805CA1C00654F66 /* RegisterInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EFD2805CA1C00654F66 /* RegisterInteractorProtocol.swift */; };
+		56320F0B2805CA1C00654F66 /* RegisterInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320EFE2805CA1C00654F66 /* RegisterInteractorOutput.swift */; };
+		56320F0C2805CA1C00654F66 /* RegisterRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320F002805CA1C00654F66 /* RegisterRouterImpl.swift */; };
+		56320F0D2805CA1C00654F66 /* RegisterRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56320F012805CA1C00654F66 /* RegisterRouterProtocol.swift */; };
+		5637AA712801EE7A006CB449 /* TopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637AA6F2801EE7A006CB449 /* TopUpViewController.swift */; };
+		5637AA722801EE7A006CB449 /* TopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637AA702801EE7A006CB449 /* TopUpViewController.xib */; };
+		5695526D2804781600F17423 /* ChangePasswordAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695526C2804781600F17423 /* ChangePasswordAPI.swift */; };
+		5695526F2804782800F17423 /* ChangePasswordNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695526E2804782800F17423 /* ChangePasswordNetworkManager.swift */; };
+		569552712804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569552702804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift */; };
+		56BD7F492803D10A003A60A1 /* TopUpRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F482803D10A003A60A1 /* TopUpRouterImpl.swift */; };
+		56BD7F4B2803D115003A60A1 /* TopUpRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F4A2803D115003A60A1 /* TopUpRouterProtocol.swift */; };
+		56BD7F4D2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F4C2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift */; };
+		56BD7F4F2803D260003A60A1 /* TopUpInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F4E2803D260003A60A1 /* TopUpInteractorProtocol.swift */; };
+		56BD7F512803D273003A60A1 /* TopUpInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F502803D273003A60A1 /* TopUpInteractorImpl.swift */; };
+		56BD7F532803D28E003A60A1 /* TopUpPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F522803D28E003A60A1 /* TopUpPresenterImpl.swift */; };
+		56BD7F552803D29D003A60A1 /* TopUpPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F542803D29D003A60A1 /* TopUpPresenterProtocol.swift */; };
+		56BD7F5E2803E660003A60A1 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F5C2803E660003A60A1 /* ChangePasswordViewController.swift */; };
+		56BD7F5F2803E660003A60A1 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56BD7F5D2803E660003A60A1 /* ChangePasswordViewController.xib */; };
+		56BD7F612803EA78003A60A1 /* ChangePasswordPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F602803EA78003A60A1 /* ChangePasswordPresenterImpl.swift */; };
+		56BD7F632803EA8A003A60A1 /* ChangePasswordPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F622803EA8A003A60A1 /* ChangePasswordPresenterProtocol.swift */; };
+		56BD7F652803EB24003A60A1 /* ChangePasswordOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F642803EB24003A60A1 /* ChangePasswordOutputProtocol.swift */; };
+		56BD7F672803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F662803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift */; };
+		56BD7F692803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F682803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift */; };
+		56BD7F6B2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F6A2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift */; };
+		56BD7F6D2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F6C2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift */; };
+		56BD7F6F2803F2DD003A60A1 /* ChangePasswordResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F6E2803F2DD003A60A1 /* ChangePasswordResponse.swift */; };
+		56BD7F7128040204003A60A1 /* ChangePasswordViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F7028040204003A60A1 /* ChangePasswordViewProtocol.swift */; };
 		9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */; };
 		9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */; };
 		9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019427FEC2D900BB9AD6 /* ViewController.swift */; };
@@ -55,9 +104,6 @@
 		9F6101C527FEC48700BB9AD6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6101C427FEC48700BB9AD6 /* Kingfisher */; };
 		9F6101C827FEC4ED00BB9AD6 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 9F6101C727FEC4ED00BB9AD6 /* netfox */; };
 		9F6101CC27FEC63F00BB9AD6 /* hatta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F6101CB27FEC63F00BB9AD6 /* hatta.jpeg */; };
-		9F6101E527FEC65D00BB9AD6 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6101D627FEC65D00BB9AD6 /* AuthApi.swift */; };
-		9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6101D727FEC65D00BB9AD6 /* AuthNetworkManager.swift */; };
-		9F6101E727FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6101D827FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift */; };
 		9F6101F527FEC68A00BB9AD6 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6101EF27FEC68A00BB9AD6 /* IntExtension.swift */; };
 		9F6101F627FEC68A00BB9AD6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6101F027FEC68A00BB9AD6 /* UIViewExtension.swift */; };
 		9F6101F727FEC68A00BB9AD6 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6101F227FEC68A00BB9AD6 /* UserDefaultHelper.swift */; };
@@ -75,18 +121,6 @@
 		9F61023B27FEC69E00BB9AD6 /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61020927FEC69E00BB9AD6 /* LoginInteractorProtocol.swift */; };
 		9F61023C27FEC69E00BB9AD6 /* LoginRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61020B27FEC69E00BB9AD6 /* LoginRouterProtocol.swift */; };
 		9F61023D27FEC69E00BB9AD6 /* LoginRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61020C27FEC69E00BB9AD6 /* LoginRouterImpl.swift */; };
-		9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022227FEC69E00BB9AD6 /* RegisterResponse.swift */; };
-		9F61024C27FEC69E00BB9AD6 /* RegisterDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022327FEC69E00BB9AD6 /* RegisterDataResponse.swift */; };
-		9F61024D27FEC69E00BB9AD6 /* RegisterPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022527FEC69E00BB9AD6 /* RegisterPresenterImpl.swift */; };
-		9F61024E27FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022627FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift */; };
-		9F61024F27FEC69E00BB9AD6 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F61022827FEC69E00BB9AD6 /* RegisterViewController.xib */; };
-		9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022927FEC69E00BB9AD6 /* RegisterViewController.swift */; };
-		9F61025127FEC69E00BB9AD6 /* RegisterViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022A27FEC69E00BB9AD6 /* RegisterViewProtocol.swift */; };
-		9F61025227FEC69E00BB9AD6 /* RegisterInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022C27FEC69E00BB9AD6 /* RegisterInteractorImpl.swift */; };
-		9F61025327FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022D27FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift */; };
-		9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61022E27FEC69E00BB9AD6 /* RegisterInteractorOutput.swift */; };
-		9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61023027FEC69E00BB9AD6 /* RegisterRouterImpl.swift */; };
-		9F61025627FEC69E00BB9AD6 /* RegisterRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61023127FEC69E00BB9AD6 /* RegisterRouterProtocol.swift */; };
 		9F61025E27FEC6AC00BB9AD6 /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F61025827FEC6AC00BB9AD6 /* NunitoSans-Light.ttf */; };
 		9F61025F27FEC6AC00BB9AD6 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F61025927FEC6AC00BB9AD6 /* NunitoSans-Regular.ttf */; };
 		9F61026027FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F61025A27FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf */; };
@@ -191,6 +225,55 @@
 		3668D72727FFD79200C20205 /* TransferNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferNetworkManager.swift; sourceTree = "<group>"; };
 		3668D72827FFD79200C20205 /* TransferNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferNetworkManagerImpl.swift; sourceTree = "<group>"; };
 		3668D72C27FFE4DB00C20205 /* TransferResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferResponse.swift; sourceTree = "<group>"; };
+		56320ECF2805C92A00654F66 /* OTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPResponse.swift; sourceTree = "<group>"; };
+		56320ED12805C92A00654F66 /* OTPPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPPresenterProtocol.swift; sourceTree = "<group>"; };
+		56320ED22805C92A00654F66 /* OTPPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPPresenterImpl.swift; sourceTree = "<group>"; };
+		56320ED42805C92A00654F66 /* OTPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
+		56320ED52805C92A00654F66 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		56320ED62805C92A00654F66 /* OTPViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewProtocol.swift; sourceTree = "<group>"; };
+		56320ED82805C92A00654F66 /* OTPInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPInteractorOutput.swift; sourceTree = "<group>"; };
+		56320ED92805C92A00654F66 /* OTPInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPInteractorProtocol.swift; sourceTree = "<group>"; };
+		56320EDA2805C92A00654F66 /* OTPInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPInteractorImpl.swift; sourceTree = "<group>"; };
+		56320EDC2805C92A00654F66 /* OTPRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPRouterImpl.swift; sourceTree = "<group>"; };
+		56320EDD2805C92A00654F66 /* OTPRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPRouterProtocol.swift; sourceTree = "<group>"; };
+		56320EEA2805C96700654F66 /* AuthApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		56320EEB2805C96700654F66 /* AuthNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthNetworkManager.swift; sourceTree = "<group>"; };
+		56320EEC2805C96700654F66 /* AuthNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		56320EF22805CA1C00654F66 /* RegisterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		56320EF32805CA1C00654F66 /* RegisterDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDataResponse.swift; sourceTree = "<group>"; };
+		56320EF52805CA1C00654F66 /* RegisterPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenterImpl.swift; sourceTree = "<group>"; };
+		56320EF62805CA1C00654F66 /* RegisterPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenterProtocol.swift; sourceTree = "<group>"; };
+		56320EF82805CA1C00654F66 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		56320EF92805CA1C00654F66 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		56320EFA2805CA1C00654F66 /* RegisterViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewProtocol.swift; sourceTree = "<group>"; };
+		56320EFC2805CA1C00654F66 /* RegisterInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorImpl.swift; sourceTree = "<group>"; };
+		56320EFD2805CA1C00654F66 /* RegisterInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorProtocol.swift; sourceTree = "<group>"; };
+		56320EFE2805CA1C00654F66 /* RegisterInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorOutput.swift; sourceTree = "<group>"; };
+		56320F002805CA1C00654F66 /* RegisterRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouterImpl.swift; sourceTree = "<group>"; };
+		56320F012805CA1C00654F66 /* RegisterRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouterProtocol.swift; sourceTree = "<group>"; };
+		5637AA6F2801EE7A006CB449 /* TopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewController.swift; sourceTree = "<group>"; };
+		5637AA702801EE7A006CB449 /* TopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopUpViewController.xib; sourceTree = "<group>"; };
+		5695526C2804781600F17423 /* ChangePasswordAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordAPI.swift; sourceTree = "<group>"; };
+		5695526E2804782800F17423 /* ChangePasswordNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordNetworkManager.swift; sourceTree = "<group>"; };
+		569552702804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		56BD7F482803D10A003A60A1 /* TopUpRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpRouterImpl.swift; sourceTree = "<group>"; };
+		56BD7F4A2803D115003A60A1 /* TopUpRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpRouterProtocol.swift; sourceTree = "<group>"; };
+		56BD7F4C2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		56BD7F4E2803D260003A60A1 /* TopUpInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpInteractorProtocol.swift; sourceTree = "<group>"; };
+		56BD7F502803D273003A60A1 /* TopUpInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpInteractorImpl.swift; sourceTree = "<group>"; };
+		56BD7F522803D28E003A60A1 /* TopUpPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpPresenterImpl.swift; sourceTree = "<group>"; };
+		56BD7F542803D29D003A60A1 /* TopUpPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpPresenterProtocol.swift; sourceTree = "<group>"; };
+		56BD7F5C2803E660003A60A1 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		56BD7F5D2803E660003A60A1 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		56BD7F602803EA78003A60A1 /* ChangePasswordPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPresenterImpl.swift; sourceTree = "<group>"; };
+		56BD7F622803EA8A003A60A1 /* ChangePasswordPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPresenterProtocol.swift; sourceTree = "<group>"; };
+		56BD7F642803EB24003A60A1 /* ChangePasswordOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordOutputProtocol.swift; sourceTree = "<group>"; };
+		56BD7F662803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordInteractorProtocol.swift; sourceTree = "<group>"; };
+		56BD7F682803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordInteractorImpl.swift; sourceTree = "<group>"; };
+		56BD7F6A2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordRouterImpl.swift; sourceTree = "<group>"; };
+		56BD7F6C2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordRouterProtocol.swift; sourceTree = "<group>"; };
+		56BD7F6E2803F2DD003A60A1 /* ChangePasswordResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordResponse.swift; sourceTree = "<group>"; };
+		56BD7F7028040204003A60A1 /* ChangePasswordViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewProtocol.swift; sourceTree = "<group>"; };
 		9F61018D27FEC2D900BB9AD6 /* ZW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,9 +288,6 @@
 		9F6101B127FEC2DA00BB9AD6 /* ZWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWUITests.swift; sourceTree = "<group>"; };
 		9F6101B327FEC2DA00BB9AD6 /* ZWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F6101CB27FEC63F00BB9AD6 /* hatta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hatta.jpeg; sourceTree = "<group>"; };
-		9F6101D627FEC65D00BB9AD6 /* AuthApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
-		9F6101D727FEC65D00BB9AD6 /* AuthNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthNetworkManager.swift; sourceTree = "<group>"; };
-		9F6101D827FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthNetworkManagerImpl.swift; sourceTree = "<group>"; };
 		9F6101EF27FEC68A00BB9AD6 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		9F6101F027FEC68A00BB9AD6 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		9F6101F227FEC68A00BB9AD6 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
@@ -225,18 +305,6 @@
 		9F61020927FEC69E00BB9AD6 /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
 		9F61020B27FEC69E00BB9AD6 /* LoginRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouterProtocol.swift; sourceTree = "<group>"; };
 		9F61020C27FEC69E00BB9AD6 /* LoginRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouterImpl.swift; sourceTree = "<group>"; };
-		9F61022227FEC69E00BB9AD6 /* RegisterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
-		9F61022327FEC69E00BB9AD6 /* RegisterDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDataResponse.swift; sourceTree = "<group>"; };
-		9F61022527FEC69E00BB9AD6 /* RegisterPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenterImpl.swift; sourceTree = "<group>"; };
-		9F61022627FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenterProtocol.swift; sourceTree = "<group>"; };
-		9F61022827FEC69E00BB9AD6 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		9F61022927FEC69E00BB9AD6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		9F61022A27FEC69E00BB9AD6 /* RegisterViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewProtocol.swift; sourceTree = "<group>"; };
-		9F61022C27FEC69E00BB9AD6 /* RegisterInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorImpl.swift; sourceTree = "<group>"; };
-		9F61022D27FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorProtocol.swift; sourceTree = "<group>"; };
-		9F61022E27FEC69E00BB9AD6 /* RegisterInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractorOutput.swift; sourceTree = "<group>"; };
-		9F61023027FEC69E00BB9AD6 /* RegisterRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouterImpl.swift; sourceTree = "<group>"; };
-		9F61023127FEC69E00BB9AD6 /* RegisterRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouterProtocol.swift; sourceTree = "<group>"; };
 		9F61025827FEC6AC00BB9AD6 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
 		9F61025927FEC6AC00BB9AD6 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 		9F61025A27FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -482,6 +550,257 @@
 			path = Transfer;
 			sourceTree = "<group>";
 		};
+		56320ECD2805C92A00654F66 /* OtpModule */ = {
+			isa = PBXGroup;
+			children = (
+				56320ECE2805C92A00654F66 /* Entity */,
+				56320ED02805C92A00654F66 /* Presenter */,
+				56320ED32805C92A00654F66 /* View */,
+				56320ED72805C92A00654F66 /* Interactor */,
+				56320EDB2805C92A00654F66 /* Router */,
+			);
+			path = OtpModule;
+			sourceTree = "<group>";
+		};
+		56320ECE2805C92A00654F66 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				56320ECF2805C92A00654F66 /* OTPResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		56320ED02805C92A00654F66 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				56320ED12805C92A00654F66 /* OTPPresenterProtocol.swift */,
+				56320ED22805C92A00654F66 /* OTPPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		56320ED32805C92A00654F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56320ED42805C92A00654F66 /* OTPViewController.xib */,
+				56320ED52805C92A00654F66 /* OTPViewController.swift */,
+				56320ED62805C92A00654F66 /* OTPViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56320ED72805C92A00654F66 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				56320ED82805C92A00654F66 /* OTPInteractorOutput.swift */,
+				56320ED92805C92A00654F66 /* OTPInteractorProtocol.swift */,
+				56320EDA2805C92A00654F66 /* OTPInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		56320EDB2805C92A00654F66 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				56320EDC2805C92A00654F66 /* OTPRouterImpl.swift */,
+				56320EDD2805C92A00654F66 /* OTPRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		56320EE92805C96700654F66 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				56320EEA2805C96700654F66 /* AuthApi.swift */,
+				56320EEB2805C96700654F66 /* AuthNetworkManager.swift */,
+				56320EEC2805C96700654F66 /* AuthNetworkManagerImpl.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		56320EF02805CA1C00654F66 /* RegisterModule */ = {
+			isa = PBXGroup;
+			children = (
+				56320EF12805CA1C00654F66 /* Entity */,
+				56320EF42805CA1C00654F66 /* Presenter */,
+				56320EF72805CA1C00654F66 /* View */,
+				56320EFB2805CA1C00654F66 /* Interactor */,
+				56320EFF2805CA1C00654F66 /* Router */,
+			);
+			path = RegisterModule;
+			sourceTree = "<group>";
+		};
+		56320EF12805CA1C00654F66 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				56320EF22805CA1C00654F66 /* RegisterResponse.swift */,
+				56320EF32805CA1C00654F66 /* RegisterDataResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		56320EF42805CA1C00654F66 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				56320EF52805CA1C00654F66 /* RegisterPresenterImpl.swift */,
+				56320EF62805CA1C00654F66 /* RegisterPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		56320EF72805CA1C00654F66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56320EF82805CA1C00654F66 /* RegisterViewController.xib */,
+				56320EF92805CA1C00654F66 /* RegisterViewController.swift */,
+				56320EFA2805CA1C00654F66 /* RegisterViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56320EFB2805CA1C00654F66 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				56320EFC2805CA1C00654F66 /* RegisterInteractorImpl.swift */,
+				56320EFD2805CA1C00654F66 /* RegisterInteractorProtocol.swift */,
+				56320EFE2805CA1C00654F66 /* RegisterInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		56320EFF2805CA1C00654F66 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				56320F002805CA1C00654F66 /* RegisterRouterImpl.swift */,
+				56320F012805CA1C00654F66 /* RegisterRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5637AA692801EC84006CB449 /* TopUpModule */ = {
+			isa = PBXGroup;
+			children = (
+				5637AA6E2801EC9E006CB449 /* Router */,
+				5637AA6D2801EC99006CB449 /* Interactor */,
+				5637AA6C2801EC95006CB449 /* View */,
+				5637AA6B2801EC91006CB449 /* Presenter */,
+				5637AA6A2801EC8C006CB449 /* Entity */,
+			);
+			path = TopUpModule;
+			sourceTree = "<group>";
+		};
+		5637AA6A2801EC8C006CB449 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5637AA6B2801EC91006CB449 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F522803D28E003A60A1 /* TopUpPresenterImpl.swift */,
+				56BD7F542803D29D003A60A1 /* TopUpPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5637AA6C2801EC95006CB449 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5637AA6F2801EE7A006CB449 /* TopUpViewController.swift */,
+				5637AA702801EE7A006CB449 /* TopUpViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5637AA6D2801EC99006CB449 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F4C2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift */,
+				56BD7F4E2803D260003A60A1 /* TopUpInteractorProtocol.swift */,
+				56BD7F502803D273003A60A1 /* TopUpInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5637AA6E2801EC9E006CB449 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F482803D10A003A60A1 /* TopUpRouterImpl.swift */,
+				56BD7F4A2803D115003A60A1 /* TopUpRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5695526B2804780400F17423 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				5695526C2804781600F17423 /* ChangePasswordAPI.swift */,
+				5695526E2804782800F17423 /* ChangePasswordNetworkManager.swift */,
+				569552702804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		56BD7F562803E60E003A60A1 /* ChangePasswordModule */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F5B2803E63D003A60A1 /* Entity */,
+				56BD7F5A2803E638003A60A1 /* Presenter */,
+				56BD7F592803E633003A60A1 /* View */,
+				56BD7F582803E62D003A60A1 /* Interactor */,
+				56BD7F572803E624003A60A1 /* Router */,
+			);
+			path = ChangePasswordModule;
+			sourceTree = "<group>";
+		};
+		56BD7F572803E624003A60A1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F6A2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift */,
+				56BD7F6C2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		56BD7F582803E62D003A60A1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F642803EB24003A60A1 /* ChangePasswordOutputProtocol.swift */,
+				56BD7F662803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift */,
+				56BD7F682803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		56BD7F592803E633003A60A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F5C2803E660003A60A1 /* ChangePasswordViewController.swift */,
+				56BD7F5D2803E660003A60A1 /* ChangePasswordViewController.xib */,
+				56BD7F7028040204003A60A1 /* ChangePasswordViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56BD7F5A2803E638003A60A1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F602803EA78003A60A1 /* ChangePasswordPresenterImpl.swift */,
+				56BD7F622803EA8A003A60A1 /* ChangePasswordPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		56BD7F5B2803E63D003A60A1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				56BD7F6E2803F2DD003A60A1 /* ChangePasswordResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		9F61018427FEC2D900BB9AD6 = {
 			isa = PBXGroup;
 			children = (
@@ -559,22 +878,13 @@
 		9F6101CD27FEC65D00BB9AD6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				56320EE92805C96700654F66 /* Auth */,
+				5695526B2804780400F17423 /* ChangePassword */,
 				3668D72527FFD79200C20205 /* Transfer */,
 				9F63432A27FECF9000DDC4B3 /* Balance */,
 				9F63433127FECF9000DDC4B3 /* Invoice */,
-				9F6101D527FEC65D00BB9AD6 /* Auth */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		9F6101D527FEC65D00BB9AD6 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				9F6101D627FEC65D00BB9AD6 /* AuthApi.swift */,
-				9F6101D727FEC65D00BB9AD6 /* AuthNetworkManager.swift */,
-				9F6101D827FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift */,
-			);
-			path = Auth;
 			sourceTree = "<group>";
 		};
 		9F6101ED27FEC68A00BB9AD6 /* Core */ = {
@@ -612,11 +922,14 @@
 			children = (
 				29DFE89328055B9A0065D615 /* EditPhoneModule */,
 				29DFE8A228055B9A0065D615 /* ProfileModule */,
+				56320ECD2805C92A00654F66 /* OtpModule */,
+				56BD7F562803E60E003A60A1 /* ChangePasswordModule */,
+				5637AA692801EC84006CB449 /* TopUpModule */,
 				3668D70B27FFD77300C20205 /* TransferModule */,
 				9F63430B27FECF2100DDC4B3 /* HistoryModule */,
+				56320EF02805CA1C00654F66 /* RegisterModule */,
 				9F6342E527FECF1000DDC4B3 /* HomeModule */,
 				9F6101FB27FEC69E00BB9AD6 /* LoginModule */,
-				9F61022027FEC69E00BB9AD6 /* RegisterModule */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -676,65 +989,6 @@
 			children = (
 				9F61020B27FEC69E00BB9AD6 /* LoginRouterProtocol.swift */,
 				9F61020C27FEC69E00BB9AD6 /* LoginRouterImpl.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		9F61022027FEC69E00BB9AD6 /* RegisterModule */ = {
-			isa = PBXGroup;
-			children = (
-				9F61022127FEC69E00BB9AD6 /* Entity */,
-				9F61022427FEC69E00BB9AD6 /* Presenter */,
-				9F61022727FEC69E00BB9AD6 /* View */,
-				9F61022B27FEC69E00BB9AD6 /* Interactor */,
-				9F61022F27FEC69E00BB9AD6 /* Router */,
-			);
-			path = RegisterModule;
-			sourceTree = "<group>";
-		};
-		9F61022127FEC69E00BB9AD6 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				9F61022227FEC69E00BB9AD6 /* RegisterResponse.swift */,
-				9F61022327FEC69E00BB9AD6 /* RegisterDataResponse.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		9F61022427FEC69E00BB9AD6 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				9F61022527FEC69E00BB9AD6 /* RegisterPresenterImpl.swift */,
-				9F61022627FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		9F61022727FEC69E00BB9AD6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9F61022827FEC69E00BB9AD6 /* RegisterViewController.xib */,
-				9F61022927FEC69E00BB9AD6 /* RegisterViewController.swift */,
-				9F61022A27FEC69E00BB9AD6 /* RegisterViewProtocol.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9F61022B27FEC69E00BB9AD6 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				9F61022C27FEC69E00BB9AD6 /* RegisterInteractorImpl.swift */,
-				9F61022D27FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift */,
-				9F61022E27FEC69E00BB9AD6 /* RegisterInteractorOutput.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		9F61022F27FEC69E00BB9AD6 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				9F61023027FEC69E00BB9AD6 /* RegisterRouterImpl.swift */,
-				9F61023127FEC69E00BB9AD6 /* RegisterRouterProtocol.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -1086,7 +1340,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5637AA722801EE7A006CB449 /* TopUpViewController.xib in Resources */,
 				9F61026027FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf in Resources */,
+				56320F062805CA1C00654F66 /* RegisterViewController.xib in Resources */,
+				56BD7F5F2803E660003A60A1 /* ChangePasswordViewController.xib in Resources */,
 				9F61023627FEC69E00BB9AD6 /* LoginViewController.xib in Resources */,
 				29DFE8B528055B9A0065D615 /* EditPhoneViewController.xib in Resources */,
 				9F6101CC27FEC63F00BB9AD6 /* hatta.jpeg in Resources */,
@@ -1101,8 +1358,8 @@
 				9F61026327FEC6AC00BB9AD6 /* NunitoSans-Black.ttf in Resources */,
 				9F63434527FED49E00DDC4B3 /* HeaderCell.xib in Resources */,
 				9F63430227FECF1000DDC4B3 /* DashboardHomeCell.xib in Resources */,
-				9F61024F27FEC69E00BB9AD6 /* RegisterViewController.xib in Resources */,
 				9F6342DF27FECE9200DDC4B3 /* TransactionCell.xib in Resources */,
+				56320EE12805C92A00654F66 /* OTPViewController.xib in Resources */,
 				9F63434327FED3AB00DDC4B3 /* HomeViewController.xib in Resources */,
 				29DFE8BE28055B9A0065D615 /* ProfileViewController.xib in Resources */,
 				3668D71F27FFD77300C20205 /* TransferViewController.xib in Resources */,
@@ -1133,15 +1390,22 @@
 				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
 				29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
+				56320F072805CA1C00654F66 /* RegisterViewController.swift in Sources */,
 				9F63432427FECF2100DDC4B3 /* HistoryDataSource.swift in Sources */,
+				56320F0C2805CA1C00654F66 /* RegisterRouterImpl.swift in Sources */,
+				56BD7F632803EA8A003A60A1 /* ChangePasswordPresenterProtocol.swift in Sources */,
+				56320EE52805C92A00654F66 /* OTPInteractorProtocol.swift in Sources */,
+				56BD7F552803D29D003A60A1 /* TopUpPresenterProtocol.swift in Sources */,
 				9F63433D27FECF9000DDC4B3 /* GetInvoiceResponse.swift in Sources */,
 				9F63433927FECF9000DDC4B3 /* GetBalanceResponse.swift in Sources */,
 				9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */,
 				3668D72B27FFD79200C20205 /* TransferNetworkManagerImpl.swift in Sources */,
 				9F63430127FECF1000DDC4B3 /* DashboardHomeCell.swift in Sources */,
-				9F61025627FEC69E00BB9AD6 /* RegisterRouterProtocol.swift in Sources */,
+				56320EEE2805C96700654F66 /* AuthNetworkManager.swift in Sources */,
 				9F61023327FEC69E00BB9AD6 /* LoginResponse.swift in Sources */,
 				9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */,
+				56BD7F6B2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift in Sources */,
+				56320F0A2805CA1C00654F66 /* RegisterInteractorProtocol.swift in Sources */,
 				9F63432227FECF2100DDC4B3 /* HistoryView.swift in Sources */,
 				9F6342FC27FECF1000DDC4B3 /* UserProfileEntity.swift in Sources */,
 				29DFE8B128055B9A0065D615 /* EditPhonePresenterImpl.swift in Sources */,
@@ -1156,30 +1420,44 @@
 				9F63433A27FECF9000DDC4B3 /* BalanceAPI.swift in Sources */,
 				29DFE8C428055B9A0065D615 /* ProfileRouterImpl.swift in Sources */,
 				29DFE8C328055B9A0065D615 /* ProfileRouter.swift in Sources */,
+				56BD7F4B2803D115003A60A1 /* TopUpRouterProtocol.swift in Sources */,
 				9F63432727FECF2100DDC4B3 /* HistoryInteractorOutput.swift in Sources */,
 				9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */,
 				3668D72127FFD77300C20205 /* TransferInteractorProtocol.swift in Sources */,
 				9F61023227FEC69E00BB9AD6 /* LoginDataResponse.swift in Sources */,
-				9F61024D27FEC69E00BB9AD6 /* RegisterPresenterImpl.swift in Sources */,
 				9F6101F627FEC68A00BB9AD6 /* UIViewExtension.swift in Sources */,
 				9F63432627FECF2100DDC4B3 /* HistoryInteractor.swift in Sources */,
 				3668D71B27FFD77300C20205 /* TransferPresenterImpl.swift in Sources */,
 				9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */,
 				29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */,
 				9F63433E27FECF9000DDC4B3 /* GetInvoiceDataResponse.swift in Sources */,
+				56320EE42805C92A00654F66 /* OTPInteractorOutput.swift in Sources */,
 				9F63432027FECF2100DDC4B3 /* HeaderCell.swift in Sources */,
 				29DFE8BA28055B9A0065D615 /* EditPhoneRouter.swift in Sources */,
+				56BD7F512803D273003A60A1 /* TopUpInteractorImpl.swift in Sources */,
 				9F61023927FEC69E00BB9AD6 /* LoginInteractorImpl.swift in Sources */,
 				9F6101F827FEC68A00BB9AD6 /* AppRouter.swift in Sources */,
 				9F6101F927FEC68A00BB9AD6 /* AppConstant.swift in Sources */,
-				9F61024E27FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift in Sources */,
+				56BD7F612803EA78003A60A1 /* ChangePasswordPresenterImpl.swift in Sources */,
+				5695526F2804782800F17423 /* ChangePasswordNetworkManager.swift in Sources */,
+				56BD7F6F2803F2DD003A60A1 /* ChangePasswordResponse.swift in Sources */,
+				56BD7F6D2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift in Sources */,
 				9F63430427FECF1000DDC4B3 /* HomeViewController.swift in Sources */,
+				56BD7F492803D10A003A60A1 /* TopUpRouterImpl.swift in Sources */,
+				569552712804783A00F17423 /* ChangePasswordNetworkManagerImpl.swift in Sources */,
 				9F6342E027FECE9200DDC4B3 /* TransactionCell.swift in Sources */,
+				56320EE72805C92A00654F66 /* OTPRouterImpl.swift in Sources */,
+				56320EE32805C92A00654F66 /* OTPViewProtocol.swift in Sources */,
 				9F61023827FEC69E00BB9AD6 /* LoginViewProtocol.swift in Sources */,
+				56320EE22805C92A00654F66 /* OTPViewController.swift in Sources */,
 				9F63431F27FECF2100DDC4B3 /* HistoryPresenter.swift in Sources */,
 				9F63434027FECF9000DDC4B3 /* InvoiceNetworkManagerImpl.swift in Sources */,
+				56320F082805CA1C00654F66 /* RegisterViewProtocol.swift in Sources */,
+				56BD7F652803EB24003A60A1 /* ChangePasswordOutputProtocol.swift in Sources */,
 				3668D71C27FFD77300C20205 /* TransferPresenterProtocol.swift in Sources */,
 				9F63430827FECF1000DDC4B3 /* HomeInteractorImpl.swift in Sources */,
+				56320F032805CA1C00654F66 /* RegisterDataResponse.swift in Sources */,
+				56320EE82805C92A00654F66 /* OTPRouterProtocol.swift in Sources */,
 				9F63430727FECF1000DDC4B3 /* HomeInteractor.swift in Sources */,
 				9F63430027FECF1000DDC4B3 /* DashboardCellDelegate.swift in Sources */,
 				29DFE8BD28055B9A0065D615 /* ProfileView.swift in Sources */,
@@ -1191,38 +1469,52 @@
 				29DFE8B428055B9A0065D615 /* EditPhoneViewController.swift in Sources */,
 				29DFE8B928055B9A0065D615 /* EditPhoneRouterImpl.swift in Sources */,
 				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
+				56320F052805CA1C00654F66 /* RegisterPresenterProtocol.swift in Sources */,
+				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
 				3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */,
+				56320F0D2805CA1C00654F66 /* RegisterRouterProtocol.swift in Sources */,
 				9F61023C27FEC69E00BB9AD6 /* LoginRouterProtocol.swift in Sources */,
 				9F61023B27FEC69E00BB9AD6 /* LoginInteractorProtocol.swift in Sources */,
 				9F63432327FECF2100DDC4B3 /* HistoryViewController.swift in Sources */,
 				3668D72A27FFD79200C20205 /* TransferNetworkManager.swift in Sources */,
+				56320EE02805C92A00654F66 /* OTPPresenterImpl.swift in Sources */,
 				9F63430A27FECF1000DDC4B3 /* HomeRouter.swift in Sources */,
 				9F63431E27FECF2100DDC4B3 /* HistoryPresenterImpl.swift in Sources */,
-				9F61025227FEC69E00BB9AD6 /* RegisterInteractorImpl.swift in Sources */,
+				56BD7F672803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift in Sources */,
 				9F63433827FECF9000DDC4B3 /* GetBalanceDataResponse.swift in Sources */,
 				9F61023A27FEC69E00BB9AD6 /* LoginInteractorOutput.swift in Sources */,
+				56BD7F4F2803D260003A60A1 /* TopUpInteractorProtocol.swift in Sources */,
 				9F61023427FEC69E00BB9AD6 /* LoginPresenterProtocol.swift in Sources */,
+				56320F0B2805CA1C00654F66 /* RegisterInteractorOutput.swift in Sources */,
+				56320EEF2805C96700654F66 /* AuthNetworkManagerImpl.swift in Sources */,
 				9F63434127FECF9000DDC4B3 /* InvoiceApi.swift in Sources */,
 				9F6101F527FEC68A00BB9AD6 /* IntExtension.swift in Sources */,
 				29DFE8BB28055B9A0065D615 /* ProfilePresenter.swift in Sources */,
 				9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */,
-				9F61025327FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift in Sources */,
+				56BD7F692803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift in Sources */,
+				56320EDF2805C92A00654F66 /* OTPPresenterProtocol.swift in Sources */,
+				56320EED2805C96700654F66 /* AuthApi.swift in Sources */,
+				56320F042805CA1C00654F66 /* RegisterPresenterImpl.swift in Sources */,
+				5695526D2804781600F17423 /* ChangePasswordAPI.swift in Sources */,
 				9F63433F27FECF9000DDC4B3 /* InvoiceNetworkManager.swift in Sources */,
-				9F61024C27FEC69E00BB9AD6 /* RegisterDataResponse.swift in Sources */,
 				9F6342FE27FECF1000DDC4B3 /* HomePresenterImpl.swift in Sources */,
 				3668D71E27FFD77300C20205 /* TransferView.swift in Sources */,
+				56320F092805CA1C00654F66 /* RegisterInteractorImpl.swift in Sources */,
 				9F61023527FEC69E00BB9AD6 /* LoginPresenterImpl.swift in Sources */,
 				3668D72227FFD77300C20205 /* TransferInteractorImpl.swift in Sources */,
 				9F63430327FECF1000DDC4B3 /* HomeView.swift in Sources */,
+				56BD7F4D2803D251003A60A1 /* TopUpInteractorOutputProtocol.swift in Sources */,
 				9F63430527FECF1000DDC4B3 /* HomeDataSource.swift in Sources */,
+				56BD7F532803D28E003A60A1 /* TopUpPresenterImpl.swift in Sources */,
 				9F61023D27FEC69E00BB9AD6 /* LoginRouterImpl.swift in Sources */,
-				9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */,
 				9F6342FF27FECF1000DDC4B3 /* HomePresenter.swift in Sources */,
+				56320EDE2805C92A00654F66 /* OTPResponse.swift in Sources */,
 				9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */,
 				29DFE8C228055B9A0065D615 /* ProfileInteractor.swift in Sources */,
 				9F63430927FECF1000DDC4B3 /* HomeRouterImpl.swift in Sources */,
 				9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */,
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,
+				56320EE62805C92A00654F66 /* OTPInteractorImpl.swift in Sources */,
 				3668D72327FFD77300C20205 /* TransferRouterImpl.swift in Sources */,
 				29DFE8B328055B9A0065D615 /* EditPhoneView.swift in Sources */,
 				29DFE8C028055B9A0065D615 /* ProfileInteractorImpl.swift in Sources */,
@@ -1231,6 +1523,11 @@
 				9F61025127FEC69E00BB9AD6 /* RegisterViewProtocol.swift in Sources */,
 				29DFE8B228055B9A0065D615 /* EditPhonePresenter.swift in Sources */,
 				29DFE8B628055B9A0065D615 /* EditPhoneInteractorImpl.swift in Sources */,
+				56BD7F7128040204003A60A1 /* ChangePasswordViewProtocol.swift in Sources */,
+				9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */,
+				5637AA712801EE7A006CB449 /* TopUpViewController.swift in Sources */,
+				56BD7F5E2803E660003A60A1 /* ChangePasswordViewController.swift in Sources */,
+				56320F022805CA1C00654F66 /* RegisterResponse.swift in Sources */,
 				9F63432927FECF2100DDC4B3 /* HistoryRouter.swift in Sources */,
 				3668D72427FFD77300C20205 /* TransferRouterProtocol.swift in Sources */,
 			);

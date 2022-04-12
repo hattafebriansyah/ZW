@@ -50,7 +50,11 @@ class DashboardHomeCell: UITableViewCell {
     
     @IBAction func TransferAction(_ sender: Any) {
         self.delegate?.showTransfer()
+    }
     
+    
+    @IBAction func TopUpAction(_ sender: Any) {
+        self.delegate?.topUp()
     }
     
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer) {

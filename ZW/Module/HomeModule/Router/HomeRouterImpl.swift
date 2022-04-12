@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 public class HomeRouterImpl {
+    
     public static func navigateToModule() {
         let vc = HomeViewController(nibName: "HomeViewController", bundle: nil)
         
@@ -46,4 +47,9 @@ extension HomeRouterImpl: HomeRouter {
     func navigateToProfile(viewController: UIViewController) {
             AppRouter.shared.navigateToProfile(viewController)
         }
+
+    func navigateToTopUp(viewController: UIViewController) {
+        TopUpRouterImpl.navigateToModule(viewController: viewController)
+    }
+
 }

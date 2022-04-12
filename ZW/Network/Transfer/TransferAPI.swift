@@ -8,7 +8,7 @@
 import Foundation
 import Moya
 public enum TransferAPI {
-    case transfer(receiver: String, amount: String,notes:String)
+    case transfer(receiver: String, amount: String, notes: String)
 }
 
 extension TransferAPI: TargetType {
@@ -27,7 +27,7 @@ extension TransferAPI: TargetType {
         switch self {
         case .transfer(let receiver, let amount, let notes):
             return .requestParameters(
-                parameters: ["receiver": receiver, "amount": amount,"notes" :notes
+                parameters: ["receiver": receiver, "amount": amount, "notes": notes
                             ],
                 encoding: JSONEncoding.default
             )

@@ -12,4 +12,5 @@ protocol DashboardCellDelegate {
     func logout()
     func showTransfer()
     func showToProfile()
+    func topUp()
 }

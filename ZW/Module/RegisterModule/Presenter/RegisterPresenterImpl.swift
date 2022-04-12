@@ -6,12 +6,10 @@
 //
 
 import Foundation
+import UIKit
 
 class RegisterPresenterImpl: RegisterPresenterProtocol {
    
-    
-    
-    
     let view: RegisterViewProtocol
     let interactor: RegisterInteractorProtocol
     let router: RegisterRouterProtocol
@@ -26,6 +24,8 @@ class RegisterPresenterImpl: RegisterPresenterProtocol {
         self.interactor.postRegisterData(username: username, email: email, password: password)
     }
     
+    
+    
 
 }
 
@@ -33,7 +33,7 @@ extension RegisterPresenterImpl: RegisterInteractorOutputProtocol {
     func authenticationResult(isSuccess: Bool) {
         if isSuccess {
             print("Navigasi Sukses")
-            self.router.navigateToHome()
+            self.router.navigateToOtp()
         }
         else {
             self.view.showError()

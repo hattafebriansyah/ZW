@@ -41,6 +41,10 @@ class HomePresenterImpl: HomePresenter {
     func showProfile(viewController: UIViewController) {
         self.router.navigateToProfile(viewController: viewController)
     }
+    
+    func topUp(viewController: UIViewController) {
+        self.router.navigateToTopUp(viewController: viewController)
+    }
 }
 
 extension HomePresenterImpl: HomeInteractorOutput {

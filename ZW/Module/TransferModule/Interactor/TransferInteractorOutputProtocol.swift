@@ -11,5 +11,4 @@ import Foundation
 protocol TransferInteractorOutputProtocol{
     func getUserProfile(userProfile : UserProfileEntity)
     func transactionSuccess(isSuccess : Bool)
-    
 }

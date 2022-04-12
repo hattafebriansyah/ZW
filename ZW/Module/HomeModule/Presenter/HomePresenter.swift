@@ -15,5 +15,5 @@ protocol HomePresenter {
     func logout()
     func showTranfer(viewController : UIViewController)
     func showProfile(viewController: UIViewController)
-
+    func topUp(viewController: UIViewController)
 }

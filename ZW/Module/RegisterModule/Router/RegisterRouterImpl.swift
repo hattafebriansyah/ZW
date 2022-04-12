@@ -29,8 +29,10 @@ public class RegisterRouterImpl {
 }
 
 extension RegisterRouterImpl: RegisterRouterProtocol {
-    func navigateToHome() {
-        NotificationCenter.default.post(name: Notification.Name("reloadRootView"), object: nil)
+    
+    func navigateToOtp() {
+        OTPRouterImpl.navigateToModule()
     }
     
 }
+

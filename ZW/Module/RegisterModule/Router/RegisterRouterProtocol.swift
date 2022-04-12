@@ -6,9 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
 
 protocol RegisterRouterProtocol {
-    func navigateToHome()
-    
+    func navigateToOtp()
 }

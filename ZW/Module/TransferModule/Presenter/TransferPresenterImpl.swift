@@ -36,17 +36,15 @@ class TransferPresenterImpl : TransferPresenterProtocol {
     func transfer(receiver : String, amount: String, notes: String) {
         self.interactor.postTransferData(receiver: receiver, amount: amount, note: notes)
     }
-    
-    
-    }
+}
 
 extension TransferPresenterImpl : TransferInteractorOutputProtocol{
     func transactionSuccess(isSuccess: Bool) {
-        if isSuccess {
-           // self.view.showAllert()
-            print("sukses")
-        }else{
+        if isSuccess != false {
             self.view.showAllert()
+            print("sukses")
+        } else {
+            self.view.showAllertFailed()
             print("gagal")
         }
     }

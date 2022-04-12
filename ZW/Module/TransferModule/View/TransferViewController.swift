@@ -43,7 +43,10 @@ extension TransferViewController : TransferView{
     
 
    func showAllert() {
-       let alert = UIAlertController(title: "Transfer Success", message: "you have successfully transferred to Afta",         preferredStyle: UIAlertController.Style.alert)
+       let alert = UIAlertController(
+        title: "Transfer Success",
+        message: "you have successfully transferred to Aftabudin Arsyad",
+        preferredStyle: UIAlertController.Style.alert)
        
        alert.addAction(UIAlertAction(
             title: "Back to Home",
@@ -54,6 +57,21 @@ extension TransferViewController : TransferView{
             }))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    func showAllertFailed() {
+        let alert = UIAlertController(
+         title: "Transfer Failed",
+         message: "Transfer request could not be processed, please try again",
+         preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(
+             title: "Back to Home",
+             style: UIAlertAction.Style.default,
+             handler: {(_: UIAlertAction!) in
+                 self.navigatetoHome()
+             }))
+         self.present(alert, animated: true, completion: nil)
+     }
     
     
     func getUser(userProfileEntity: UserProfileEntity) {
