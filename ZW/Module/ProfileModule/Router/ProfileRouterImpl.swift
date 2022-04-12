@@ -26,9 +26,11 @@ public class ProfileRouterImpl {
 }
 
 extension ProfileRouterImpl: ProfileRouter {
+    func navigateToEditProfile(viewController: UIViewController, profile: UserProfileEntity) {
+        AppRouter.shared.navigateToEditPhone(viewController, profile)
+    }
+    
     func navigateToHome(viewController: UIViewController) {
         viewController.dismiss(animated: true, completion: nil)
     }
-    
-    
 }

@@ -10,4 +10,5 @@ import UIKit
 
 protocol ProfileRouter {
     func navigateToHome(viewController: UIViewController)
+    func navigateToEditProfile(viewController: UIViewController, profile: UserProfileEntity)
 }

@@ -11,25 +11,24 @@ class EditPhoneViewController: UIViewController {
 
     @IBOutlet weak var phoneNoTF: UITextField!
     
+    var presenter: EditPhonePresenter?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.presenter?.showUserProfile()
         // Do any additional setup after loading the view.
     }
 
     @IBAction func btnBack(_ sender: Any) {
+        self.presenter?.showbackToProfile(viewController: self)
     }
     
     @IBAction func btnSubmit(_ sender: Any) {
     }
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension EditPhoneViewController: EditPhoneView {
+    func showProfile(profile: UserProfileEntity) {
+        
     }
-    */
-
 }

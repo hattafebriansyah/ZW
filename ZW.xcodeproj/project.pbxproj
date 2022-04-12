@@ -20,6 +20,14 @@
 		29DA9BA02803C859002F3495 /* ProfileInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9B9F2803C859002F3495 /* ProfileInteractorOutput.swift */; };
 		29DA9BA82803FBC4002F3495 /* EditPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9BA62803FBC4002F3495 /* EditPhoneViewController.swift */; };
 		29DA9BA92803FBC4002F3495 /* EditPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9BA72803FBC4002F3495 /* EditPhoneViewController.xib */; };
+		29E290492805232B00CCCEF7 /* EditPhonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E290482805232B00CCCEF7 /* EditPhonePresenter.swift */; };
+		29E2904B2805238000CCCEF7 /* EditPhonePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2904A2805238000CCCEF7 /* EditPhonePresenterImpl.swift */; };
+		29E2904D280523E600CCCEF7 /* EditPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2904C280523E600CCCEF7 /* EditPhoneView.swift */; };
+		29E2904F2805246000CCCEF7 /* EditPhoneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2904E2805246000CCCEF7 /* EditPhoneInteractor.swift */; };
+		29E290512805247500CCCEF7 /* EditPhoneInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E290502805247500CCCEF7 /* EditPhoneInteractorImpl.swift */; };
+		29E290532805248500CCCEF7 /* EditPhoneInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E290522805248500CCCEF7 /* EditPhoneInteractorOutput.swift */; };
+		29E290552805249300CCCEF7 /* EditPhoneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E290542805249300CCCEF7 /* EditPhoneRouter.swift */; };
+		29E29057280524A200CCCEF7 /* EditPhoneRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E29056280524A200CCCEF7 /* EditPhoneRouterImpl.swift */; };
 		9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */; };
 		9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */; };
 		9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019427FEC2D900BB9AD6 /* ViewController.swift */; };
@@ -147,6 +155,14 @@
 		29DA9B9F2803C859002F3495 /* ProfileInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractorOutput.swift; sourceTree = "<group>"; };
 		29DA9BA62803FBC4002F3495 /* EditPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewController.swift; sourceTree = "<group>"; };
 		29DA9BA72803FBC4002F3495 /* EditPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPhoneViewController.xib; sourceTree = "<group>"; };
+		29E290482805232B00CCCEF7 /* EditPhonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhonePresenter.swift; sourceTree = "<group>"; };
+		29E2904A2805238000CCCEF7 /* EditPhonePresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhonePresenterImpl.swift; sourceTree = "<group>"; };
+		29E2904C280523E600CCCEF7 /* EditPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneView.swift; sourceTree = "<group>"; };
+		29E2904E2805246000CCCEF7 /* EditPhoneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneInteractor.swift; sourceTree = "<group>"; };
+		29E290502805247500CCCEF7 /* EditPhoneInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneInteractorImpl.swift; sourceTree = "<group>"; };
+		29E290522805248500CCCEF7 /* EditPhoneInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneInteractorOutput.swift; sourceTree = "<group>"; };
+		29E290542805249300CCCEF7 /* EditPhoneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneRouter.swift; sourceTree = "<group>"; };
+		29E29056280524A200CCCEF7 /* EditPhoneRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneRouterImpl.swift; sourceTree = "<group>"; };
 		9F61018D27FEC2D900BB9AD6 /* ZW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -335,6 +351,8 @@
 		29DA9BA22803FB1C002F3495 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				29E290542805249300CCCEF7 /* EditPhoneRouter.swift */,
+				29E29056280524A200CCCEF7 /* EditPhoneRouterImpl.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -342,6 +360,9 @@
 		29DA9BA32803FB25002F3495 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				29E2904E2805246000CCCEF7 /* EditPhoneInteractor.swift */,
+				29E290502805247500CCCEF7 /* EditPhoneInteractorImpl.swift */,
+				29E290522805248500CCCEF7 /* EditPhoneInteractorOutput.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -349,6 +370,8 @@
 		29DA9BA42803FB7B002F3495 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				29E290482805232B00CCCEF7 /* EditPhonePresenter.swift */,
+				29E2904A2805238000CCCEF7 /* EditPhonePresenterImpl.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -358,6 +381,7 @@
 			children = (
 				29DA9BA62803FBC4002F3495 /* EditPhoneViewController.swift */,
 				29DA9BA72803FBC4002F3495 /* EditPhoneViewController.xib */,
+				29E2904C280523E600CCCEF7 /* EditPhoneView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1009,12 +1033,14 @@
 			files = (
 				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
+				29E2904D280523E600CCCEF7 /* EditPhoneView.swift in Sources */,
 				9F63432427FECF2100DDC4B3 /* HistoryDataSource.swift in Sources */,
 				9F63433D27FECF9000DDC4B3 /* GetInvoiceResponse.swift in Sources */,
 				29DA9B9E2803C84A002F3495 /* ProfileInteractorImpl.swift in Sources */,
 				9F63433927FECF9000DDC4B3 /* GetBalanceResponse.swift in Sources */,
 				9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */,
 				9F63430127FECF1000DDC4B3 /* DashboardHomeCell.swift in Sources */,
+				29E2904F2805246000CCCEF7 /* EditPhoneInteractor.swift in Sources */,
 				9F61025627FEC69E00BB9AD6 /* RegisterRouterProtocol.swift in Sources */,
 				9F61023327FEC69E00BB9AD6 /* LoginResponse.swift in Sources */,
 				9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */,
@@ -1028,6 +1054,7 @@
 				29DA9B9A2803C65B002F3495 /* ProfilePresenterImpl.swift in Sources */,
 				29DA9B962803C5A0002F3495 /* ProfileView.swift in Sources */,
 				9F63432527FECF2100DDC4B3 /* HistoryInteractorImpl.swift in Sources */,
+				29E2904B2805238000CCCEF7 /* EditPhonePresenterImpl.swift in Sources */,
 				9F63433A27FECF9000DDC4B3 /* BalanceAPI.swift in Sources */,
 				9F63432727FECF2100DDC4B3 /* HistoryInteractorOutput.swift in Sources */,
 				9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */,
@@ -1042,6 +1069,7 @@
 				9F61023927FEC69E00BB9AD6 /* LoginInteractorImpl.swift in Sources */,
 				9F6101F827FEC68A00BB9AD6 /* AppRouter.swift in Sources */,
 				9F6101F927FEC68A00BB9AD6 /* AppConstant.swift in Sources */,
+				29E290532805248500CCCEF7 /* EditPhoneInteractorOutput.swift in Sources */,
 				9F61024E27FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift in Sources */,
 				9F63430427FECF1000DDC4B3 /* HomeViewController.swift in Sources */,
 				29DA9B8E2803B6AD002F3495 /* ProfileRouter.swift in Sources */,
@@ -1057,6 +1085,7 @@
 				9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */,
 				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
 				9F61023C27FEC69E00BB9AD6 /* LoginRouterProtocol.swift in Sources */,
+				29E290552805249300CCCEF7 /* EditPhoneRouter.swift in Sources */,
 				9F61023B27FEC69E00BB9AD6 /* LoginInteractorProtocol.swift in Sources */,
 				9F63432327FECF2100DDC4B3 /* HistoryViewController.swift in Sources */,
 				9F63430A27FECF1000DDC4B3 /* HomeRouter.swift in Sources */,
@@ -1069,18 +1098,21 @@
 				9F6101F527FEC68A00BB9AD6 /* IntExtension.swift in Sources */,
 				9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */,
 				9F61025327FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift in Sources */,
+				29E29057280524A200CCCEF7 /* EditPhoneRouterImpl.swift in Sources */,
 				9F63433F27FECF9000DDC4B3 /* InvoiceNetworkManager.swift in Sources */,
 				9F61024C27FEC69E00BB9AD6 /* RegisterDataResponse.swift in Sources */,
 				9F6342FE27FECF1000DDC4B3 /* HomePresenterImpl.swift in Sources */,
 				9F61023527FEC69E00BB9AD6 /* LoginPresenterImpl.swift in Sources */,
 				9F63430327FECF1000DDC4B3 /* HomeView.swift in Sources */,
 				9F63430527FECF1000DDC4B3 /* HomeDataSource.swift in Sources */,
+				29E290492805232B00CCCEF7 /* EditPhonePresenter.swift in Sources */,
 				9F61023D27FEC69E00BB9AD6 /* LoginRouterImpl.swift in Sources */,
 				9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */,
 				29DA9B982803C612002F3495 /* ProfilePresenter.swift in Sources */,
 				9F6342FF27FECF1000DDC4B3 /* HomePresenter.swift in Sources */,
 				9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */,
 				9F63430927FECF1000DDC4B3 /* HomeRouterImpl.swift in Sources */,
+				29E290512805247500CCCEF7 /* EditPhoneInteractorImpl.swift in Sources */,
 				9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */,
 				29DA9B9C2803C822002F3495 /* ProfileInteractor.swift in Sources */,
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,

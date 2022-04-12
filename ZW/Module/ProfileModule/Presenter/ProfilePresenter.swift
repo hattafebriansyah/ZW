@@ -12,4 +12,5 @@ import UIKit
 protocol ProfilePresenter {
     func loadProfile()
     func backToHome(viewController: UIViewController)
+    func showEditPhone(viewController: UIViewController, profile: UserProfileEntity)
 }

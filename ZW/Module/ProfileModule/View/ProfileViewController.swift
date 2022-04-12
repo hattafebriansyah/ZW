@@ -25,6 +25,11 @@ class ProfileViewController: UIViewController {
     @IBAction func logout(_ sender: Any) {
     }
     
+    @IBAction func editProfileBtn(_ sender: Any) {
+        if let profile = self.profile {
+            self.presenter?.showEditPhone(viewController: self, profile: profile)
+        }
+    }
     @IBAction func backBtn(_ sender: Any) {
         self.presenter?.backToHome(viewController: self)
     }

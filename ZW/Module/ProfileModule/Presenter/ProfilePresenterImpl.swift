@@ -11,6 +11,7 @@ import UIKit
 
 class ProfilePresenterImpl: ProfilePresenter {
     
+    
     let interactor: ProfileInteractor?
     let router: ProfileRouter
     let view: ProfileView
@@ -28,6 +29,11 @@ class ProfilePresenterImpl: ProfilePresenter {
     func backToHome(viewController: UIViewController) {
         self.router.navigateToHome(viewController: viewController)
     }
+    
+    func showEditPhone(viewController: UIViewController, profile: UserProfileEntity) {
+        self.router.navigateToEditProfile(viewController: viewController, profile: profile)
+    }
+
 }
 
 extension ProfilePresenterImpl: ProfileInteractorOutput {
