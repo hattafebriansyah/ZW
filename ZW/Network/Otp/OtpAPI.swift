@@ -19,7 +19,7 @@ extension OtpAPI: TargetType {
             
         case .OTP(let email,let otp) :
             return "auth/activate/\(email)/\(otp)"
-
+            //test
         }
     }
 
