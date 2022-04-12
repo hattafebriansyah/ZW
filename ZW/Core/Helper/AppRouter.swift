@@ -29,4 +29,16 @@ public class AppRouter {
     public func navigateToHistory(_ viewController: UIViewController) {
         self.historyScene?(viewController)
     }
+    
+    public var profileScene: ((_ viewController: UIViewController) -> ())?
+       
+       public func navigateToProfile(_ viewController: UIViewController) {
+           self.profileScene?(viewController)
+       }
+       
+       public var editPhoneScene: ((_ viewController: UIViewController, _ profile: UserProfileEntity) -> ())?
+       
+       public func navigateToEditPhone(_ viewController: UIViewController, _ profile: UserProfileEntity) {
+           self.editPhoneScene?(viewController, profile)
+       }
 }

@@ -46,6 +46,10 @@ extension HomeViewController: DashboardCellDelegate {
     func logout() {
         self.presenter?.logout()
     }
+    
+    func showToProfile() {
+            self.presenter?.showProfile(viewController: self)
+        }
 }
 
 

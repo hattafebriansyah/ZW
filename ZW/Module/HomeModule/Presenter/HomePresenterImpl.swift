@@ -37,6 +37,10 @@ class HomePresenterImpl: HomePresenter {
         UserDefaultHelper.shared.remove(key: .userToken)
         self.router.navigateToLogin()
     }
+    
+    func showProfile(viewController: UIViewController) {
+        self.router.navigateToProfile(viewController: viewController)
+    }
 }
 
 extension HomePresenterImpl: HomeInteractorOutput {

@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29DFE8B128055B9A0065D615 /* EditPhonePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89528055B9A0065D615 /* EditPhonePresenterImpl.swift */; };
+		29DFE8B228055B9A0065D615 /* EditPhonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89628055B9A0065D615 /* EditPhonePresenter.swift */; };
+		29DFE8B328055B9A0065D615 /* EditPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89828055B9A0065D615 /* EditPhoneView.swift */; };
+		29DFE8B428055B9A0065D615 /* EditPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89928055B9A0065D615 /* EditPhoneViewController.swift */; };
+		29DFE8B528055B9A0065D615 /* EditPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29DFE89A28055B9A0065D615 /* EditPhoneViewController.xib */; };
+		29DFE8B628055B9A0065D615 /* EditPhoneInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89C28055B9A0065D615 /* EditPhoneInteractorImpl.swift */; };
+		29DFE8B728055B9A0065D615 /* EditPhoneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89D28055B9A0065D615 /* EditPhoneInteractor.swift */; };
+		29DFE8B828055B9A0065D615 /* EditPhoneInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89E28055B9A0065D615 /* EditPhoneInteractorOutput.swift */; };
+		29DFE8B928055B9A0065D615 /* EditPhoneRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8A028055B9A0065D615 /* EditPhoneRouterImpl.swift */; };
+		29DFE8BA28055B9A0065D615 /* EditPhoneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8A128055B9A0065D615 /* EditPhoneRouter.swift */; };
+		29DFE8BB28055B9A0065D615 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8A428055B9A0065D615 /* ProfilePresenter.swift */; };
+		29DFE8BC28055B9A0065D615 /* ProfilePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8A528055B9A0065D615 /* ProfilePresenterImpl.swift */; };
+		29DFE8BD28055B9A0065D615 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8A728055B9A0065D615 /* ProfileView.swift */; };
+		29DFE8BE28055B9A0065D615 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29DFE8A828055B9A0065D615 /* ProfileViewController.xib */; };
+		29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8A928055B9A0065D615 /* ProfileViewController.swift */; };
+		29DFE8C028055B9A0065D615 /* ProfileInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8AB28055B9A0065D615 /* ProfileInteractorImpl.swift */; };
+		29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8AC28055B9A0065D615 /* ProfileInteractorOutput.swift */; };
+		29DFE8C228055B9A0065D615 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8AD28055B9A0065D615 /* ProfileInteractor.swift */; };
+		29DFE8C328055B9A0065D615 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8AF28055B9A0065D615 /* ProfileRouter.swift */; };
+		29DFE8C428055B9A0065D615 /* ProfileRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE8B028055B9A0065D615 /* ProfileRouterImpl.swift */; };
 		3630F3E527FEDDF60045AEBB /* yy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3630F3E427FEDDF60045AEBB /* yy.swift */; };
 		3668D71B27FFD77300C20205 /* TransferPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D70E27FFD77300C20205 /* TransferPresenterImpl.swift */; };
 		3668D71C27FFD77300C20205 /* TransferPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668D70F27FFD77300C20205 /* TransferPresenterProtocol.swift */; };
@@ -136,6 +156,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29DFE89528055B9A0065D615 /* EditPhonePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhonePresenterImpl.swift; sourceTree = "<group>"; };
+		29DFE89628055B9A0065D615 /* EditPhonePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhonePresenter.swift; sourceTree = "<group>"; };
+		29DFE89828055B9A0065D615 /* EditPhoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneView.swift; sourceTree = "<group>"; };
+		29DFE89928055B9A0065D615 /* EditPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneViewController.swift; sourceTree = "<group>"; };
+		29DFE89A28055B9A0065D615 /* EditPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPhoneViewController.xib; sourceTree = "<group>"; };
+		29DFE89C28055B9A0065D615 /* EditPhoneInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneInteractorImpl.swift; sourceTree = "<group>"; };
+		29DFE89D28055B9A0065D615 /* EditPhoneInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneInteractor.swift; sourceTree = "<group>"; };
+		29DFE89E28055B9A0065D615 /* EditPhoneInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneInteractorOutput.swift; sourceTree = "<group>"; };
+		29DFE8A028055B9A0065D615 /* EditPhoneRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneRouterImpl.swift; sourceTree = "<group>"; };
+		29DFE8A128055B9A0065D615 /* EditPhoneRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneRouter.swift; sourceTree = "<group>"; };
+		29DFE8A428055B9A0065D615 /* ProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		29DFE8A528055B9A0065D615 /* ProfilePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePresenterImpl.swift; sourceTree = "<group>"; };
+		29DFE8A728055B9A0065D615 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		29DFE8A828055B9A0065D615 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		29DFE8A928055B9A0065D615 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		29DFE8AB28055B9A0065D615 /* ProfileInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInteractorImpl.swift; sourceTree = "<group>"; };
+		29DFE8AC28055B9A0065D615 /* ProfileInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInteractorOutput.swift; sourceTree = "<group>"; };
+		29DFE8AD28055B9A0065D615 /* ProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		29DFE8AF28055B9A0065D615 /* ProfileRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		29DFE8B028055B9A0065D615 /* ProfileRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouterImpl.swift; sourceTree = "<group>"; };
 		3630F3E427FEDDF60045AEBB /* yy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yy.swift; sourceTree = "<group>"; };
 		3668D70E27FFD77300C20205 /* TransferPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferPresenterImpl.swift; sourceTree = "<group>"; };
 		3668D70F27FFD77300C20205 /* TransferPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferPresenterProtocol.swift; sourceTree = "<group>"; };
@@ -276,6 +316,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29DFE89328055B9A0065D615 /* EditPhoneModule */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE89428055B9A0065D615 /* Presenter */,
+				29DFE89728055B9A0065D615 /* View */,
+				29DFE89B28055B9A0065D615 /* Interactor */,
+				29DFE89F28055B9A0065D615 /* Router */,
+			);
+			path = EditPhoneModule;
+			sourceTree = "<group>";
+		};
+		29DFE89428055B9A0065D615 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE89528055B9A0065D615 /* EditPhonePresenterImpl.swift */,
+				29DFE89628055B9A0065D615 /* EditPhonePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		29DFE89728055B9A0065D615 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE89828055B9A0065D615 /* EditPhoneView.swift */,
+				29DFE89928055B9A0065D615 /* EditPhoneViewController.swift */,
+				29DFE89A28055B9A0065D615 /* EditPhoneViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29DFE89B28055B9A0065D615 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE89C28055B9A0065D615 /* EditPhoneInteractorImpl.swift */,
+				29DFE89D28055B9A0065D615 /* EditPhoneInteractor.swift */,
+				29DFE89E28055B9A0065D615 /* EditPhoneInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		29DFE89F28055B9A0065D615 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE8A028055B9A0065D615 /* EditPhoneRouterImpl.swift */,
+				29DFE8A128055B9A0065D615 /* EditPhoneRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		29DFE8A228055B9A0065D615 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE8A328055B9A0065D615 /* Presenter */,
+				29DFE8A628055B9A0065D615 /* View */,
+				29DFE8AA28055B9A0065D615 /* Interactor */,
+				29DFE8AE28055B9A0065D615 /* Router */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		29DFE8A328055B9A0065D615 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE8A428055B9A0065D615 /* ProfilePresenter.swift */,
+				29DFE8A528055B9A0065D615 /* ProfilePresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		29DFE8A628055B9A0065D615 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE8A728055B9A0065D615 /* ProfileView.swift */,
+				29DFE8A828055B9A0065D615 /* ProfileViewController.xib */,
+				29DFE8A928055B9A0065D615 /* ProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29DFE8AA28055B9A0065D615 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE8AB28055B9A0065D615 /* ProfileInteractorImpl.swift */,
+				29DFE8AC28055B9A0065D615 /* ProfileInteractorOutput.swift */,
+				29DFE8AD28055B9A0065D615 /* ProfileInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		29DFE8AE28055B9A0065D615 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				29DFE8AF28055B9A0065D615 /* ProfileRouter.swift */,
+				29DFE8B028055B9A0065D615 /* ProfileRouterImpl.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		3668D70B27FFD77300C20205 /* TransferModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +610,8 @@
 		9F6101FA27FEC69E00BB9AD6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				29DFE89328055B9A0065D615 /* EditPhoneModule */,
+				29DFE8A228055B9A0065D615 /* ProfileModule */,
 				3668D70B27FFD77300C20205 /* TransferModule */,
 				9F63430B27FECF2100DDC4B3 /* HistoryModule */,
 				9F6342E527FECF1000DDC4B3 /* HomeModule */,
@@ -948,6 +1088,7 @@
 			files = (
 				9F61026027FEC6AC00BB9AD6 /* NunitoSans-Italic.ttf in Resources */,
 				9F61023627FEC69E00BB9AD6 /* LoginViewController.xib in Resources */,
+				29DFE8B528055B9A0065D615 /* EditPhoneViewController.xib in Resources */,
 				9F6101CC27FEC63F00BB9AD6 /* hatta.jpeg in Resources */,
 				9F61026127FEC6AC00BB9AD6 /* NunitoSans-Bold.ttf in Resources */,
 				9F61019D27FEC2DA00BB9AD6 /* LaunchScreen.storyboard in Resources */,
@@ -963,6 +1104,7 @@
 				9F61024F27FEC69E00BB9AD6 /* RegisterViewController.xib in Resources */,
 				9F6342DF27FECE9200DDC4B3 /* TransactionCell.xib in Resources */,
 				9F63434327FED3AB00DDC4B3 /* HomeViewController.xib in Resources */,
+				29DFE8BE28055B9A0065D615 /* ProfileViewController.xib in Resources */,
 				3668D71F27FFD77300C20205 /* TransferViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -989,6 +1131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
+				29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
 				9F63432427FECF2100DDC4B3 /* HistoryDataSource.swift in Sources */,
 				9F63433D27FECF9000DDC4B3 /* GetInvoiceResponse.swift in Sources */,
@@ -1001,14 +1144,18 @@
 				9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */,
 				9F63432227FECF2100DDC4B3 /* HistoryView.swift in Sources */,
 				9F6342FC27FECF1000DDC4B3 /* UserProfileEntity.swift in Sources */,
+				29DFE8B128055B9A0065D615 /* EditPhonePresenterImpl.swift in Sources */,
 				9F63432827FECF2100DDC4B3 /* HistoryRouterImpl.swift in Sources */,
 				3630F3E527FEDDF60045AEBB /* yy.swift in Sources */,
+				29DFE8BC28055B9A0065D615 /* ProfilePresenterImpl.swift in Sources */,
 				9F6101E527FEC65D00BB9AD6 /* AuthApi.swift in Sources */,
 				9F6101F727FEC68A00BB9AD6 /* UserDefaultHelper.swift in Sources */,
 				3668D71D27FFD77300C20205 /* TransferViewController.swift in Sources */,
 				3668D72027FFD77300C20205 /* TransferInteractorOutputProtocol.swift in Sources */,
 				9F63432527FECF2100DDC4B3 /* HistoryInteractorImpl.swift in Sources */,
 				9F63433A27FECF9000DDC4B3 /* BalanceAPI.swift in Sources */,
+				29DFE8C428055B9A0065D615 /* ProfileRouterImpl.swift in Sources */,
+				29DFE8C328055B9A0065D615 /* ProfileRouter.swift in Sources */,
 				9F63432727FECF2100DDC4B3 /* HistoryInteractorOutput.swift in Sources */,
 				9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */,
 				3668D72127FFD77300C20205 /* TransferInteractorProtocol.swift in Sources */,
@@ -1018,8 +1165,10 @@
 				9F63432627FECF2100DDC4B3 /* HistoryInteractor.swift in Sources */,
 				3668D71B27FFD77300C20205 /* TransferPresenterImpl.swift in Sources */,
 				9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */,
+				29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */,
 				9F63433E27FECF9000DDC4B3 /* GetInvoiceDataResponse.swift in Sources */,
 				9F63432027FECF2100DDC4B3 /* HeaderCell.swift in Sources */,
+				29DFE8BA28055B9A0065D615 /* EditPhoneRouter.swift in Sources */,
 				9F61023927FEC69E00BB9AD6 /* LoginInteractorImpl.swift in Sources */,
 				9F6101F827FEC68A00BB9AD6 /* AppRouter.swift in Sources */,
 				9F6101F927FEC68A00BB9AD6 /* AppConstant.swift in Sources */,
@@ -1033,9 +1182,14 @@
 				9F63430827FECF1000DDC4B3 /* HomeInteractorImpl.swift in Sources */,
 				9F63430727FECF1000DDC4B3 /* HomeInteractor.swift in Sources */,
 				9F63430027FECF1000DDC4B3 /* DashboardCellDelegate.swift in Sources */,
+				29DFE8BD28055B9A0065D615 /* ProfileView.swift in Sources */,
 				9F63430627FECF1000DDC4B3 /* HomeInteractorOutput.swift in Sources */,
+				29DFE8B728055B9A0065D615 /* EditPhoneInteractor.swift in Sources */,
 				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
 				9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */,
+				29DFE8B828055B9A0065D615 /* EditPhoneInteractorOutput.swift in Sources */,
+				29DFE8B428055B9A0065D615 /* EditPhoneViewController.swift in Sources */,
+				29DFE8B928055B9A0065D615 /* EditPhoneRouterImpl.swift in Sources */,
 				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
 				3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */,
 				9F61023C27FEC69E00BB9AD6 /* LoginRouterProtocol.swift in Sources */,
@@ -1050,6 +1204,7 @@
 				9F61023427FEC69E00BB9AD6 /* LoginPresenterProtocol.swift in Sources */,
 				9F63434127FECF9000DDC4B3 /* InvoiceApi.swift in Sources */,
 				9F6101F527FEC68A00BB9AD6 /* IntExtension.swift in Sources */,
+				29DFE8BB28055B9A0065D615 /* ProfilePresenter.swift in Sources */,
 				9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */,
 				9F61025327FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift in Sources */,
 				9F63433F27FECF9000DDC4B3 /* InvoiceNetworkManager.swift in Sources */,
@@ -1064,13 +1219,18 @@
 				9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */,
 				9F6342FF27FECF1000DDC4B3 /* HomePresenter.swift in Sources */,
 				9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */,
+				29DFE8C228055B9A0065D615 /* ProfileInteractor.swift in Sources */,
 				9F63430927FECF1000DDC4B3 /* HomeRouterImpl.swift in Sources */,
 				9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */,
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,
 				3668D72327FFD77300C20205 /* TransferRouterImpl.swift in Sources */,
+				29DFE8B328055B9A0065D615 /* EditPhoneView.swift in Sources */,
+				29DFE8C028055B9A0065D615 /* ProfileInteractorImpl.swift in Sources */,
 				9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */,
 				9F6101E727FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift in Sources */,
 				9F61025127FEC69E00BB9AD6 /* RegisterViewProtocol.swift in Sources */,
+				29DFE8B228055B9A0065D615 /* EditPhonePresenter.swift in Sources */,
+				29DFE8B628055B9A0065D615 /* EditPhoneInteractorImpl.swift in Sources */,
 				9F63432927FECF2100DDC4B3 /* HistoryRouter.swift in Sources */,
 				3668D72427FFD77300C20205 /* TransferRouterProtocol.swift in Sources */,
 			);
