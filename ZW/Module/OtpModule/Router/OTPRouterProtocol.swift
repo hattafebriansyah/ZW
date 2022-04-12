@@ -8,5 +8,5 @@
 import Foundation
 
 protocol OTPRouterProtocol {
-    func navigateToHome()
+    func navigateToLogin()
 }

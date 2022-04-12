@@ -18,4 +18,9 @@ public protocol AuthNetworkManager {
         email: String,
         password: String,
         completion: @escaping (RegisterResponse?, Error?) -> ())
+    
+    func otp(
+        email: String,
+        otp: String,
+        completion: @escaping (OTPDataResponse?, Error?) -> ())
 }

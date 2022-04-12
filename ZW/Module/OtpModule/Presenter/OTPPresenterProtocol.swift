@@ -8,5 +8,6 @@
 import Foundation
 
 protocol OTPPresenterProtocol{
-      func otpConfirm(email: String, otp: String)
+    func navigateToLogin()
+    func otpConfirm(email: String, otp: String)
 }

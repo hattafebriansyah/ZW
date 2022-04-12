@@ -20,6 +20,11 @@ class OTPPresenterImpl: OTPPresenterProtocol {
         self.router = router
     }
     
+    func navigateToLogin() {
+        self.router.navigateToLogin()
+    }
+    
+    
     func otpConfirm(email: String, otp: String) {
         self.interactor.postOtpData(email: email, otp: otp)
     }
@@ -28,10 +33,10 @@ class OTPPresenterImpl: OTPPresenterProtocol {
 extension OTPPresenterImpl: OTPInteractorOutputProtocol{
     func authenticationResult(isSuccess: Bool) {
         if isSuccess {
-            print("Sukses")
+            self.view.showAllert()
         }
         else {
-            print ("Gagal")
+            self.view.showAllertFailed()
         }
     }
 }

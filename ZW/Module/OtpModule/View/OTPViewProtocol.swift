@@ -8,5 +8,7 @@
 import Foundation
 
 protocol OTPViewProtocol {
-    func showError()
+    func navigateToLogin()
+    func showAllert()
+    func showAllertFailed()
 }

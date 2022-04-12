@@ -13,7 +13,7 @@ public class OTPRouterImpl{
     public static func navigateToModule(){
         
         let otp = OTPViewController(nibName: "OTPViewController", bundle: nil)
-        let networkManager = OTPNetworkManagerImpl()
+        let networkManager = AuthNetworkManagerImpl()
         
         let router = OTPRouterImpl()
         let interactor = OTPInteractorImpl(networkManager: networkManager)
@@ -27,8 +27,8 @@ public class OTPRouterImpl{
 }
 
 extension OTPRouterImpl: OTPRouterProtocol{
-    func navigateToHome() {
-        
+    func navigateToLogin() {
+        NotificationCenter.default.post(name: Notification.Name("reloadRootView"), object: nil)
     }
     
     

@@ -109,4 +109,42 @@ extension OTPViewController: UITextFieldDelegate{
         }
     }
 }
-	
+
+extension OTPViewController : OTPViewProtocol {
+    func navigateToLogin() {
+        self.presenter?.navigateToLogin()
+    }
+    
+    func showAllert() {
+        let alert = UIAlertController(
+                title: "OTP Validation Success",
+                message: "you have successfully activated your account",
+                preferredStyle: UIAlertController.Style.alert)
+               
+               alert.addAction(UIAlertAction(
+                    title: "Back to Login",
+                    style: UIAlertAction.Style.default,
+                    handler: {(_: UIAlertAction!) in
+                        self.navigateToLogin()
+                    }))
+                self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showAllertFailed() {
+        let alert = UIAlertController(
+                 title: "OTP Validation Failed",
+                 message: "your request could not be processed, please contact our administrator to activate your account",
+                 preferredStyle: UIAlertController.Style.alert)
+                
+                alert.addAction(UIAlertAction(
+                     title: "Back to Login",
+                     style: UIAlertAction.Style.default,
+                     handler: {(_: UIAlertAction!) in
+                         self.navigateToLogin()
+                     }))
+                 self.present(alert, animated: true, completion: nil)
+    }
+    
+    
+    
+}
