@@ -25,7 +25,7 @@ class NotificationInteractorImpl : NotificationInteractorProtocol{
             if let user = details {
                 let userProfile = DetailsTransactionData(id: user.id, senderID: user.senderID, sender: user.sender, senderPhone: user.senderPhone, senderImage: user.senderImage, receiverID: user.receiverID, receiver: user.receiver, receiverPhone: user.receiverPhone, receiverImage: user.receiverImage, amount: user.amount, notes: user.notes, type: user.type, createdAt: user.createdAt)
                 print(userProfile)
-                self.interactorOutput?.getUserDetails(user:userProfile)
+//                self.interactorOutput?.getUserDetails(user:userProfile)
             }
         
             

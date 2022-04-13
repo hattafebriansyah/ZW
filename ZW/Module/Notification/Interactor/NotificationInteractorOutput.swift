@@ -9,5 +9,5 @@ import Foundation
 
 protocol NotificationInteractorOutputProtocol{
     func getNotification(invoice: [InvoiceResponse])
-    func getUserDetails(user : DetailsTransactionData)
+  //  func getUserDetails(user : DetailsTransactionData)
 }
