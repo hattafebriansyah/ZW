@@ -11,5 +11,6 @@ import UIKit
 protocol LoginRouterProtocol {
     func navigateToHome()
     func navigateToRegister(viewController : UIViewController)
+    func navigateToCreatePIN()
 }
 

@@ -49,14 +49,29 @@ class OTPViewController: UIViewController {
             switch textField {
             case otp1:
                 otp2.becomeFirstResponder()
+                otp1.layer.borderWidth = 2
+                otp1.layer.cornerRadius = 5
+                otp1.layer.borderColor = UIColor.blue.cgColor
             case otp2:
                 otp3.becomeFirstResponder()
+                otp2.layer.borderWidth = 2
+                otp2.layer.cornerRadius = 5
+                otp2.layer.borderColor = UIColor.blue.cgColor
             case otp3:
                 otp4.becomeFirstResponder()
+                otp3.layer.borderWidth = 2
+                otp3.layer.cornerRadius = 5
+                otp3.layer.borderColor = UIColor.blue.cgColor
             case otp4:
                 otp5.becomeFirstResponder()
+                otp4.layer.borderWidth = 2
+                otp4.layer.cornerRadius = 5
+                otp4.layer.borderColor = UIColor.blue.cgColor
             case otp5:
                 otp6.becomeFirstResponder()
+                otp5.layer.borderWidth = 2
+                otp5.layer.cornerRadius = 5
+                otp5.layer.borderColor = UIColor.blue.cgColor
            //cek data sudah masuk atau tidak
             case otp6:
                 print (
@@ -67,6 +82,9 @@ class OTPViewController: UIViewController {
                     (otp5.text!),
                     (otp6.text!)
                 )
+                otp6.layer.borderWidth = 2
+                otp6.layer.cornerRadius = 5
+                otp6.layer.borderColor = UIColor.blue.cgColor
             default:
                 break
             }
@@ -74,15 +92,33 @@ class OTPViewController: UIViewController {
             switch textField {
             case otp6 :
                 otp5.becomeFirstResponder()
+                otp6.layer.borderWidth = 2
+                otp6.layer.cornerRadius = 5
+                otp6.layer.borderColor = UIColor.lightGray.cgColor
             case otp5 :
                 otp4.becomeFirstResponder()
+                otp5.layer.borderWidth = 2
+                otp5.layer.cornerRadius = 5
+                otp5.layer.borderColor = UIColor.lightGray.cgColor
             case otp4 :
                 otp3.becomeFirstResponder()
+                otp4.layer.borderWidth = 2
+                otp4.layer.cornerRadius = 5
+                otp4.layer.borderColor = UIColor.lightGray.cgColor
             case otp3 :
                 otp2.becomeFirstResponder()
+                otp3.layer.borderWidth = 2
+                otp3.layer.cornerRadius = 5
+                otp3.layer.borderColor = UIColor.lightGray.cgColor
             case otp2 :
                 otp1.becomeFirstResponder()
+                otp2.layer.borderWidth = 2
+                otp2.layer.cornerRadius = 5
+                otp2.layer.borderColor = UIColor.lightGray.cgColor
             default:
+                otp1.layer.borderWidth = 2
+                otp1.layer.cornerRadius = 5
+                otp1.layer.borderColor = UIColor.lightGray.cgColor
                 break
             }
         }

@@ -36,10 +36,13 @@ class LoginPresenterImpl: LoginPresenterProtocol {
 extension LoginPresenterImpl: LoginInteractorOutputProtocol {
     func authenticationResult(isSuccess: Bool) {
         if isSuccess {
-            self.router.navigateToHome()
-        }
-        else {
-            self.view.showError()
+            let checkPin : Bool = UserDefaultHelper.shared.get(key: .userHasPin) ?? false
+            if(checkPin == false){
+                self.router.navigateToCreatePIN()
+            }
+            else {
+                self.router.navigateToHome()
+            }
         }
     }
     

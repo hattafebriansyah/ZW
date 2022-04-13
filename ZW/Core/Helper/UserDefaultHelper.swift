@@ -28,6 +28,7 @@ public class UserDefaultHelper {
 
 public extension UserDefaultHelper {
     enum Key: String {
+        case userHasPin
         case userToken
         case userEmail
         case balance
