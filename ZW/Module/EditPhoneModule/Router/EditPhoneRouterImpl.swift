@@ -31,6 +31,6 @@ extension EditPhoneRouterImpl: EditPhoneRouter {
     }
     
     func navigateToProfile(viewController: UIViewController) {
-        viewController.dismiss(animated: true, completion: nil)
+        NotificationCenter.default.post(name: Notification.Name("reloadRootView"), object: nil)
     }
 }

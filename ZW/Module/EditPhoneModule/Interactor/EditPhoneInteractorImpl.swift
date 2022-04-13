@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class EditPhoneInteractorImpl: EditPhoneInteractor {
     
@@ -25,5 +26,19 @@ class EditPhoneInteractorImpl: EditPhoneInteractor {
     
     func updateProfilePhone(profile: UserProfileEntity) {
         
+    }
+    
+    func postEditPhoneData(phone: String) {
+        self.networkManager.editPhone(phone: phone) { data, error in
+            if let data = data {
+                if data.status == 200 {
+                    self.interactorOutput?.theSuccess(isSuccess: true)
+                }
+                else {
+                    self.interactorOutput?.theSuccess(isSuccess: false)
+                    
+                }
+            }
+        }
     }
 }

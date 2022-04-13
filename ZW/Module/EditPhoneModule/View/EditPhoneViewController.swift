@@ -24,6 +24,13 @@ class EditPhoneViewController: UIViewController {
     }
     
     @IBAction func btnSubmit(_ sender: Any) {
+        let phone = phoneNoTF.text ?? ""
+        if (phone == ""){
+            showAllertFailed()
+        } else {
+            self.presenter?.editPhone(phone: phone)
+            
+        }
     }
 }
 
@@ -31,4 +38,40 @@ extension EditPhoneViewController: EditPhoneView {
     func showProfile(profile: UserProfileEntity) {
         
     }
+    
+    func showbackToProfile() {
+        self.presenter?.showbackToProfile(viewController: self)
+    }
+    //
+
+   func showAllert() {
+       let alert = UIAlertController(
+        title: "Change Phone Number Success",
+        message: "you have successfully change phone number",
+        preferredStyle: UIAlertController.Style.alert)
+       
+       alert.addAction(UIAlertAction(
+            title: "Back to Home",
+            style: UIAlertAction.Style.default,
+            handler: {(_: UIAlertAction!) in
+                
+                self.showbackToProfile()
+            }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showAllertFailed() {
+        let alert = UIAlertController(
+         title: "Change Phone Number Failed",
+         message: "your request could not be processed, please try again",
+         preferredStyle: UIAlertController.Style.alert)
+        
+        alert.addAction(UIAlertAction(
+             title: "Back to Home",
+             style: UIAlertAction.Style.default,
+             handler: {(_: UIAlertAction!) in
+                 self.showbackToProfile()
+             }))
+         self.present(alert, animated: true, completion: nil)
+     }
 }

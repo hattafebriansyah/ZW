@@ -9,11 +9,11 @@ import Foundation
 import UIKit
 
 class EditPhonePresenterImpl: EditPhonePresenter {
-    var view: EditPhoneView
+    var view: EditPhoneViewController
     var interactor: EditPhoneInteractor
     var route: EditPhoneRouter
     
-    init(view: EditPhoneView, interactor: EditPhoneInteractor, route: EditPhoneRouter) {
+    init(view: EditPhoneViewController, interactor: EditPhoneInteractor, route: EditPhoneRouter) {
         self.view = view
         self.interactor = interactor
         self.route = route
@@ -27,9 +27,22 @@ class EditPhonePresenterImpl: EditPhonePresenter {
         self.route.navigateToProfile(viewController: viewController)
     }
     
+    func editPhone(phone: String) {
+        self.interactor.postEditPhoneData(phone: phone)
+    }
+
+    
 }
 
 extension EditPhonePresenterImpl: EditPhoneInteractorOutput {
+    func theSuccess(isSuccess: Bool) {
+        if isSuccess {
+            self.view.showAllert()
+        } else{
+            self.view.showAllertFailed()
+        }
+    }
+    
     func loadedUserProfileData(userProfile: UserProfileEntity) {
         self.view.showProfile(profile: userProfile)
     }

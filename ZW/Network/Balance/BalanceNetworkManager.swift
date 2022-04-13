@@ -9,4 +9,5 @@ import Foundation
 
 public protocol BalanceNetworkManager {
     func getBalance(completion: @escaping (GetBalanceDataResponse?, Error?) -> ())
+    func editPhone(phone: String, completion: @escaping (EditPhoneResponse?, Error?) -> ())
 }
