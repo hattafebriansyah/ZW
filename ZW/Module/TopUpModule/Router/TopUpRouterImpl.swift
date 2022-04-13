@@ -17,7 +17,8 @@ public class TopUpRouterImpl{
     
     public static func navigateToModule(viewController : UIViewController) {
         let vc = TopUpViewController(nibName: "TopUpViewController", bundle: nil)
-
+        vc.modalPresentationStyle = .automatic
+        
         let router = TopUpRouterImpl()
         let interactor = TopUpInteractorImpl()
         let presenter = TopUpPresenterImpl(view: vc, interactor: interactor, router: router)
@@ -25,9 +26,7 @@ public class TopUpRouterImpl{
         interactor.interactorOutput = presenter
         vc.presenter = presenter
         
-
-        UIApplication.shared.windows.first?.rootViewController = vc
-        UIApplication.shared.windows.first?.makeKeyAndVisible()
+        viewController.present(vc, animated: true, completion: nil)
     }
         
     }

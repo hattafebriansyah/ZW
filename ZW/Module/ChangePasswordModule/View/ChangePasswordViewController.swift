@@ -40,13 +40,18 @@ class ChangePasswordViewController: UIViewController {
         
     }
     
+    
+    @IBAction func backBtn(_ sender: Any) {
+        self.presenter?.navigatetoHome()
+    }
+    
+    
 }
 
 extension ChangePasswordViewController : ChangePasswordViewProtocol{
     func navigatetoHome() {
         self.presenter?.navigatetoHome()
     }
-    //
 
    func showAllert() {
        let alert = UIAlertController(
