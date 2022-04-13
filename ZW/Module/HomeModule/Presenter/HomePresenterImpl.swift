@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 class HomePresenterImpl: HomePresenter {
+   
     let view: HomeView
     let interactor: HomeInteractor
     let router: HomeRouter
@@ -24,6 +25,10 @@ class HomePresenterImpl: HomePresenter {
     func loadProfile() {
         self.interactor.getUserProfile()
     }
+    func showNotification(viewController: UIViewController) {
+        self.router.navigateToNotification(viewController: viewController)
+    }
+    
     
     func loadTransaction() {
         self.interactor.getTransaction()

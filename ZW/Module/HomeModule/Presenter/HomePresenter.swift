@@ -16,4 +16,5 @@ protocol HomePresenter {
     func showTranfer(viewController : UIViewController)
     func showProfile(viewController: UIViewController)
     func topUp(viewController: UIViewController)
+    func showNotification(viewController : UIViewController)
 }

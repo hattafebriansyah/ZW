@@ -145,21 +145,6 @@
 		9F6342DF27FECE9200DDC4B3 /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6342DD27FECE9200DDC4B3 /* TransactionCell.xib */; };
 		9F6342E027FECE9200DDC4B3 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342DE27FECE9200DDC4B3 /* TransactionCell.swift */; };
 		9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342E327FECEFA00DDC4B3 /* TransactionEntity.swift */; };
-		9F6342FC27FECF1000DDC4B3 /* UserProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342E727FECF1000DDC4B3 /* UserProfileEntity.swift */; };
-		9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342E827FECF1000DDC4B3 /* UserProfile.swift */; };
-		9F6342FE27FECF1000DDC4B3 /* HomePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342EA27FECF1000DDC4B3 /* HomePresenterImpl.swift */; };
-		9F6342FF27FECF1000DDC4B3 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342EB27FECF1000DDC4B3 /* HomePresenter.swift */; };
-		9F63430027FECF1000DDC4B3 /* DashboardCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342EE27FECF1000DDC4B3 /* DashboardCellDelegate.swift */; };
-		9F63430127FECF1000DDC4B3 /* DashboardHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342EF27FECF1000DDC4B3 /* DashboardHomeCell.swift */; };
-		9F63430227FECF1000DDC4B3 /* DashboardHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6342F027FECF1000DDC4B3 /* DashboardHomeCell.xib */; };
-		9F63430327FECF1000DDC4B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342F227FECF1000DDC4B3 /* HomeView.swift */; };
-		9F63430427FECF1000DDC4B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342F327FECF1000DDC4B3 /* HomeViewController.swift */; };
-		9F63430527FECF1000DDC4B3 /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342F427FECF1000DDC4B3 /* HomeDataSource.swift */; };
-		9F63430627FECF1000DDC4B3 /* HomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342F627FECF1000DDC4B3 /* HomeInteractorOutput.swift */; };
-		9F63430727FECF1000DDC4B3 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342F727FECF1000DDC4B3 /* HomeInteractor.swift */; };
-		9F63430827FECF1000DDC4B3 /* HomeInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342F827FECF1000DDC4B3 /* HomeInteractorImpl.swift */; };
-		9F63430927FECF1000DDC4B3 /* HomeRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342FA27FECF1000DDC4B3 /* HomeRouterImpl.swift */; };
-		9F63430A27FECF1000DDC4B3 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6342FB27FECF1000DDC4B3 /* HomeRouter.swift */; };
 		9F63431E27FECF2100DDC4B3 /* HistoryPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63430D27FECF2100DDC4B3 /* HistoryPresenterImpl.swift */; };
 		9F63431F27FECF2100DDC4B3 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63430E27FECF2100DDC4B3 /* HistoryPresenter.swift */; };
 		9F63432027FECF2100DDC4B3 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63431127FECF2100DDC4B3 /* HeaderCell.swift */; };
@@ -177,14 +162,45 @@
 		9F63433A27FECF9000DDC4B3 /* BalanceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63432E27FECF9000DDC4B3 /* BalanceAPI.swift */; };
 		9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63432F27FECF9000DDC4B3 /* BalanceNetworkManager.swift */; };
 		9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433027FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift */; };
-		9F63433D27FECF9000DDC4B3 /* GetInvoiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433327FECF9000DDC4B3 /* GetInvoiceResponse.swift */; };
-		9F63433E27FECF9000DDC4B3 /* GetInvoiceDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433427FECF9000DDC4B3 /* GetInvoiceDataResponse.swift */; };
-		9F63433F27FECF9000DDC4B3 /* InvoiceNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433527FECF9000DDC4B3 /* InvoiceNetworkManager.swift */; };
-		9F63434027FECF9000DDC4B3 /* InvoiceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433627FECF9000DDC4B3 /* InvoiceNetworkManagerImpl.swift */; };
-		9F63434127FECF9000DDC4B3 /* InvoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433727FECF9000DDC4B3 /* InvoiceApi.swift */; };
-		9F63434327FED3AB00DDC4B3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F63434227FED3AB00DDC4B3 /* HomeViewController.xib */; };
 		9F63434527FED49E00DDC4B3 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F63434427FED49E00DDC4B3 /* HeaderCell.xib */; };
 		9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63434627FEDB9500DDC4B3 /* xx.swift */; };
+		A89482AB2806D23F00DC1DFB /* DetailsTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A52806D23F00DC1DFB /* DetailsTransaction.swift */; };
+		A89482AC2806D23F00DC1DFB /* GetInvoiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A62806D23F00DC1DFB /* GetInvoiceResponse.swift */; };
+		A89482AD2806D23F00DC1DFB /* GetInvoiceDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A72806D23F00DC1DFB /* GetInvoiceDataResponse.swift */; };
+		A89482AE2806D23F00DC1DFB /* InvoiceNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A82806D23F00DC1DFB /* InvoiceNetworkManager.swift */; };
+		A89482AF2806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A92806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift */; };
+		A89482B02806D23F00DC1DFB /* InvoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482AA2806D23F00DC1DFB /* InvoiceApi.swift */; };
+		A89482E02806D28300DC1DFB /* UserProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B32806D28300DC1DFB /* UserProfileEntity.swift */; };
+		A89482E12806D28300DC1DFB /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B42806D28300DC1DFB /* UserProfile.swift */; };
+		A89482E22806D28300DC1DFB /* HomePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B62806D28300DC1DFB /* HomePresenterImpl.swift */; };
+		A89482E32806D28300DC1DFB /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B72806D28300DC1DFB /* HomePresenter.swift */; };
+		A89482E42806D28300DC1DFB /* DashboardCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482BA2806D28300DC1DFB /* DashboardCellDelegate.swift */; };
+		A89482E52806D28300DC1DFB /* DashboardHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482BB2806D28300DC1DFB /* DashboardHomeCell.swift */; };
+		A89482E62806D28300DC1DFB /* DashboardHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89482BC2806D28300DC1DFB /* DashboardHomeCell.xib */; };
+		A89482E72806D28300DC1DFB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89482BE2806D28300DC1DFB /* HomeViewController.xib */; };
+		A89482E82806D28300DC1DFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482BF2806D28300DC1DFB /* HomeView.swift */; };
+		A89482E92806D28300DC1DFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C02806D28300DC1DFB /* HomeViewController.swift */; };
+		A89482EA2806D28300DC1DFB /* HomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C12806D28300DC1DFB /* HomeDataSource.swift */; };
+		A89482EB2806D28300DC1DFB /* HomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C32806D28300DC1DFB /* HomeInteractorOutput.swift */; };
+		A89482EC2806D28300DC1DFB /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C42806D28300DC1DFB /* HomeInteractor.swift */; };
+		A89482ED2806D28300DC1DFB /* HomeInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C52806D28300DC1DFB /* HomeInteractorImpl.swift */; };
+		A89482EE2806D28300DC1DFB /* HomeRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C72806D28300DC1DFB /* HomeRouterImpl.swift */; };
+		A89482EF2806D28300DC1DFB /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482C82806D28300DC1DFB /* HomeRouter.swift */; };
+		A89482F02806D28300DC1DFB /* InvoiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482CB2806D28300DC1DFB /* InvoiceResponse.swift */; };
+		A89482F12806D28300DC1DFB /* NotificationPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482CD2806D28300DC1DFB /* NotificationPresenterProtocol.swift */; };
+		A89482F22806D28300DC1DFB /* NotificationPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482CE2806D28300DC1DFB /* NotificationPresenterImpl.swift */; };
+		A89482F32806D28300DC1DFB /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482D12806D28300DC1DFB /* NotificationDelegate.swift */; };
+		A89482F42806D28300DC1DFB /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482D22806D28300DC1DFB /* NotificationViewCell.swift */; };
+		A89482F52806D28300DC1DFB /* NotificationViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89482D32806D28300DC1DFB /* NotificationViewCell.xib */; };
+		A89482F62806D28300DC1DFB /* NotifDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482D52806D28300DC1DFB /* NotifDataSource.swift */; };
+		A89482F72806D28300DC1DFB /* NotificationViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482D62806D28300DC1DFB /* NotificationViewProtocol.swift */; };
+		A89482F82806D28300DC1DFB /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89482D72806D28300DC1DFB /* NotificationViewController.xib */; };
+		A89482F92806D28300DC1DFB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482D82806D28300DC1DFB /* NotificationViewController.swift */; };
+		A89482FA2806D28300DC1DFB /* NotificationInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DA2806D28300DC1DFB /* NotificationInteractorImpl.swift */; };
+		A89482FB2806D28300DC1DFB /* NotificationInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DB2806D28300DC1DFB /* NotificationInteractorOutput.swift */; };
+		A89482FC2806D28300DC1DFB /* NotificationInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DC2806D28300DC1DFB /* NotificationInteractorProtocol.swift */; };
+		A89482FD2806D28300DC1DFB /* NotificationRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DE2806D28300DC1DFB /* NotificationRouterProtocol.swift */; };
+		A89482FE2806D28300DC1DFB /* NotificationRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DF2806D28300DC1DFB /* NotificationRouterImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -344,21 +360,6 @@
 		9F6342DD27FECE9200DDC4B3 /* TransactionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
 		9F6342DE27FECE9200DDC4B3 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		9F6342E327FECEFA00DDC4B3 /* TransactionEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionEntity.swift; sourceTree = "<group>"; };
-		9F6342E727FECF1000DDC4B3 /* UserProfileEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileEntity.swift; sourceTree = "<group>"; };
-		9F6342E827FECF1000DDC4B3 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
-		9F6342EA27FECF1000DDC4B3 /* HomePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenterImpl.swift; sourceTree = "<group>"; };
-		9F6342EB27FECF1000DDC4B3 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		9F6342EE27FECF1000DDC4B3 /* DashboardCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCellDelegate.swift; sourceTree = "<group>"; };
-		9F6342EF27FECF1000DDC4B3 /* DashboardHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardHomeCell.swift; sourceTree = "<group>"; };
-		9F6342F027FECF1000DDC4B3 /* DashboardHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardHomeCell.xib; sourceTree = "<group>"; };
-		9F6342F227FECF1000DDC4B3 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		9F6342F327FECF1000DDC4B3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		9F6342F427FECF1000DDC4B3 /* HomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
-		9F6342F627FECF1000DDC4B3 /* HomeInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorOutput.swift; sourceTree = "<group>"; };
-		9F6342F727FECF1000DDC4B3 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		9F6342F827FECF1000DDC4B3 /* HomeInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorImpl.swift; sourceTree = "<group>"; };
-		9F6342FA27FECF1000DDC4B3 /* HomeRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouterImpl.swift; sourceTree = "<group>"; };
-		9F6342FB27FECF1000DDC4B3 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		9F63430D27FECF2100DDC4B3 /* HistoryPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPresenterImpl.swift; sourceTree = "<group>"; };
 		9F63430E27FECF2100DDC4B3 /* HistoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
 		9F63431127FECF2100DDC4B3 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
@@ -376,14 +377,45 @@
 		9F63432E27FECF9000DDC4B3 /* BalanceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceAPI.swift; sourceTree = "<group>"; };
 		9F63432F27FECF9000DDC4B3 /* BalanceNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceNetworkManager.swift; sourceTree = "<group>"; };
 		9F63433027FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceNetworkManagerImpl.swift; sourceTree = "<group>"; };
-		9F63433327FECF9000DDC4B3 /* GetInvoiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceResponse.swift; sourceTree = "<group>"; };
-		9F63433427FECF9000DDC4B3 /* GetInvoiceDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceDataResponse.swift; sourceTree = "<group>"; };
-		9F63433527FECF9000DDC4B3 /* InvoiceNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManager.swift; sourceTree = "<group>"; };
-		9F63433627FECF9000DDC4B3 /* InvoiceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManagerImpl.swift; sourceTree = "<group>"; };
-		9F63433727FECF9000DDC4B3 /* InvoiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceApi.swift; sourceTree = "<group>"; };
-		9F63434227FED3AB00DDC4B3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		9F63434427FED49E00DDC4B3 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		9F63434627FEDB9500DDC4B3 /* xx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xx.swift; sourceTree = "<group>"; };
+		A89482A52806D23F00DC1DFB /* DetailsTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTransaction.swift; sourceTree = "<group>"; };
+		A89482A62806D23F00DC1DFB /* GetInvoiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceResponse.swift; sourceTree = "<group>"; };
+		A89482A72806D23F00DC1DFB /* GetInvoiceDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceDataResponse.swift; sourceTree = "<group>"; };
+		A89482A82806D23F00DC1DFB /* InvoiceNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManager.swift; sourceTree = "<group>"; };
+		A89482A92806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		A89482AA2806D23F00DC1DFB /* InvoiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceApi.swift; sourceTree = "<group>"; };
+		A89482B32806D28300DC1DFB /* UserProfileEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileEntity.swift; sourceTree = "<group>"; };
+		A89482B42806D28300DC1DFB /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		A89482B62806D28300DC1DFB /* HomePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenterImpl.swift; sourceTree = "<group>"; };
+		A89482B72806D28300DC1DFB /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		A89482BA2806D28300DC1DFB /* DashboardCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCellDelegate.swift; sourceTree = "<group>"; };
+		A89482BB2806D28300DC1DFB /* DashboardHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardHomeCell.swift; sourceTree = "<group>"; };
+		A89482BC2806D28300DC1DFB /* DashboardHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardHomeCell.xib; sourceTree = "<group>"; };
+		A89482BE2806D28300DC1DFB /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A89482BF2806D28300DC1DFB /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A89482C02806D28300DC1DFB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A89482C12806D28300DC1DFB /* HomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataSource.swift; sourceTree = "<group>"; };
+		A89482C32806D28300DC1DFB /* HomeInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorOutput.swift; sourceTree = "<group>"; };
+		A89482C42806D28300DC1DFB /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		A89482C52806D28300DC1DFB /* HomeInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorImpl.swift; sourceTree = "<group>"; };
+		A89482C72806D28300DC1DFB /* HomeRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouterImpl.swift; sourceTree = "<group>"; };
+		A89482C82806D28300DC1DFB /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		A89482CB2806D28300DC1DFB /* InvoiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceResponse.swift; sourceTree = "<group>"; };
+		A89482CD2806D28300DC1DFB /* NotificationPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPresenterProtocol.swift; sourceTree = "<group>"; };
+		A89482CE2806D28300DC1DFB /* NotificationPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPresenterImpl.swift; sourceTree = "<group>"; };
+		A89482D12806D28300DC1DFB /* NotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		A89482D22806D28300DC1DFB /* NotificationViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
+		A89482D32806D28300DC1DFB /* NotificationViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewCell.xib; sourceTree = "<group>"; };
+		A89482D52806D28300DC1DFB /* NotifDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifDataSource.swift; sourceTree = "<group>"; };
+		A89482D62806D28300DC1DFB /* NotificationViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewProtocol.swift; sourceTree = "<group>"; };
+		A89482D72806D28300DC1DFB /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		A89482D82806D28300DC1DFB /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		A89482DA2806D28300DC1DFB /* NotificationInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationInteractorImpl.swift; sourceTree = "<group>"; };
+		A89482DB2806D28300DC1DFB /* NotificationInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationInteractorOutput.swift; sourceTree = "<group>"; };
+		A89482DC2806D28300DC1DFB /* NotificationInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationInteractorProtocol.swift; sourceTree = "<group>"; };
+		A89482DE2806D28300DC1DFB /* NotificationRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRouterProtocol.swift; sourceTree = "<group>"; };
+		A89482DF2806D28300DC1DFB /* NotificationRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRouterImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -991,6 +1023,10 @@
 				3668D72527FFD79200C20205 /* Transfer */,
 				9F63432A27FECF9000DDC4B3 /* Balance */,
 				9F63433127FECF9000DDC4B3 /* Invoice */,
+				A89482A32806D23F00DC1DFB /* Invoice */,
+				3668D72527FFD79200C20205 /* Transfer */,
+				9F63432A27FECF9000DDC4B3 /* Balance */,
+				9F6101D527FEC65D00BB9AD6 /* Auth */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -1038,6 +1074,10 @@
 				9F63430B27FECF2100DDC4B3 /* HistoryModule */,
 				56320EF02805CA1C00654F66 /* RegisterModule */,
 				9F6342E527FECF1000DDC4B3 /* HomeModule */,
+				A89482B12806D28300DC1DFB /* HomeModule */,
+				A89482C92806D28300DC1DFB /* Notification */,
+				3668D70B27FFD77300C20205 /* TransferModule */,
+				9F63430B27FECF2100DDC4B3 /* HistoryModule */,
 				9F6101FB27FEC69E00BB9AD6 /* LoginModule */,
 			);
 			path = Module;
@@ -1148,85 +1188,6 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		9F6342E527FECF1000DDC4B3 /* HomeModule */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342E627FECF1000DDC4B3 /* Entity */,
-				9F6342E927FECF1000DDC4B3 /* Presenter */,
-				9F6342EC27FECF1000DDC4B3 /* View */,
-				9F6342F527FECF1000DDC4B3 /* Interactor */,
-				9F6342F927FECF1000DDC4B3 /* Router */,
-			);
-			path = HomeModule;
-			sourceTree = "<group>";
-		};
-		9F6342E627FECF1000DDC4B3 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342E727FECF1000DDC4B3 /* UserProfileEntity.swift */,
-				9F6342E827FECF1000DDC4B3 /* UserProfile.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		9F6342E927FECF1000DDC4B3 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342EA27FECF1000DDC4B3 /* HomePresenterImpl.swift */,
-				9F6342EB27FECF1000DDC4B3 /* HomePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		9F6342EC27FECF1000DDC4B3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342ED27FECF1000DDC4B3 /* Cell */,
-				9F6342F127FECF1000DDC4B3 /* ViewController */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9F6342ED27FECF1000DDC4B3 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342EE27FECF1000DDC4B3 /* DashboardCellDelegate.swift */,
-				9F6342EF27FECF1000DDC4B3 /* DashboardHomeCell.swift */,
-				9F6342F027FECF1000DDC4B3 /* DashboardHomeCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		9F6342F127FECF1000DDC4B3 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				9F63434227FED3AB00DDC4B3 /* HomeViewController.xib */,
-				9F6342F227FECF1000DDC4B3 /* HomeView.swift */,
-				9F6342F327FECF1000DDC4B3 /* HomeViewController.swift */,
-				9F6342F427FECF1000DDC4B3 /* HomeDataSource.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		9F6342F527FECF1000DDC4B3 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342F627FECF1000DDC4B3 /* HomeInteractorOutput.swift */,
-				9F6342F727FECF1000DDC4B3 /* HomeInteractor.swift */,
-				9F6342F827FECF1000DDC4B3 /* HomeInteractorImpl.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		9F6342F927FECF1000DDC4B3 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				9F6342FA27FECF1000DDC4B3 /* HomeRouterImpl.swift */,
-				9F6342FB27FECF1000DDC4B3 /* HomeRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		9F63430B27FECF2100DDC4B3 /* HistoryModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -1315,24 +1276,183 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
-		9F63433127FECF9000DDC4B3 /* Invoice */ = {
+		A89482A32806D23F00DC1DFB /* Invoice */ = {
 			isa = PBXGroup;
 			children = (
-				9F63433227FECF9000DDC4B3 /* Response */,
-				9F63433527FECF9000DDC4B3 /* InvoiceNetworkManager.swift */,
-				9F63433627FECF9000DDC4B3 /* InvoiceNetworkManagerImpl.swift */,
-				9F63433727FECF9000DDC4B3 /* InvoiceApi.swift */,
+				A89482A42806D23F00DC1DFB /* Response */,
+				A89482A82806D23F00DC1DFB /* InvoiceNetworkManager.swift */,
+				A89482A92806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift */,
+				A89482AA2806D23F00DC1DFB /* InvoiceApi.swift */,
 			);
-			path = Invoice;
+			name = Invoice;
+			path = ../../../Desktop/Invoice;
 			sourceTree = "<group>";
 		};
-		9F63433227FECF9000DDC4B3 /* Response */ = {
+		A89482A42806D23F00DC1DFB /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				9F63433327FECF9000DDC4B3 /* GetInvoiceResponse.swift */,
-				9F63433427FECF9000DDC4B3 /* GetInvoiceDataResponse.swift */,
+				A89482A52806D23F00DC1DFB /* DetailsTransaction.swift */,
+				A89482A62806D23F00DC1DFB /* GetInvoiceResponse.swift */,
+				A89482A72806D23F00DC1DFB /* GetInvoiceDataResponse.swift */,
 			);
 			path = Response;
+			sourceTree = "<group>";
+		};
+		A89482B12806D28300DC1DFB /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				A89482B22806D28300DC1DFB /* Entity */,
+				A89482B52806D28300DC1DFB /* Presenter */,
+				A89482B82806D28300DC1DFB /* View */,
+				A89482BD2806D28300DC1DFB /* ViewController */,
+				A89482C22806D28300DC1DFB /* Interactor */,
+				A89482C62806D28300DC1DFB /* Router */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		A89482B22806D28300DC1DFB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A89482B32806D28300DC1DFB /* UserProfileEntity.swift */,
+				A89482B42806D28300DC1DFB /* UserProfile.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A89482B52806D28300DC1DFB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A89482B62806D28300DC1DFB /* HomePresenterImpl.swift */,
+				A89482B72806D28300DC1DFB /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A89482B82806D28300DC1DFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A89482B92806D28300DC1DFB /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A89482B92806D28300DC1DFB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A89482BA2806D28300DC1DFB /* DashboardCellDelegate.swift */,
+				A89482BB2806D28300DC1DFB /* DashboardHomeCell.swift */,
+				A89482BC2806D28300DC1DFB /* DashboardHomeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A89482BD2806D28300DC1DFB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A89482BE2806D28300DC1DFB /* HomeViewController.xib */,
+				A89482BF2806D28300DC1DFB /* HomeView.swift */,
+				A89482C02806D28300DC1DFB /* HomeViewController.swift */,
+				A89482C12806D28300DC1DFB /* HomeDataSource.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A89482C22806D28300DC1DFB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A89482C32806D28300DC1DFB /* HomeInteractorOutput.swift */,
+				A89482C42806D28300DC1DFB /* HomeInteractor.swift */,
+				A89482C52806D28300DC1DFB /* HomeInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A89482C62806D28300DC1DFB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A89482C72806D28300DC1DFB /* HomeRouterImpl.swift */,
+				A89482C82806D28300DC1DFB /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A89482C92806D28300DC1DFB /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				A89482CA2806D28300DC1DFB /* Entity */,
+				A89482CC2806D28300DC1DFB /* Presenter */,
+				A89482CF2806D28300DC1DFB /* View */,
+				A89482D92806D28300DC1DFB /* Interactor */,
+				A89482DD2806D28300DC1DFB /* Router */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		A89482CA2806D28300DC1DFB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A89482CB2806D28300DC1DFB /* InvoiceResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A89482CC2806D28300DC1DFB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A89482CD2806D28300DC1DFB /* NotificationPresenterProtocol.swift */,
+				A89482CE2806D28300DC1DFB /* NotificationPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A89482CF2806D28300DC1DFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A89482D02806D28300DC1DFB /* Cell */,
+				A89482D42806D28300DC1DFB /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A89482D02806D28300DC1DFB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A89482D12806D28300DC1DFB /* NotificationDelegate.swift */,
+				A89482D22806D28300DC1DFB /* NotificationViewCell.swift */,
+				A89482D32806D28300DC1DFB /* NotificationViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A89482D42806D28300DC1DFB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A89482D52806D28300DC1DFB /* NotifDataSource.swift */,
+				A89482D62806D28300DC1DFB /* NotificationViewProtocol.swift */,
+				A89482D72806D28300DC1DFB /* NotificationViewController.xib */,
+				A89482D82806D28300DC1DFB /* NotificationViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A89482D92806D28300DC1DFB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A89482DA2806D28300DC1DFB /* NotificationInteractorImpl.swift */,
+				A89482DB2806D28300DC1DFB /* NotificationInteractorOutput.swift */,
+				A89482DC2806D28300DC1DFB /* NotificationInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A89482DD2806D28300DC1DFB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A89482DE2806D28300DC1DFB /* NotificationRouterProtocol.swift */,
+				A89482DF2806D28300DC1DFB /* NotificationRouterImpl.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1458,6 +1578,8 @@
 				9F6101CC27FEC63F00BB9AD6 /* hatta.jpeg in Resources */,
 				9F61026127FEC6AC00BB9AD6 /* NunitoSans-Bold.ttf in Resources */,
 				9F61019D27FEC2DA00BB9AD6 /* LaunchScreen.storyboard in Resources */,
+				A89482F82806D28300DC1DFB /* NotificationViewController.xib in Resources */,
+				A89482F52806D28300DC1DFB /* NotificationViewCell.xib in Resources */,
 				9F61019A27FEC2DA00BB9AD6 /* Assets.xcassets in Resources */,
 				9F61026227FEC6AC00BB9AD6 /* NunitoSans-SemiBold.ttf in Resources */,
 				9F61019827FEC2D900BB9AD6 /* Main.storyboard in Resources */,
@@ -1472,7 +1594,11 @@
 				9F63434327FED3AB00DDC4B3 /* HomeViewController.xib in Resources */,
 				29DFE8BE28055B9A0065D615 /* ProfileViewController.xib in Resources */,
 				9F335BF52805DBC0009BDD28 /* CreatePINViewController.xib in Resources */,
+				A89482E62806D28300DC1DFB /* DashboardHomeCell.xib in Resources */,
+				9F61024F27FEC69E00BB9AD6 /* RegisterViewController.xib in Resources */,
+				9F6342DF27FECE9200DDC4B3 /* TransactionCell.xib in Resources */,
 				3668D71F27FFD77300C20205 /* TransferViewController.xib in Resources */,
+				A89482E72806D28300DC1DFB /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1499,6 +1625,9 @@
 			files = (
 				9F335BF82805DBC0009BDD28 /* CreatePINInteractorImpl.swift in Sources */,
 				29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */,
+				A89482F92806D28300DC1DFB /* NotificationViewController.swift in Sources */,
+				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
+				A89482B02806D23F00DC1DFB /* InvoiceApi.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
 				56320F072805CA1C00654F66 /* RegisterViewController.swift in Sources */,
 				9F335BFA2805DBC0009BDD28 /* CreatePINRouterProtocol.swift in Sources */,
@@ -1511,11 +1640,14 @@
 				9F63433927FECF9000DDC4B3 /* GetBalanceResponse.swift in Sources */,
 				9F335C002805DBFA009BDD28 /* CreatePINNetworkManager.swift in Sources */,
 				9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */,
+				A89482FC2806D28300DC1DFB /* NotificationInteractorProtocol.swift in Sources */,
 				3668D72B27FFD79200C20205 /* TransferNetworkManagerImpl.swift in Sources */,
 				9F63430127FECF1000DDC4B3 /* DashboardHomeCell.swift in Sources */,
 				9F335BFF2805DBFA009BDD28 /* CreatePINNetworkManagerImpl.swift in Sources */,
 				56320EEE2805C96700654F66 /* AuthNetworkManager.swift in Sources */,
+				9F61025627FEC69E00BB9AD6 /* RegisterRouterProtocol.swift in Sources */,
 				9F61023327FEC69E00BB9AD6 /* LoginResponse.swift in Sources */,
+				A89482AF2806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift in Sources */,
 				9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */,
 				56BD7F6B2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift in Sources */,
 				56320F0A2805CA1C00654F66 /* RegisterInteractorProtocol.swift in Sources */,
@@ -1525,6 +1657,14 @@
 				9F63432827FECF2100DDC4B3 /* HistoryRouterImpl.swift in Sources */,
 				3630F3E527FEDDF60045AEBB /* yy.swift in Sources */,
 				29DFE8BC28055B9A0065D615 /* ProfilePresenterImpl.swift in Sources */,
+				9F63432827FECF2100DDC4B3 /* HistoryRouterImpl.swift in Sources */,
+				3630F3E527FEDDF60045AEBB /* yy.swift in Sources */,
+				9F6101E527FEC65D00BB9AD6 /* AuthApi.swift in Sources */,
+				A89482FB2806D28300DC1DFB /* NotificationInteractorOutput.swift in Sources */,
+				A89482FE2806D28300DC1DFB /* NotificationRouterImpl.swift in Sources */,
+				A89482E02806D28300DC1DFB /* UserProfileEntity.swift in Sources */,
+				A89482EB2806D28300DC1DFB /* HomeInteractorOutput.swift in Sources */,
+				A89482EA2806D28300DC1DFB /* HomeDataSource.swift in Sources */,
 				9F6101F727FEC68A00BB9AD6 /* UserDefaultHelper.swift in Sources */,
 				3668D71D27FFD77300C20205 /* TransferViewController.swift in Sources */,
 				9F335BF32805DBC0009BDD28 /* CreatePINViewController.swift in Sources */,
@@ -1535,22 +1675,30 @@
 				29DFE8C328055B9A0065D615 /* ProfileRouter.swift in Sources */,
 				56BD7F4B2803D115003A60A1 /* TopUpRouterProtocol.swift in Sources */,
 				9F63432727FECF2100DDC4B3 /* HistoryInteractorOutput.swift in Sources */,
+				A89482E12806D28300DC1DFB /* UserProfile.swift in Sources */,
+				A89482F32806D28300DC1DFB /* NotificationDelegate.swift in Sources */,
 				9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */,
 				3668D72127FFD77300C20205 /* TransferInteractorProtocol.swift in Sources */,
 				9F61023227FEC69E00BB9AD6 /* LoginDataResponse.swift in Sources */,
 				9F335BF72805DBC0009BDD28 /* CreatePINInteractorOutput.swift in Sources */,
 				9F6101F627FEC68A00BB9AD6 /* UIViewExtension.swift in Sources */,
+				A89482E22806D28300DC1DFB /* HomePresenterImpl.swift in Sources */,
 				9F63432627FECF2100DDC4B3 /* HistoryInteractor.swift in Sources */,
 				9F335C012805DBFA009BDD28 /* CreatePINApi.swift in Sources */,
 				3668D71B27FFD77300C20205 /* TransferPresenterImpl.swift in Sources */,
 				29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */,
 				9F63433E27FECF9000DDC4B3 /* GetInvoiceDataResponse.swift in Sources */,
 				56320EE42805C92A00654F66 /* OTPInteractorOutput.swift in Sources */,
+				A89482ED2806D28300DC1DFB /* HomeInteractorImpl.swift in Sources */,
+				9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */,
+				A89482F72806D28300DC1DFB /* NotificationViewProtocol.swift in Sources */,
 				9F63432027FECF2100DDC4B3 /* HeaderCell.swift in Sources */,
 				29DFE8BA28055B9A0065D615 /* EditPhoneRouter.swift in Sources */,
 				56BD7F512803D273003A60A1 /* TopUpInteractorImpl.swift in Sources */,
 				9F61023927FEC69E00BB9AD6 /* LoginInteractorImpl.swift in Sources */,
 				9F6101F827FEC68A00BB9AD6 /* AppRouter.swift in Sources */,
+				A89482EE2806D28300DC1DFB /* HomeRouterImpl.swift in Sources */,
+				A89482FD2806D28300DC1DFB /* NotificationRouterProtocol.swift in Sources */,
 				9F6101F927FEC68A00BB9AD6 /* AppConstant.swift in Sources */,
 				56BD7F612803EA78003A60A1 /* ChangePasswordPresenterImpl.swift in Sources */,
 				5695526F2804782800F17423 /* ChangePasswordNetworkManager.swift in Sources */,
@@ -1562,6 +1710,9 @@
 				9F6342E027FECE9200DDC4B3 /* TransactionCell.swift in Sources */,
 				56320EE72805C92A00654F66 /* OTPRouterImpl.swift in Sources */,
 				56320EE32805C92A00654F66 /* OTPViewProtocol.swift in Sources */,
+				9F61024E27FEC69E00BB9AD6 /* RegisterPresenterProtocol.swift in Sources */,
+				9F6342E027FECE9200DDC4B3 /* TransactionCell.swift in Sources */,
+				A89482F62806D28300DC1DFB /* NotifDataSource.swift in Sources */,
 				9F61023827FEC69E00BB9AD6 /* LoginViewProtocol.swift in Sources */,
 				56320EE22805C92A00654F66 /* OTPViewController.swift in Sources */,
 				9F63431F27FECF2100DDC4B3 /* HistoryPresenter.swift in Sources */,
@@ -1586,16 +1737,30 @@
 				29DFE8B928055B9A0065D615 /* EditPhoneRouterImpl.swift in Sources */,
 				56320F052805CA1C00654F66 /* RegisterPresenterProtocol.swift in Sources */,
 				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
+				A89482E42806D28300DC1DFB /* DashboardCellDelegate.swift in Sources */,
+				A89482FA2806D28300DC1DFB /* NotificationInteractorImpl.swift in Sources */,
+				3668D71C27FFD77300C20205 /* TransferPresenterProtocol.swift in Sources */,
+				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
+				9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */,
+				A89482AE2806D23F00DC1DFB /* InvoiceNetworkManager.swift in Sources */,
+				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
+				A89482EC2806D28300DC1DFB /* HomeInteractor.swift in Sources */,
 				3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */,
 				56320F0D2805CA1C00654F66 /* RegisterRouterProtocol.swift in Sources */,
 				9F61023C27FEC69E00BB9AD6 /* LoginRouterProtocol.swift in Sources */,
 				9F61023B27FEC69E00BB9AD6 /* LoginInteractorProtocol.swift in Sources */,
 				9F63432327FECF2100DDC4B3 /* HistoryViewController.swift in Sources */,
+				A89482F22806D28300DC1DFB /* NotificationPresenterImpl.swift in Sources */,
+				A89482F12806D28300DC1DFB /* NotificationPresenterProtocol.swift in Sources */,
 				3668D72A27FFD79200C20205 /* TransferNetworkManager.swift in Sources */,
 				56320EE02805C92A00654F66 /* OTPPresenterImpl.swift in Sources */,
 				9F63430A27FECF1000DDC4B3 /* HomeRouter.swift in Sources */,
 				9F63431E27FECF2100DDC4B3 /* HistoryPresenterImpl.swift in Sources */,
 				56BD7F672803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift in Sources */,
+				9F63431E27FECF2100DDC4B3 /* HistoryPresenterImpl.swift in Sources */,
+				9F61025227FEC69E00BB9AD6 /* RegisterInteractorImpl.swift in Sources */,
+				A89482AC2806D23F00DC1DFB /* GetInvoiceResponse.swift in Sources */,
+				A89482AB2806D23F00DC1DFB /* DetailsTransaction.swift in Sources */,
 				9F63433827FECF9000DDC4B3 /* GetBalanceDataResponse.swift in Sources */,
 				9F61023A27FEC69E00BB9AD6 /* LoginInteractorOutput.swift in Sources */,
 				56BD7F4F2803D260003A60A1 /* TopUpInteractorProtocol.swift in Sources */,
@@ -1614,6 +1779,8 @@
 				5695526D2804781600F17423 /* ChangePasswordAPI.swift in Sources */,
 				9F63433F27FECF9000DDC4B3 /* InvoiceNetworkManager.swift in Sources */,
 				9F6342FE27FECF1000DDC4B3 /* HomePresenterImpl.swift in Sources */,
+				9F61025327FEC69E00BB9AD6 /* RegisterInteractorProtocol.swift in Sources */,
+				9F61024C27FEC69E00BB9AD6 /* RegisterDataResponse.swift in Sources */,
 				3668D71E27FFD77300C20205 /* TransferView.swift in Sources */,
 				56320F092805CA1C00654F66 /* RegisterInteractorImpl.swift in Sources */,
 				9F61023527FEC69E00BB9AD6 /* LoginPresenterImpl.swift in Sources */,
@@ -1629,6 +1796,10 @@
 				29DFE8C228055B9A0065D615 /* ProfileInteractor.swift in Sources */,
 				9F63430927FECF1000DDC4B3 /* HomeRouterImpl.swift in Sources */,
 				9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */,
+				9F61023D27FEC69E00BB9AD6 /* LoginRouterImpl.swift in Sources */,
+				9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */,
+				A89482AD2806D23F00DC1DFB /* GetInvoiceDataResponse.swift in Sources */,
+				9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */,
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,
 				56320EE62805C92A00654F66 /* OTPInteractorImpl.swift in Sources */,
 				3668D72327FFD77300C20205 /* TransferRouterImpl.swift in Sources */,
@@ -1645,6 +1816,17 @@
 				5637AA712801EE7A006CB449 /* TopUpViewController.swift in Sources */,
 				56BD7F5E2803E660003A60A1 /* ChangePasswordViewController.swift in Sources */,
 				56320F022805CA1C00654F66 /* RegisterResponse.swift in Sources */,
+				A89482F42806D28300DC1DFB /* NotificationViewCell.swift in Sources */,
+				9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */,
+				A89482E32806D28300DC1DFB /* HomePresenter.swift in Sources */,
+				A89482E82806D28300DC1DFB /* HomeView.swift in Sources */,
+				A89482EF2806D28300DC1DFB /* HomeRouter.swift in Sources */,
+				9F6101E727FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift in Sources */,
+				A89482E92806D28300DC1DFB /* HomeViewController.swift in Sources */,
+				9F61025127FEC69E00BB9AD6 /* RegisterViewProtocol.swift in Sources */,
+				A89482E52806D28300DC1DFB /* DashboardHomeCell.swift in Sources */,
+				A89482F02806D28300DC1DFB /* InvoiceResponse.swift in Sources */,
+
 				9F63432927FECF2100DDC4B3 /* HistoryRouter.swift in Sources */,
 				3668D72427FFD77300C20205 /* TransferRouterProtocol.swift in Sources */,
 			);

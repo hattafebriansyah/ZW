@@ -30,6 +30,10 @@ public class HomeRouterImpl {
 
 
 extension HomeRouterImpl: HomeRouter {
+    func navigateToNotification(viewController: UIViewController) {
+        NotificationRouterImpl.NavigateToModule(viewController : viewController)
+    }
+    
     func navigateToTransfer(viewController : UIViewController) {
         TransferRouterImpl.navigateToModule(viewController : viewController)
         

@@ -14,4 +14,5 @@ protocol HomeRouter {
     func navigateToTransfer(viewController :UIViewController)
     func navigateToProfile(viewController: UIViewController)
     func navigateToTopUp(viewController :UIViewController)
+    func navigateToNotification(viewController : UIViewController)
 }
