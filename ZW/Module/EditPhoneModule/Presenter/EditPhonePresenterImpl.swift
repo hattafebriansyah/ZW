@@ -37,10 +37,8 @@ class EditPhonePresenterImpl: EditPhonePresenter {
 extension EditPhonePresenterImpl: EditPhoneInteractorOutput {
     func theSuccess(isSuccess: Bool) {
         if isSuccess {
-            print("sukses")
             self.view.showAllert()
         } else{
-            print("gagal")
             self.view.showAllertFailed()
         }
     }

@@ -9,6 +9,8 @@ import Foundation
 import Moya
 
 public class BalanceNetworkManagerImpl: BalanceNetworkManager {
+   
+    
     public init() {
         
     }
@@ -31,14 +33,14 @@ public class BalanceNetworkManagerImpl: BalanceNetworkManager {
         }
     }
     
-    public func editPhone(phone: String, completion: @escaping (GetBalanceResponse?, Error?) -> ()) {
+    public func editPhone(phone: String, completion: @escaping (EditPhoneResponse?, Error?) -> ()) {
         let provider = MoyaProvider<BalanceApi>()
             provider.request(.patchProfile(phone: phone)) { response in
             switch response {
             case .success(let result):
                 let decoder = JSONDecoder()
                 do {
-                    let editPhoneResponse = try decoder.decode(GetBalanceResponse.self, from: result.data)
+                    let editPhoneResponse = try decoder.decode(EditPhoneResponse.self, from: result.data)
                     completion(editPhoneResponse, nil)
                 } catch let error {
                     completion(nil, error)

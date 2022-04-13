@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B3E1332806B4B300B35A40 /* EditPhoneResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B3E1322806B4B300B35A40 /* EditPhoneResponse.swift */; };
 		29DFE8B128055B9A0065D615 /* EditPhonePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89528055B9A0065D615 /* EditPhonePresenterImpl.swift */; };
 		29DFE8B228055B9A0065D615 /* EditPhonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89628055B9A0065D615 /* EditPhonePresenter.swift */; };
 		29DFE8B328055B9A0065D615 /* EditPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFE89828055B9A0065D615 /* EditPhoneView.swift */; };
@@ -190,6 +191,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29B3E1322806B4B300B35A40 /* EditPhoneResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneResponse.swift; sourceTree = "<group>"; };
 		29DFE89528055B9A0065D615 /* EditPhonePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhonePresenterImpl.swift; sourceTree = "<group>"; };
 		29DFE89628055B9A0065D615 /* EditPhonePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhonePresenter.swift; sourceTree = "<group>"; };
 		29DFE89828055B9A0065D615 /* EditPhoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhoneView.swift; sourceTree = "<group>"; };
@@ -384,9 +386,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B3E1312806B48800B35A40 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				29B3E1322806B4B300B35A40 /* EditPhoneResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		29DFE89328055B9A0065D615 /* EditPhoneModule */ = {
 			isa = PBXGroup;
 			children = (
+				29B3E1312806B48800B35A40 /* Entity */,
 				29DFE89428055B9A0065D615 /* Presenter */,
 				29DFE89728055B9A0065D615 /* View */,
 				29DFE89B28055B9A0065D615 /* Interactor */,
@@ -1387,7 +1398,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
 				29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
 				56320F072805CA1C00654F66 /* RegisterViewController.swift in Sources */,
@@ -1412,7 +1422,6 @@
 				9F63432827FECF2100DDC4B3 /* HistoryRouterImpl.swift in Sources */,
 				3630F3E527FEDDF60045AEBB /* yy.swift in Sources */,
 				29DFE8BC28055B9A0065D615 /* ProfilePresenterImpl.swift in Sources */,
-				9F6101E527FEC65D00BB9AD6 /* AuthApi.swift in Sources */,
 				9F6101F727FEC68A00BB9AD6 /* UserDefaultHelper.swift in Sources */,
 				3668D71D27FFD77300C20205 /* TransferViewController.swift in Sources */,
 				3668D72027FFD77300C20205 /* TransferInteractorOutputProtocol.swift in Sources */,
@@ -1428,7 +1437,6 @@
 				9F6101F627FEC68A00BB9AD6 /* UIViewExtension.swift in Sources */,
 				9F63432627FECF2100DDC4B3 /* HistoryInteractor.swift in Sources */,
 				3668D71B27FFD77300C20205 /* TransferPresenterImpl.swift in Sources */,
-				9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */,
 				29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */,
 				9F63433E27FECF9000DDC4B3 /* GetInvoiceDataResponse.swift in Sources */,
 				56320EE42805C92A00654F66 /* OTPInteractorOutput.swift in Sources */,
@@ -1464,11 +1472,9 @@
 				9F63430627FECF1000DDC4B3 /* HomeInteractorOutput.swift in Sources */,
 				29DFE8B728055B9A0065D615 /* EditPhoneInteractor.swift in Sources */,
 				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
-				9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */,
 				29DFE8B828055B9A0065D615 /* EditPhoneInteractorOutput.swift in Sources */,
 				29DFE8B428055B9A0065D615 /* EditPhoneViewController.swift in Sources */,
 				29DFE8B928055B9A0065D615 /* EditPhoneRouterImpl.swift in Sources */,
-				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
 				56320F052805CA1C00654F66 /* RegisterPresenterProtocol.swift in Sources */,
 				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
 				3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */,
@@ -1518,9 +1524,8 @@
 				3668D72327FFD77300C20205 /* TransferRouterImpl.swift in Sources */,
 				29DFE8B328055B9A0065D615 /* EditPhoneView.swift in Sources */,
 				29DFE8C028055B9A0065D615 /* ProfileInteractorImpl.swift in Sources */,
+				29B3E1332806B4B300B35A40 /* EditPhoneResponse.swift in Sources */,
 				9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */,
-				9F6101E727FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift in Sources */,
-				9F61025127FEC69E00BB9AD6 /* RegisterViewProtocol.swift in Sources */,
 				29DFE8B228055B9A0065D615 /* EditPhonePresenter.swift in Sources */,
 				29DFE8B628055B9A0065D615 /* EditPhoneInteractorImpl.swift in Sources */,
 				56BD7F7128040204003A60A1 /* ChangePasswordViewProtocol.swift in Sources */,
