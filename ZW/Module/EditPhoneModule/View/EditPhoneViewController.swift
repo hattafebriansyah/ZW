@@ -25,12 +25,8 @@ class EditPhoneViewController: UIViewController {
     
     @IBAction func btnSubmit(_ sender: Any) {
         let phone = phoneNoTF.text ?? ""
-        if (phone == ""){
-            showAllertFailed()
-        } else {
-            self.presenter?.editPhone(phone: phone)
-            
-        }
+        
+        self.presenter?.editPhone(phone: phone)
     }
 }
 
@@ -51,7 +47,7 @@ extension EditPhoneViewController: EditPhoneView {
         preferredStyle: UIAlertController.Style.alert)
        
        alert.addAction(UIAlertAction(
-            title: "Back to Home",
+            title: "Back to Profile",
             style: UIAlertAction.Style.default,
             handler: {(_: UIAlertAction!) in
                 
@@ -67,7 +63,7 @@ extension EditPhoneViewController: EditPhoneView {
          preferredStyle: UIAlertController.Style.alert)
         
         alert.addAction(UIAlertAction(
-             title: "Back to Home",
+             title: "Back to Profile",
              style: UIAlertAction.Style.default,
              handler: {(_: UIAlertAction!) in
                  self.showbackToProfile()
