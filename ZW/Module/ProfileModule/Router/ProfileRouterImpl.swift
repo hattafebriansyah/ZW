@@ -33,4 +33,8 @@ extension ProfileRouterImpl: ProfileRouter {
     func navigateToHome(viewController: UIViewController) {
         viewController.dismiss(animated: true, completion: nil)
     }
+    
+    func navigateToChangePasssword(viewController: UIViewController) {
+        ChangePasswordRouterImpl.navigateToModule()
+    }
 }

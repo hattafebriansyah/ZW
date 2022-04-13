@@ -30,9 +30,16 @@ class ProfileViewController: UIViewController {
             self.presenter?.showEditPhone(viewController: self, profile: profile)
         }
     }
+
     @IBAction func backBtn(_ sender: Any) {
         self.presenter?.backToHome(viewController: self)
     }
+    
+    
+    @IBAction func changePasswordBtn(_ sender: Any) {
+        self.presenter?.showChangePassword(viewController: self)
+    }
+    
 }
 
 extension ProfileViewController: ProfileView {
