@@ -43,6 +43,8 @@ extension LoginPresenterImpl: LoginInteractorOutputProtocol {
             else {
                 self.router.navigateToHome()
             }
+        } else {
+            self.view.showError()
         }
     }
     
