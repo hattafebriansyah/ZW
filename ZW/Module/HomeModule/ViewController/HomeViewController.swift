@@ -35,6 +35,9 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: DashboardCellDelegate {
+    func showNotification() {
+        self.presenter?.showNotification(viewController: self)
+    }
     func showTransfer() {
         self.presenter?.showTranfer(viewController: self)
     }

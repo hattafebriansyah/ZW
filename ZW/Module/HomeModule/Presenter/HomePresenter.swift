@@ -14,5 +14,6 @@ protocol HomePresenter {
     func showHistory(viewController: UIViewController)
     func logout()
     func showTranfer(viewController : UIViewController)
+    func showNotification(viewController : UIViewController)
 
 }

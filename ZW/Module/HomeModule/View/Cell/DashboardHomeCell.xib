@@ -132,6 +132,18 @@
                             <action selector="showTransactionAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="IBe-za-5aZ"/>
                         </connections>
                     </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoE-Np-nJc">
+                        <rect key="frame" x="423" y="25" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="2nl-QK-yLT"/>
+                            <constraint firstAttribute="height" constant="30" id="n5K-MA-LZJ"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="bell" catalog="system"/>
+                        <connections>
+                            <action selector="notification:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="AGT-cj-5Fs"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="4ko-mi-KS9" secondAttribute="bottom" constant="29.5" id="1lU-50-2Pw"/>
@@ -142,6 +154,7 @@
                     <constraint firstItem="4ko-mi-KS9" firstAttribute="top" secondItem="CiJ-NE-ZLd" secondAttribute="bottom" constant="40" id="Hci-Kc-y0q"/>
                     <constraint firstItem="CiJ-NE-ZLd" firstAttribute="top" secondItem="qlf-l2-TgJ" secondAttribute="bottom" constant="30" id="LbJ-oh-mwN"/>
                     <constraint firstAttribute="trailing" secondItem="CiJ-NE-ZLd" secondAttribute="trailing" constant="16" id="Mu8-uF-soU"/>
+                    <constraint firstItem="qFK-xu-O7U" firstAttribute="leading" secondItem="GoE-Np-nJc" secondAttribute="trailing" constant="15" id="NFc-ml-v8M"/>
                     <constraint firstItem="JoE-j6-DJR" firstAttribute="leading" secondItem="oUy-yW-CE7" secondAttribute="trailing" constant="20" id="Q2J-2s-yhF"/>
                     <constraint firstItem="qlf-l2-TgJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="QJy-UE-Ph4"/>
                     <constraint firstItem="lQv-zI-Jdx" firstAttribute="leading" secondItem="oUy-yW-CE7" secondAttribute="trailing" constant="20" id="QLv-J2-NFn"/>
@@ -151,6 +164,7 @@
                     <constraint firstItem="JoE-j6-DJR" firstAttribute="top" secondItem="oUy-yW-CE7" secondAttribute="top" id="dsq-aH-zuQ"/>
                     <constraint firstAttribute="trailing" secondItem="qlf-l2-TgJ" secondAttribute="trailing" constant="16" id="fuO-id-Ogw"/>
                     <constraint firstAttribute="trailing" secondItem="qFK-xu-O7U" secondAttribute="trailing" constant="16" id="oYs-8I-N4P"/>
+                    <constraint firstItem="GoE-Np-nJc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="ugt-vh-DGe"/>
                     <constraint firstItem="4ko-mi-KS9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="vxZ-Te-dQa"/>
                     <constraint firstItem="qlf-l2-TgJ" firstAttribute="top" secondItem="oUy-yW-CE7" secondAttribute="bottom" constant="31" id="xPC-C1-9Xm"/>
                 </constraints>
@@ -167,6 +181,7 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
         <image name="carat.png" width="16" height="28"/>
     </resources>
 </document>

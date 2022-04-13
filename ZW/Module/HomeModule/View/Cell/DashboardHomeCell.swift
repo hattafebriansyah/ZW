@@ -14,6 +14,7 @@ class DashboardHomeCell: UITableViewCell {
     @IBOutlet weak var phoneNumberLabel: UILabel!
     @IBOutlet weak var profileImage: UIImageView!
     
+    @IBOutlet weak var bell: UIImageView!
     var delegate: DashboardCellDelegate?
     
     override func awakeFromNib() {
@@ -23,8 +24,6 @@ class DashboardHomeCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func showData(userProfile: UserProfileEntity) {
@@ -50,4 +49,7 @@ class DashboardHomeCell: UITableViewCell {
     
     }
     
+    @IBAction func notification(_ sender: Any) {
+        self.delegate?.showNotification()
+    }
 }
