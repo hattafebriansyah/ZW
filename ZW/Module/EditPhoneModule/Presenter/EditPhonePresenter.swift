@@ -11,4 +11,5 @@ import UIKit
 protocol EditPhonePresenter {
     func showUserProfile()
     func showbackToProfile(viewController: UIViewController)
+    func editPhone(phone: String)
 }

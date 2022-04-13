@@ -10,4 +10,5 @@ import Foundation
 protocol EditPhoneInteractor {
     func getProfile()
     func updateProfilePhone(profile: UserProfileEntity)
+    func postEditPhoneData(phone : String)
 }

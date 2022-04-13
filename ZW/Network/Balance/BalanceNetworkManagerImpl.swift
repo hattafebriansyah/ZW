@@ -30,4 +30,22 @@ public class BalanceNetworkManagerImpl: BalanceNetworkManager {
             }
         }
     }
+    
+    public func editPhone(phone: String, completion: @escaping (GetBalanceResponse?, Error?) -> ()) {
+        let provider = MoyaProvider<BalanceApi>()
+            provider.request(.patchProfile(phone: phone)) { response in
+            switch response {
+            case .success(let result):
+                let decoder = JSONDecoder()
+                do {
+                    let editPhoneResponse = try decoder.decode(GetBalanceResponse.self, from: result.data)
+                    completion(editPhoneResponse, nil)
+                } catch let error {
+                    completion(nil, error)
+                }
+            case .failure(let error):
+                completion(nil, error)
+            }
+        }
+    }
 }

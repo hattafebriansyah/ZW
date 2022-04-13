@@ -9,4 +9,7 @@ import Foundation
 
 protocol EditPhoneView {
     func showProfile(profile: UserProfileEntity)
+    func showbackToProfile()
+    func showAllert()
+    func showAllertFailed()
 }

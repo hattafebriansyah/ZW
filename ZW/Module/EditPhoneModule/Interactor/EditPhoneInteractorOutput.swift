@@ -9,4 +9,5 @@ import Foundation
 
 protocol EditPhoneInteractorOutput {
     func loadedUserProfileData(userProfile: UserProfileEntity)
+    func theSuccess(isSuccess : Bool)
 }

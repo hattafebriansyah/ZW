@@ -8,7 +8,7 @@
 import Foundation
 
 public struct GetBalanceResponse: Codable {
-    var status: Int
-    var message: String
-    var data: [GetBalanceDataResponse]
+    public var status: Int
+    public var message: String
+    public var data: [GetBalanceDataResponse]
 }

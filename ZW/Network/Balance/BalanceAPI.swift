@@ -10,7 +10,7 @@ import Moya
 
 public enum BalanceApi {
     case getBalance
-    case patchProfile(username: String, firstname: String, lastname: String, email: String, phone: String)
+    case patchProfile(phone: String)
 }
 
 extension BalanceApi: TargetType {
@@ -23,7 +23,7 @@ extension BalanceApi: TargetType {
         case .getBalance:
             return "/home/getBalance"
         case .patchProfile:
-                    return "/user/changeInfo"
+            return "/user/changeInfo"
         }
     }
     
@@ -40,8 +40,8 @@ extension BalanceApi: TargetType {
         switch self {
         case .getBalance:
             return .requestPlain
-        case .patchProfile(let username, let firstname, let lastname, let email, let phone):
-            return .requestParameters(parameters: ["username": username, "fisrtname": firstname, "lastname": lastname, "email": email, "phone": phone], encoding: JSONEncoding.default)
+        case .patchProfile(let phone):
+            return .requestParameters(parameters: ["phone": phone], encoding: JSONEncoding.default)
         }
     }
     
