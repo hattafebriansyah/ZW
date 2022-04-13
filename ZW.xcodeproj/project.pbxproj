@@ -164,12 +164,6 @@
 		9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63433027FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift */; };
 		9F63434527FED49E00DDC4B3 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F63434427FED49E00DDC4B3 /* HeaderCell.xib */; };
 		9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F63434627FEDB9500DDC4B3 /* xx.swift */; };
-		A89482AB2806D23F00DC1DFB /* DetailsTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A52806D23F00DC1DFB /* DetailsTransaction.swift */; };
-		A89482AC2806D23F00DC1DFB /* GetInvoiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A62806D23F00DC1DFB /* GetInvoiceResponse.swift */; };
-		A89482AD2806D23F00DC1DFB /* GetInvoiceDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A72806D23F00DC1DFB /* GetInvoiceDataResponse.swift */; };
-		A89482AE2806D23F00DC1DFB /* InvoiceNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A82806D23F00DC1DFB /* InvoiceNetworkManager.swift */; };
-		A89482AF2806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482A92806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift */; };
-		A89482B02806D23F00DC1DFB /* InvoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482AA2806D23F00DC1DFB /* InvoiceApi.swift */; };
 		A89482E02806D28300DC1DFB /* UserProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B32806D28300DC1DFB /* UserProfileEntity.swift */; };
 		A89482E12806D28300DC1DFB /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B42806D28300DC1DFB /* UserProfile.swift */; };
 		A89482E22806D28300DC1DFB /* HomePresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482B62806D28300DC1DFB /* HomePresenterImpl.swift */; };
@@ -201,6 +195,12 @@
 		A89482FC2806D28300DC1DFB /* NotificationInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DC2806D28300DC1DFB /* NotificationInteractorProtocol.swift */; };
 		A89482FD2806D28300DC1DFB /* NotificationRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DE2806D28300DC1DFB /* NotificationRouterProtocol.swift */; };
 		A89482FE2806D28300DC1DFB /* NotificationRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89482DF2806D28300DC1DFB /* NotificationRouterImpl.swift */; };
+		A8AABBAD280713C7003D4923 /* InvoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AABBAA280713C7003D4923 /* InvoiceApi.swift */; };
+		A8AABBAE280713C7003D4923 /* InvoiceNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AABBAB280713C7003D4923 /* InvoiceNetworkManager.swift */; };
+		A8AABBAF280713C7003D4923 /* InvoiceNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AABBAC280713C7003D4923 /* InvoiceNetworkManagerImpl.swift */; };
+		A8AABBB3280713D7003D4923 /* GetInvoiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AABBB0280713D7003D4923 /* GetInvoiceResponse.swift */; };
+		A8AABBB4280713D7003D4923 /* GetInvoiceDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AABBB1280713D7003D4923 /* GetInvoiceDataResponse.swift */; };
+		A8AABBB5280713D7003D4923 /* DetailsTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AABBB2280713D7003D4923 /* DetailsTransaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -379,12 +379,6 @@
 		9F63433027FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceNetworkManagerImpl.swift; sourceTree = "<group>"; };
 		9F63434427FED49E00DDC4B3 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		9F63434627FEDB9500DDC4B3 /* xx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xx.swift; sourceTree = "<group>"; };
-		A89482A52806D23F00DC1DFB /* DetailsTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTransaction.swift; sourceTree = "<group>"; };
-		A89482A62806D23F00DC1DFB /* GetInvoiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceResponse.swift; sourceTree = "<group>"; };
-		A89482A72806D23F00DC1DFB /* GetInvoiceDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceDataResponse.swift; sourceTree = "<group>"; };
-		A89482A82806D23F00DC1DFB /* InvoiceNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManager.swift; sourceTree = "<group>"; };
-		A89482A92806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManagerImpl.swift; sourceTree = "<group>"; };
-		A89482AA2806D23F00DC1DFB /* InvoiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceApi.swift; sourceTree = "<group>"; };
 		A89482B32806D28300DC1DFB /* UserProfileEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileEntity.swift; sourceTree = "<group>"; };
 		A89482B42806D28300DC1DFB /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		A89482B62806D28300DC1DFB /* HomePresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenterImpl.swift; sourceTree = "<group>"; };
@@ -416,6 +410,12 @@
 		A89482DC2806D28300DC1DFB /* NotificationInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationInteractorProtocol.swift; sourceTree = "<group>"; };
 		A89482DE2806D28300DC1DFB /* NotificationRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRouterProtocol.swift; sourceTree = "<group>"; };
 		A89482DF2806D28300DC1DFB /* NotificationRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRouterImpl.swift; sourceTree = "<group>"; };
+		A8AABBAA280713C7003D4923 /* InvoiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceApi.swift; sourceTree = "<group>"; };
+		A8AABBAB280713C7003D4923 /* InvoiceNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManager.swift; sourceTree = "<group>"; };
+		A8AABBAC280713C7003D4923 /* InvoiceNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		A8AABBB0280713D7003D4923 /* GetInvoiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceResponse.swift; sourceTree = "<group>"; };
+		A8AABBB1280713D7003D4923 /* GetInvoiceDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvoiceDataResponse.swift; sourceTree = "<group>"; };
+		A8AABBB2280713D7003D4923 /* DetailsTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTransaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1024,6 +1024,7 @@
 				9F63432A27FECF9000DDC4B3 /* Balance */,
 				9F63433127FECF9000DDC4B3 /* Invoice */,
 				A89482A32806D23F00DC1DFB /* Invoice */,
+				A8AABBA82807123A003D4923 /* Invoice */,
 				3668D72527FFD79200C20205 /* Transfer */,
 				9F63432A27FECF9000DDC4B3 /* Balance */,
 				9F6101D527FEC65D00BB9AD6 /* Auth */,
@@ -1276,28 +1277,6 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
-		A89482A32806D23F00DC1DFB /* Invoice */ = {
-			isa = PBXGroup;
-			children = (
-				A89482A42806D23F00DC1DFB /* Response */,
-				A89482A82806D23F00DC1DFB /* InvoiceNetworkManager.swift */,
-				A89482A92806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift */,
-				A89482AA2806D23F00DC1DFB /* InvoiceApi.swift */,
-			);
-			name = Invoice;
-			path = ../../../Desktop/Invoice;
-			sourceTree = "<group>";
-		};
-		A89482A42806D23F00DC1DFB /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				A89482A52806D23F00DC1DFB /* DetailsTransaction.swift */,
-				A89482A62806D23F00DC1DFB /* GetInvoiceResponse.swift */,
-				A89482A72806D23F00DC1DFB /* GetInvoiceDataResponse.swift */,
-			);
-			path = Response;
-			sourceTree = "<group>";
-		};
 		A89482B12806D28300DC1DFB /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -1453,6 +1432,27 @@
 				A89482DF2806D28300DC1DFB /* NotificationRouterImpl.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		A8AABBA82807123A003D4923 /* Invoice */ = {
+			isa = PBXGroup;
+			children = (
+				A8AABBAA280713C7003D4923 /* InvoiceApi.swift */,
+				A8AABBAB280713C7003D4923 /* InvoiceNetworkManager.swift */,
+				A8AABBAC280713C7003D4923 /* InvoiceNetworkManagerImpl.swift */,
+				A8AABBA92807123A003D4923 /* Response */,
+			);
+			path = Invoice;
+			sourceTree = "<group>";
+		};
+		A8AABBA92807123A003D4923 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A8AABBB2280713D7003D4923 /* DetailsTransaction.swift */,
+				A8AABBB1280713D7003D4923 /* GetInvoiceDataResponse.swift */,
+				A8AABBB0280713D7003D4923 /* GetInvoiceResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1626,8 +1626,8 @@
 				9F335BF82805DBC0009BDD28 /* CreatePINInteractorImpl.swift in Sources */,
 				29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */,
 				A89482F92806D28300DC1DFB /* NotificationViewController.swift in Sources */,
+				A8AABBB4280713D7003D4923 /* GetInvoiceDataResponse.swift in Sources */,
 				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
-				A89482B02806D23F00DC1DFB /* InvoiceApi.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
 				56320F072805CA1C00654F66 /* RegisterViewController.swift in Sources */,
 				9F335BFA2805DBC0009BDD28 /* CreatePINRouterProtocol.swift in Sources */,
@@ -1647,7 +1647,6 @@
 				56320EEE2805C96700654F66 /* AuthNetworkManager.swift in Sources */,
 				9F61025627FEC69E00BB9AD6 /* RegisterRouterProtocol.swift in Sources */,
 				9F61023327FEC69E00BB9AD6 /* LoginResponse.swift in Sources */,
-				A89482AF2806D23F00DC1DFB /* InvoiceNetworkManagerImpl.swift in Sources */,
 				9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */,
 				56BD7F6B2803EB7C003A60A1 /* ChangePasswordRouterImpl.swift in Sources */,
 				56320F0A2805CA1C00654F66 /* RegisterInteractorProtocol.swift in Sources */,
@@ -1689,6 +1688,7 @@
 				29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */,
 				9F63433E27FECF9000DDC4B3 /* GetInvoiceDataResponse.swift in Sources */,
 				56320EE42805C92A00654F66 /* OTPInteractorOutput.swift in Sources */,
+				A8AABBAE280713C7003D4923 /* InvoiceNetworkManager.swift in Sources */,
 				A89482ED2806D28300DC1DFB /* HomeInteractorImpl.swift in Sources */,
 				9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */,
 				A89482F72806D28300DC1DFB /* NotificationViewProtocol.swift in Sources */,
@@ -1742,7 +1742,6 @@
 				3668D71C27FFD77300C20205 /* TransferPresenterProtocol.swift in Sources */,
 				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
 				9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */,
-				A89482AE2806D23F00DC1DFB /* InvoiceNetworkManager.swift in Sources */,
 				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
 				A89482EC2806D28300DC1DFB /* HomeInteractor.swift in Sources */,
 				3668D72D27FFE4DB00C20205 /* TransferResponse.swift in Sources */,
@@ -1750,6 +1749,7 @@
 				9F61023C27FEC69E00BB9AD6 /* LoginRouterProtocol.swift in Sources */,
 				9F61023B27FEC69E00BB9AD6 /* LoginInteractorProtocol.swift in Sources */,
 				9F63432327FECF2100DDC4B3 /* HistoryViewController.swift in Sources */,
+				A8AABBB5280713D7003D4923 /* DetailsTransaction.swift in Sources */,
 				A89482F22806D28300DC1DFB /* NotificationPresenterImpl.swift in Sources */,
 				A89482F12806D28300DC1DFB /* NotificationPresenterProtocol.swift in Sources */,
 				3668D72A27FFD79200C20205 /* TransferNetworkManager.swift in Sources */,
@@ -1759,8 +1759,6 @@
 				56BD7F672803EB53003A60A1 /* ChangePasswordInteractorProtocol.swift in Sources */,
 				9F63431E27FECF2100DDC4B3 /* HistoryPresenterImpl.swift in Sources */,
 				9F61025227FEC69E00BB9AD6 /* RegisterInteractorImpl.swift in Sources */,
-				A89482AC2806D23F00DC1DFB /* GetInvoiceResponse.swift in Sources */,
-				A89482AB2806D23F00DC1DFB /* DetailsTransaction.swift in Sources */,
 				9F63433827FECF9000DDC4B3 /* GetBalanceDataResponse.swift in Sources */,
 				9F61023A27FEC69E00BB9AD6 /* LoginInteractorOutput.swift in Sources */,
 				56BD7F4F2803D260003A60A1 /* TopUpInteractorProtocol.swift in Sources */,
@@ -1798,7 +1796,7 @@
 				9F6342FD27FECF1000DDC4B3 /* UserProfile.swift in Sources */,
 				9F61023D27FEC69E00BB9AD6 /* LoginRouterImpl.swift in Sources */,
 				9F61025427FEC69E00BB9AD6 /* RegisterInteractorOutput.swift in Sources */,
-				A89482AD2806D23F00DC1DFB /* GetInvoiceDataResponse.swift in Sources */,
+				A8AABBAD280713C7003D4923 /* InvoiceApi.swift in Sources */,
 				9F63434727FEDB9500DDC4B3 /* xx.swift in Sources */,
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,
 				56320EE62805C92A00654F66 /* OTPInteractorImpl.swift in Sources */,
@@ -1822,12 +1820,14 @@
 				A89482E82806D28300DC1DFB /* HomeView.swift in Sources */,
 				A89482EF2806D28300DC1DFB /* HomeRouter.swift in Sources */,
 				9F6101E727FEC65D00BB9AD6 /* AuthNetworkManagerImpl.swift in Sources */,
+				A8AABBB3280713D7003D4923 /* GetInvoiceResponse.swift in Sources */,
 				A89482E92806D28300DC1DFB /* HomeViewController.swift in Sources */,
 				9F61025127FEC69E00BB9AD6 /* RegisterViewProtocol.swift in Sources */,
 				A89482E52806D28300DC1DFB /* DashboardHomeCell.swift in Sources */,
 				A89482F02806D28300DC1DFB /* InvoiceResponse.swift in Sources */,
 
 				9F63432927FECF2100DDC4B3 /* HistoryRouter.swift in Sources */,
+				A8AABBAF280713C7003D4923 /* InvoiceNetworkManagerImpl.swift in Sources */,
 				3668D72427FFD77300C20205 /* TransferRouterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,9 +35,9 @@ class NotificationPresenterImpl : NotificationPresenterProtocol{
     
 }
 extension NotificationPresenterImpl : NotificationInteractorOutputProtocol{
-    func getUserDetails(user: DetailsTransactionData) {
-        self.view.getUserDetails(entity: user)
-    }
+//    func getUserDetails(user: DetailsTransactionData) {
+//        self.view.getUserDetails(entity: user)
+//    }
     
     func getNotification(invoice: [InvoiceResponse]) {
         self.view.getAllInvoice(entity: invoice)
