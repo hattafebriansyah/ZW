@@ -91,6 +91,20 @@
 		56BD7F6D2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F6C2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift */; };
 		56BD7F6F2803F2DD003A60A1 /* ChangePasswordResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F6E2803F2DD003A60A1 /* ChangePasswordResponse.swift */; };
 		56BD7F7128040204003A60A1 /* ChangePasswordViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BD7F7028040204003A60A1 /* ChangePasswordViewProtocol.swift */; };
+		9F335BF02805DBC0009BDD28 /* CreatePINResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BE12805DBC0009BDD28 /* CreatePINResponse.swift */; };
+		9F335BF12805DBC0009BDD28 /* CreatePINPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BE32805DBC0009BDD28 /* CreatePINPresenterProtocol.swift */; };
+		9F335BF22805DBC0009BDD28 /* CreatePINPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BE42805DBC0009BDD28 /* CreatePINPresenterImpl.swift */; };
+		9F335BF32805DBC0009BDD28 /* CreatePINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BE62805DBC0009BDD28 /* CreatePINViewController.swift */; };
+		9F335BF42805DBC0009BDD28 /* CreatePINViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BE72805DBC0009BDD28 /* CreatePINViewProtocol.swift */; };
+		9F335BF52805DBC0009BDD28 /* CreatePINViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F335BE82805DBC0009BDD28 /* CreatePINViewController.xib */; };
+		9F335BF62805DBC0009BDD28 /* CreatePINInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BEA2805DBC0009BDD28 /* CreatePINInteractorProtocol.swift */; };
+		9F335BF72805DBC0009BDD28 /* CreatePINInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BEB2805DBC0009BDD28 /* CreatePINInteractorOutput.swift */; };
+		9F335BF82805DBC0009BDD28 /* CreatePINInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BEC2805DBC0009BDD28 /* CreatePINInteractorImpl.swift */; };
+		9F335BF92805DBC0009BDD28 /* CreatePINRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BEE2805DBC0009BDD28 /* CreatePINRouterImpl.swift */; };
+		9F335BFA2805DBC0009BDD28 /* CreatePINRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BEF2805DBC0009BDD28 /* CreatePINRouterProtocol.swift */; };
+		9F335BFF2805DBFA009BDD28 /* CreatePINNetworkManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BFC2805DBFA009BDD28 /* CreatePINNetworkManagerImpl.swift */; };
+		9F335C002805DBFA009BDD28 /* CreatePINNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BFD2805DBFA009BDD28 /* CreatePINNetworkManager.swift */; };
+		9F335C012805DBFA009BDD28 /* CreatePINApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335BFE2805DBFA009BDD28 /* CreatePINApi.swift */; };
 		9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */; };
 		9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */; };
 		9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F61019427FEC2D900BB9AD6 /* ViewController.swift */; };
@@ -274,6 +288,20 @@
 		56BD7F6C2803EB89003A60A1 /* ChangePasswordRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordRouterProtocol.swift; sourceTree = "<group>"; };
 		56BD7F6E2803F2DD003A60A1 /* ChangePasswordResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordResponse.swift; sourceTree = "<group>"; };
 		56BD7F7028040204003A60A1 /* ChangePasswordViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewProtocol.swift; sourceTree = "<group>"; };
+		9F335BE12805DBC0009BDD28 /* CreatePINResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINResponse.swift; sourceTree = "<group>"; };
+		9F335BE32805DBC0009BDD28 /* CreatePINPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINPresenterProtocol.swift; sourceTree = "<group>"; };
+		9F335BE42805DBC0009BDD28 /* CreatePINPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINPresenterImpl.swift; sourceTree = "<group>"; };
+		9F335BE62805DBC0009BDD28 /* CreatePINViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINViewController.swift; sourceTree = "<group>"; };
+		9F335BE72805DBC0009BDD28 /* CreatePINViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINViewProtocol.swift; sourceTree = "<group>"; };
+		9F335BE82805DBC0009BDD28 /* CreatePINViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePINViewController.xib; sourceTree = "<group>"; };
+		9F335BEA2805DBC0009BDD28 /* CreatePINInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINInteractorProtocol.swift; sourceTree = "<group>"; };
+		9F335BEB2805DBC0009BDD28 /* CreatePINInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINInteractorOutput.swift; sourceTree = "<group>"; };
+		9F335BEC2805DBC0009BDD28 /* CreatePINInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINInteractorImpl.swift; sourceTree = "<group>"; };
+		9F335BEE2805DBC0009BDD28 /* CreatePINRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINRouterImpl.swift; sourceTree = "<group>"; };
+		9F335BEF2805DBC0009BDD28 /* CreatePINRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINRouterProtocol.swift; sourceTree = "<group>"; };
+		9F335BFC2805DBFA009BDD28 /* CreatePINNetworkManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINNetworkManagerImpl.swift; sourceTree = "<group>"; };
+		9F335BFD2805DBFA009BDD28 /* CreatePINNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINNetworkManager.swift; sourceTree = "<group>"; };
+		9F335BFE2805DBFA009BDD28 /* CreatePINApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePINApi.swift; sourceTree = "<group>"; };
 		9F61018D27FEC2D900BB9AD6 /* ZW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F61019027FEC2D900BB9AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F61019227FEC2D900BB9AD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -801,6 +829,74 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		9F335BDF2805DBC0009BDD28 /* CreatePINModule */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BE02805DBC0009BDD28 /* Entity */,
+				9F335BE22805DBC0009BDD28 /* Presenter */,
+				9F335BE52805DBC0009BDD28 /* View */,
+				9F335BE92805DBC0009BDD28 /* Interactor */,
+				9F335BED2805DBC0009BDD28 /* Router */,
+			);
+			path = CreatePINModule;
+			sourceTree = "<group>";
+		};
+		9F335BE02805DBC0009BDD28 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BE12805DBC0009BDD28 /* CreatePINResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9F335BE22805DBC0009BDD28 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BE32805DBC0009BDD28 /* CreatePINPresenterProtocol.swift */,
+				9F335BE42805DBC0009BDD28 /* CreatePINPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9F335BE52805DBC0009BDD28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BE62805DBC0009BDD28 /* CreatePINViewController.swift */,
+				9F335BE72805DBC0009BDD28 /* CreatePINViewProtocol.swift */,
+				9F335BE82805DBC0009BDD28 /* CreatePINViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F335BE92805DBC0009BDD28 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BEA2805DBC0009BDD28 /* CreatePINInteractorProtocol.swift */,
+				9F335BEB2805DBC0009BDD28 /* CreatePINInteractorOutput.swift */,
+				9F335BEC2805DBC0009BDD28 /* CreatePINInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9F335BED2805DBC0009BDD28 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BEE2805DBC0009BDD28 /* CreatePINRouterImpl.swift */,
+				9F335BEF2805DBC0009BDD28 /* CreatePINRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9F335BFB2805DBFA009BDD28 /* CreatePIN */ = {
+			isa = PBXGroup;
+			children = (
+				9F335BFC2805DBFA009BDD28 /* CreatePINNetworkManagerImpl.swift */,
+				9F335BFD2805DBFA009BDD28 /* CreatePINNetworkManager.swift */,
+				9F335BFE2805DBFA009BDD28 /* CreatePINApi.swift */,
+			);
+			path = CreatePIN;
+			sourceTree = "<group>";
+		};
 		9F61018427FEC2D900BB9AD6 = {
 			isa = PBXGroup;
 			children = (
@@ -878,6 +974,7 @@
 		9F6101CD27FEC65D00BB9AD6 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				9F335BFB2805DBFA009BDD28 /* CreatePIN */,
 				56320EE92805C96700654F66 /* Auth */,
 				5695526B2804780400F17423 /* ChangePassword */,
 				3668D72527FFD79200C20205 /* Transfer */,
@@ -920,6 +1017,7 @@
 		9F6101FA27FEC69E00BB9AD6 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				9F335BDF2805DBC0009BDD28 /* CreatePINModule */,
 				29DFE89328055B9A0065D615 /* EditPhoneModule */,
 				29DFE8A228055B9A0065D615 /* ProfileModule */,
 				56320ECD2805C92A00654F66 /* OtpModule */,
@@ -1362,6 +1460,7 @@
 				56320EE12805C92A00654F66 /* OTPViewController.xib in Resources */,
 				9F63434327FED3AB00DDC4B3 /* HomeViewController.xib in Resources */,
 				29DFE8BE28055B9A0065D615 /* ProfileViewController.xib in Resources */,
+				9F335BF52805DBC0009BDD28 /* CreatePINViewController.xib in Resources */,
 				3668D71F27FFD77300C20205 /* TransferViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1388,9 +1487,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F61024B27FEC69E00BB9AD6 /* RegisterResponse.swift in Sources */,
+				9F335BF82805DBC0009BDD28 /* CreatePINInteractorImpl.swift in Sources */,
 				29DFE8C128055B9A0065D615 /* ProfileInteractorOutput.swift in Sources */,
 				9F63433B27FECF9000DDC4B3 /* BalanceNetworkManager.swift in Sources */,
 				56320F072805CA1C00654F66 /* RegisterViewController.swift in Sources */,
+				9F335BFA2805DBC0009BDD28 /* CreatePINRouterProtocol.swift in Sources */,
 				9F63432427FECF2100DDC4B3 /* HistoryDataSource.swift in Sources */,
 				56320F0C2805CA1C00654F66 /* RegisterRouterImpl.swift in Sources */,
 				56BD7F632803EA8A003A60A1 /* ChangePasswordPresenterProtocol.swift in Sources */,
@@ -1398,9 +1499,11 @@
 				56BD7F552803D29D003A60A1 /* TopUpPresenterProtocol.swift in Sources */,
 				9F63433D27FECF9000DDC4B3 /* GetInvoiceResponse.swift in Sources */,
 				9F63433927FECF9000DDC4B3 /* GetBalanceResponse.swift in Sources */,
+				9F335C002805DBFA009BDD28 /* CreatePINNetworkManager.swift in Sources */,
 				9F61019527FEC2D900BB9AD6 /* ViewController.swift in Sources */,
 				3668D72B27FFD79200C20205 /* TransferNetworkManagerImpl.swift in Sources */,
 				9F63430127FECF1000DDC4B3 /* DashboardHomeCell.swift in Sources */,
+				9F335BFF2805DBFA009BDD28 /* CreatePINNetworkManagerImpl.swift in Sources */,
 				56320EEE2805C96700654F66 /* AuthNetworkManager.swift in Sources */,
 				9F61023327FEC69E00BB9AD6 /* LoginResponse.swift in Sources */,
 				9F61019127FEC2D900BB9AD6 /* AppDelegate.swift in Sources */,
@@ -1415,6 +1518,7 @@
 				9F6101E527FEC65D00BB9AD6 /* AuthApi.swift in Sources */,
 				9F6101F727FEC68A00BB9AD6 /* UserDefaultHelper.swift in Sources */,
 				3668D71D27FFD77300C20205 /* TransferViewController.swift in Sources */,
+				9F335BF32805DBC0009BDD28 /* CreatePINViewController.swift in Sources */,
 				3668D72027FFD77300C20205 /* TransferInteractorOutputProtocol.swift in Sources */,
 				9F63432527FECF2100DDC4B3 /* HistoryInteractorImpl.swift in Sources */,
 				9F63433A27FECF9000DDC4B3 /* BalanceAPI.swift in Sources */,
@@ -1425,8 +1529,10 @@
 				9F63433C27FECF9000DDC4B3 /* BalanceNetworkManagerImpl.swift in Sources */,
 				3668D72127FFD77300C20205 /* TransferInteractorProtocol.swift in Sources */,
 				9F61023227FEC69E00BB9AD6 /* LoginDataResponse.swift in Sources */,
+				9F335BF72805DBC0009BDD28 /* CreatePINInteractorOutput.swift in Sources */,
 				9F6101F627FEC68A00BB9AD6 /* UIViewExtension.swift in Sources */,
 				9F63432627FECF2100DDC4B3 /* HistoryInteractor.swift in Sources */,
+				9F335C012805DBFA009BDD28 /* CreatePINApi.swift in Sources */,
 				3668D71B27FFD77300C20205 /* TransferPresenterImpl.swift in Sources */,
 				9F61025527FEC69E00BB9AD6 /* RegisterRouterImpl.swift in Sources */,
 				29DFE8BF28055B9A0065D615 /* ProfileViewController.swift in Sources */,
@@ -1454,6 +1560,7 @@
 				9F63434027FECF9000DDC4B3 /* InvoiceNetworkManagerImpl.swift in Sources */,
 				56320F082805CA1C00654F66 /* RegisterViewProtocol.swift in Sources */,
 				56BD7F652803EB24003A60A1 /* ChangePasswordOutputProtocol.swift in Sources */,
+				9F335BF42805DBC0009BDD28 /* CreatePINViewProtocol.swift in Sources */,
 				3668D71C27FFD77300C20205 /* TransferPresenterProtocol.swift in Sources */,
 				9F63430827FECF1000DDC4B3 /* HomeInteractorImpl.swift in Sources */,
 				56320F032805CA1C00654F66 /* RegisterDataResponse.swift in Sources */,
@@ -1466,7 +1573,9 @@
 				3668D72927FFD79200C20205 /* TransferAPI.swift in Sources */,
 				9F61025027FEC69E00BB9AD6 /* RegisterViewController.swift in Sources */,
 				29DFE8B828055B9A0065D615 /* EditPhoneInteractorOutput.swift in Sources */,
+				9F335BF92805DBC0009BDD28 /* CreatePINRouterImpl.swift in Sources */,
 				29DFE8B428055B9A0065D615 /* EditPhoneViewController.swift in Sources */,
+				9F335BF12805DBC0009BDD28 /* CreatePINPresenterProtocol.swift in Sources */,
 				29DFE8B928055B9A0065D615 /* EditPhoneRouterImpl.swift in Sources */,
 				9F6101E627FEC65D00BB9AD6 /* AuthNetworkManager.swift in Sources */,
 				56320F052805CA1C00654F66 /* RegisterPresenterProtocol.swift in Sources */,
@@ -1489,6 +1598,7 @@
 				56320EEF2805C96700654F66 /* AuthNetworkManagerImpl.swift in Sources */,
 				9F63434127FECF9000DDC4B3 /* InvoiceApi.swift in Sources */,
 				9F6101F527FEC68A00BB9AD6 /* IntExtension.swift in Sources */,
+				9F335BF62805DBC0009BDD28 /* CreatePINInteractorProtocol.swift in Sources */,
 				29DFE8BB28055B9A0065D615 /* ProfilePresenter.swift in Sources */,
 				9F61019327FEC2D900BB9AD6 /* SceneDelegate.swift in Sources */,
 				56BD7F692803EB5E003A60A1 /* ChangePasswordInteractorImpl.swift in Sources */,
@@ -1516,6 +1626,7 @@
 				9F61023727FEC69E00BB9AD6 /* LoginViewController.swift in Sources */,
 				56320EE62805C92A00654F66 /* OTPInteractorImpl.swift in Sources */,
 				3668D72327FFD77300C20205 /* TransferRouterImpl.swift in Sources */,
+				9F335BF22805DBC0009BDD28 /* CreatePINPresenterImpl.swift in Sources */,
 				29DFE8B328055B9A0065D615 /* EditPhoneView.swift in Sources */,
 				29DFE8C028055B9A0065D615 /* ProfileInteractorImpl.swift in Sources */,
 				9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */,
@@ -1525,6 +1636,7 @@
 				29DFE8B628055B9A0065D615 /* EditPhoneInteractorImpl.swift in Sources */,
 				56BD7F7128040204003A60A1 /* ChangePasswordViewProtocol.swift in Sources */,
 				9F6342E427FECEFA00DDC4B3 /* TransactionEntity.swift in Sources */,
+				9F335BF02805DBC0009BDD28 /* CreatePINResponse.swift in Sources */,
 				5637AA712801EE7A006CB449 /* TopUpViewController.swift in Sources */,
 				56BD7F5E2803E660003A60A1 /* ChangePasswordViewController.swift in Sources */,
 				56320F022805CA1C00654F66 /* RegisterResponse.swift in Sources */,

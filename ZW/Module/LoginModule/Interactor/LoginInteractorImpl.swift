@@ -24,6 +24,8 @@ class LoginInteractorImpl: LoginInteractorProtocol {
             if let loginData = data {
                 //menyimpan token
                 UserDefaultHelper.shared.set(key: .userToken, value: loginData.token)
+                //get data hasPin
+                UserDefaultHelper.shared.set(key: .userHasPin, value: loginData.hasPin)
                 //trigger presenter jika proses berhasil
                 self.interactorOutput?.authenticationResult(isSuccess: true)
             }

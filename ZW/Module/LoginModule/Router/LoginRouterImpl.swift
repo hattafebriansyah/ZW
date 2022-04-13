@@ -27,6 +27,11 @@ public class LoginRouterImpl {
 }
 
 extension LoginRouterImpl: LoginRouterProtocol {
+    func navigateToCreatePIN() {
+        CreatePINRouterImpl.navigateToModule()
+    }
+    
+    
     func navigateToRegister(viewController: UIViewController) {
         RegisterRouterImpl.navigateToModule(viewController: viewController)
     }

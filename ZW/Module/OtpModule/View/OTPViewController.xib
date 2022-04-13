@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -28,11 +28,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZWallet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7F-eM-NyL">
-                    <rect key="frame" x="8" y="85" width="359" height="35"/>
+                    <rect key="frame" x="8" y="129" width="454.5" height="35"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="35" id="CC0-jI-JRw"/>
                     </constraints>
@@ -41,22 +41,22 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMK-pr-v61">
-                    <rect key="frame" x="0.0" y="197" width="375" height="470"/>
+                    <rect key="frame" x="0.0" y="241" width="470.5" height="621"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Input Your OTP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NxQ-Eh-F7g">
-                            <rect key="frame" x="15" y="40" width="345" height="27.5"/>
+                            <rect key="frame" x="15" y="40" width="440.5" height="27.5"/>
                             <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We have sent your OTP ( One Time Password) code via Email" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHY-DT-3Ez">
-                            <rect key="frame" x="15" y="82.5" width="345" height="38.5"/>
+                            <rect key="frame" x="15" y="82.5" width="440.5" height="19.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCJ-ic-HCV">
-                            <rect key="frame" x="15" y="368" width="345" height="50"/>
+                            <rect key="frame" x="15" y="519" width="440.5" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="GOp-AA-BHW"/>
                             </constraints>
@@ -73,13 +73,13 @@
                             </connections>
                         </button>
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YHf-hW-zbZ">
-                            <rect key="frame" x="8" y="141" width="359" height="110"/>
+                            <rect key="frame" x="8" y="122" width="454.5" height="110"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZ1-c5-fre">
-                                    <rect key="frame" x="0.0" y="0.0" width="359" height="110"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="454.5" height="110"/>
                                     <subviews>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-Kk-BYy">
-                                            <rect key="frame" x="13" y="26" width="47" height="58"/>
+                                            <rect key="frame" x="33" y="26" width="47" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="47" id="KM1-PJ-CCg"/>
                                                 <constraint firstAttribute="height" constant="58" id="sYA-qN-5Xy"/>
@@ -88,7 +88,7 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X6I-fj-bIN">
-                                            <rect key="frame" x="70" y="26" width="47" height="58"/>
+                                            <rect key="frame" x="90" y="26" width="47" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="58" id="8Bz-Yd-czi"/>
                                                 <constraint firstAttribute="width" constant="47" id="wpc-yq-euJ"/>
@@ -97,7 +97,7 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hcp-A9-D8H">
-                                            <rect key="frame" x="127" y="26" width="47" height="58"/>
+                                            <rect key="frame" x="147" y="26" width="47" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="47" id="JxA-xe-HgZ"/>
                                                 <constraint firstAttribute="height" constant="58" id="Utn-wf-OuM"/>
@@ -106,7 +106,7 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KLH-QE-xBU">
-                                            <rect key="frame" x="184" y="26" width="47" height="58"/>
+                                            <rect key="frame" x="204" y="26" width="47" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="58" id="09Q-52-7l6"/>
                                                 <constraint firstAttribute="width" constant="47" id="Q2L-PP-wQm"/>
@@ -115,7 +115,7 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GCN-Ka-n01">
-                                            <rect key="frame" x="241" y="26" width="47" height="58"/>
+                                            <rect key="frame" x="261" y="26" width="47" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="47" id="RmG-gN-Su3"/>
                                                 <constraint firstAttribute="height" constant="58" id="XpY-7W-eOW"/>
@@ -124,7 +124,7 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jq8-bo-U7n">
-                                            <rect key="frame" x="298" y="26" width="47" height="58"/>
+                                            <rect key="frame" x="318" y="26" width="47" height="58"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="47" id="Oqq-Ag-uk4"/>
                                                 <constraint firstAttribute="height" constant="58" id="sgb-4l-2dO"/>
@@ -139,7 +139,7 @@
                                         <constraint firstAttribute="width" constant="359" id="Cpn-B7-jMs"/>
                                         <constraint firstItem="aVv-Kk-BYy" firstAttribute="centerY" secondItem="YZ1-c5-fre" secondAttribute="centerY" id="Hpt-nt-SmS"/>
                                         <constraint firstItem="KLH-QE-xBU" firstAttribute="top" secondItem="YZ1-c5-fre" secondAttribute="top" constant="26" id="IYZ-h6-Ze7"/>
-                                        <constraint firstItem="aVv-Kk-BYy" firstAttribute="leading" secondItem="YZ1-c5-fre" secondAttribute="leading" constant="13" id="NJo-5L-dHK"/>
+                                        <constraint firstItem="aVv-Kk-BYy" firstAttribute="leading" secondItem="YZ1-c5-fre" secondAttribute="leading" constant="33" id="NJo-5L-dHK"/>
                                         <constraint firstItem="jq8-bo-U7n" firstAttribute="top" secondItem="YZ1-c5-fre" secondAttribute="top" constant="26" id="OOr-r7-8Wu"/>
                                         <constraint firstItem="KLH-QE-xBU" firstAttribute="leading" secondItem="hcp-A9-D8H" secondAttribute="trailing" constant="10" id="Q7l-y3-5yI"/>
                                         <constraint firstAttribute="height" constant="110" id="SDF-pc-bXn"/>

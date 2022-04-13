@@ -33,6 +33,10 @@ class ProfilePresenterImpl: ProfilePresenter {
     func showEditPhone(viewController: UIViewController, profile: UserProfileEntity) {
         self.router.navigateToEditProfile(viewController: viewController, profile: profile)
     }
+    
+    func showChangePassword(viewController: UIViewController) {
+        self.router.navigateToChangePasssword(viewController:  viewController)
+    }
 
 }
 
